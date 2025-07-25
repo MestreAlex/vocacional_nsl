@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="styles.css">
   <style>
     .carousel-container {
-      max-width: 550px;
+      max-width: 300px;
       margin: 0 auto;
       position: relative;
-      padding: 0 0 24px 0;
-      min-height: 280px;
+      padding: 0 0 10px 0;
+      min-height: 180px;
       transition: min-height 0.3s;
     }
     .carousel-slide {
@@ -20,9 +20,12 @@
       background: #f8f9fa;
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-      padding: 28px 24px 24px 24px;
+      padding: 17px 12px 15px 12px;
       box-sizing: border-box;
-      text-align: center;
+      text-align: left;
+      font-size: 0.95em;
+      max-width: 290px;
+      margin: 0 auto;
     }
     .carousel-slide.active {
       display: block;
@@ -31,14 +34,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 24px;
-      margin-top: 12px;
-      margin-bottom: 18px;
+      gap: 18px;
+      margin-top: 8px;
+      margin-bottom: 12px;
     }
     .carousel-dot {
-      height: 12px;
-      width: 12px;
-      margin: 0 2px;
+      height: 10px;
+      width: 10px;
+      margin: 0 1px;
       background-color: #bbb;
       border-radius: 50%;
       display: inline-block;
@@ -51,12 +54,12 @@
       background-color: #4287f5;
     }
     .carousel-arrow {
-      font-size: 1.8em;
+      font-size: 1.4em;
       background: none;
       border: none;
       color: #4287f5;
       cursor: pointer;
-      padding: 2px 10px;
+      padding: 1px 7px;
       border-radius: 4px;
       transition: background 0.2s;
     }
@@ -70,17 +73,18 @@
     }
     @media (max-width: 600px) {
       .carousel-container {
-        padding: 0 0 16px 0;
+        max-width: 98vw !important;
+        padding: 0 0 6px 0;
       }
       .carousel-slide {
-        padding: 16px 7vw 18px 7vw;
+        max-width: 97vw !important;
+        padding: 9px 2vw 9px 2vw;
       }
     }
     .start-section {
       text-align: center;
       margin-bottom: 10px;
     }
-    /* Centraliza o título principal */
     #intro h1 {
       text-align: center;
     }
@@ -88,10 +92,9 @@
 </head>
 <body>
   <div class="container">
-    <!-- Intro block -->
     <div id="intro" style="display: block;">
       <h1>Teste Vocacional Profissional</h1>
-      <div class="intro-content">
+      <div class="intro-content" style="max-width:320px; margin:0 auto;">
         <p>
           Este teste foi desenvolvido para ajudar você a descobrir sua vocação profissional através de uma análise completa do seu perfil comportamental e suas áreas de interesse.
         </p>
@@ -153,22 +156,18 @@
         </div>
       </div>
     </div>
-    <!-- Question Container: perguntas de qualquer fase -->
     <div id="questionContainer" style="display:none;">
       <h2 id="questionText"></h2>
       <div id="optionsContainer"></div>
       <div class="navigation-buttons"></div>
       <p id="progress"></p>
     </div>
-    <!-- Resultado da Fase 1 (DISC) -->
     <div id="phase1Result" style="display:none;">
       <div id="discResultText"></div>
     </div>
-    <!-- Resultado da Fase 2 (RIASECNR) -->
     <div id="phase2Result" style="display:none;">
       <div id="riasecResultText"></div>
     </div>
-    <!-- Resultado Final (Profissões) -->
     <div id="finalResults" style="display:none;">
       <div id="finalResultsText"></div>
       <button onclick="window.location.reload()">Refazer Teste</button>

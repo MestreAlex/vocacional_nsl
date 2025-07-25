@@ -60,14 +60,25 @@ function showDiscQuestion() {
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
 
-  document.getElementById("questionText").textContent = `Responda às questões abaixo:`;
+  // Legenda no topo das perguntas da FASE 1
+  document.getElementById("questionText").innerHTML = `
+    <div style="text-align:left; margin-bottom:12px; font-size:0.93em;">
+      <b>Legenda:</b>
+      <span style="margin-left:7px;">1 = discordo totalmente</span>
+      <span style="margin-left:7px;">2 = discordo</span>
+      <span style="margin-left:7px;">3 = neutro</span>
+      <span style="margin-left:7px;">4 = concordo</span>
+      <span style="margin-left:7px;">5 = concordo totalmente</span>
+    </div>
+    <div style="font-weight:bold; margin-bottom:8px;">Responda às questões abaixo:</div>
+  `;
   document.getElementById("questionText").style.textAlign = "center";
 
   const questionsGroup = document.createElement("div");
   questionsGroup.style.display = "flex";
   questionsGroup.style.flexDirection = "column";
   questionsGroup.style.alignItems = "center";
-  questionsGroup.style.gap = "24px";
+  questionsGroup.style.gap = "12px"; // espaçamento reduzido entre perguntas
 
   for (let i = startIdx; i < endIdx; i++) {
     const question = discQuestions[i];
@@ -77,41 +88,40 @@ function showDiscQuestion() {
     qWrapper.style.margin = "0 auto";
     qWrapper.style.background = "#fafdfe";
     qWrapper.style.borderRadius = "12px";
-    qWrapper.style.padding = "26px 18px";
+    qWrapper.style.padding = "18px 10px";
     qWrapper.style.boxShadow = "0 2px 8px rgba(65,130,180,0.07)";
-    qWrapper.style.maxWidth = "480px";
+    qWrapper.style.maxWidth = "340px";
 
     const qText = document.createElement("div");
     qText.textContent = question.text;
     qText.style.fontWeight = "500";
     qText.style.fontSize = "1.07em";
-    qText.style.marginBottom = "18px";
+    qText.style.marginBottom = "8px";
     qText.style.textAlign = "center";
     qWrapper.appendChild(qText);
 
+    // Botões com números de 1 a 5
     const optsRow = document.createElement("div");
+    optsRow.className = "optsRow";
     optsRow.style.display = "flex";
     optsRow.style.justifyContent = "center";
-    optsRow.style.gap = "16px";
-    optsRow.style.marginBottom = "6px";
-
-    question.options.forEach((opt, idx) => {
+    optsRow.style.gap = "5px";
+    optsRow.style.marginBottom = "2px";
+    for (let val = 1; val <= 5; val++) {
       const btn = document.createElement("button");
-      btn.className = "disc-option-btn";
-      btn.textContent = opt;
-      btn.style.padding = "10px 14px";
-      btn.style.borderRadius = "8px";
-      btn.style.border = "1px solid #bbb";
-      btn.style.background = discAnswers[i] === idx ? "#4fc1ad" : "#fff";
-      btn.style.color = discAnswers[i] === idx ? "#fff" : "#222";
-      btn.style.fontWeight = discAnswers[i] === idx ? "bold" : "normal";
-      btn.style.cursor = "pointer";
+      btn.className = "disc-option-btn" + (discAnswers[i] === val ? " selected" : "");
+      btn.textContent = val;
       btn.onclick = () => {
-        discAnswers[i] = idx;
+        discAnswers[i] = val;
         showDiscQuestion();
       };
+      if (discAnswers[i] === val) {
+        btn.style.background = "#4fc1ad";
+        btn.style.color = "#fff";
+        btn.style.fontWeight = "bold";
+      }
       optsRow.appendChild(btn);
-    });
+    }
 
     qWrapper.appendChild(optsRow);
     questionsGroup.appendChild(qWrapper);
@@ -215,34 +225,35 @@ function showRiasecnrQuestionSet() {
     const wrapper = document.createElement("div");
     wrapper.className = "riasec-card";
     wrapper.style.textAlign = "center";
-    wrapper.style.margin = "0 auto 28px auto";
-    wrapper.style.maxWidth = "480px";
+    wrapper.style.margin = "0 auto 6px auto";
+    wrapper.style.maxWidth = "340px";
     wrapper.style.background = "#fafdfe";
     wrapper.style.borderRadius = "12px";
-    wrapper.style.padding = "30px 20px";
-    wrapper.style.boxShadow = "0 2px 8px rgba(65,130,180,0.04)";
+    wrapper.style.padding = "13px 8px";
+    wrapper.style.boxShadow = "0 1px 6px rgba(65,130,180,0.05)";
 
     const pergunta = document.createElement("div");
     pergunta.style.fontWeight = "500";
-    pergunta.style.marginBottom = "12px";
-    pergunta.style.fontSize = "1.1em";
+    pergunta.style.marginBottom = "8px";
+    pergunta.style.fontSize = "1.02em";
     pergunta.textContent = q.texto;
     pergunta.style.textAlign = "center";
     wrapper.appendChild(pergunta);
 
+    // Botões de 1 a 10 (sem zero)
     const reta = document.createElement("div");
     reta.className = "reta-pontuacao";
     reta.style.display = "flex";
     reta.style.justifyContent = "center";
-    reta.style.gap = "7px";
-    reta.style.margin = "18px 0 6px 0";
+    reta.style.gap = "5px";
+    reta.style.margin = "10px 0 5px 0";
     retas[idx] = reta;
 
-    for (let val = 0; val <= 10; val++) {
+    for (let val = 1; val <= 10; val++) {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.textContent = val;
-      btn.className = "reta-btn";
+      btn.className = "reta-btn" + (notasUsadas[idx] === val ? " reta-btn-selected" : "");
       btn.dataset.value = val;
       btn.dataset.idx = idx;
       btn.onclick = function () {
@@ -255,6 +266,11 @@ function showRiasecnrQuestionSet() {
         notaPorValor[val] = idx;
         updateRetas();
       };
+      if (notasUsadas[idx] === val) {
+        btn.style.background = "#4fc1ad";
+        btn.style.color = "#fff";
+        btn.style.fontWeight = "bold";
+      }
       reta.appendChild(btn);
     }
     wrapper.appendChild(reta);
@@ -400,7 +416,7 @@ function showFase3Rodada() {
         Avalie sua afinidade com cada profissão
       </div>
       <div style="font-size:1em;font-style:italic;color:#666;margin-top:4px;">
-        (atribua uma nota de 0 a 10, sem repetir a nota nesta rodada)
+        (atribua uma nota de 1 a 10, sem repetir a nota nesta rodada)
       </div>
     </div>`;
   document.getElementById("questionText").style.textAlign = "center";
@@ -413,14 +429,13 @@ function showFase3Rodada() {
     const wrapper = document.createElement("div");
     wrapper.className = "question";
     wrapper.style.textAlign = "center";
-    wrapper.style.margin = "0 auto 22px auto";
-    wrapper.style.maxWidth = "700px";
-    wrapper.style.minWidth = "600px";
+    wrapper.style.margin = "0 auto 6px auto";
+    wrapper.style.maxWidth = "340px";
     wrapper.style.background = "#fafdfe";
     wrapper.style.borderRadius = "13px";
     wrapper.style.padding = "14px 0 0 0";
-    wrapper.style.boxShadow = "0 2px 8px rgba(65,130,180,0.07)";
-    wrapper.style.fontSize = "1.13em";
+    wrapper.style.boxShadow = "0 1px 6px rgba(65,130,180,0.07)";
+    wrapper.style.fontSize = "1.02em";
     wrapper.style.display = "flex";
     wrapper.style.flexDirection = "column";
     wrapper.style.alignItems = "center";
@@ -429,25 +444,26 @@ function showFase3Rodada() {
     pergunta.textContent = q.pergunta;
     pergunta.style.fontWeight = "500";
     pergunta.style.marginBottom = "10px";
-    pergunta.style.fontSize = "1.1em";
+    pergunta.style.fontSize = "1em";
     pergunta.style.textAlign = "center";
     pergunta.style.width = "100%";
     wrapper.appendChild(pergunta);
 
+    // Botões de 1 a 10 (sem zero)
     const reta = document.createElement("div");
     reta.className = "reta-pontuacao";
     reta.style.display = "flex";
     reta.style.justifyContent = "center";
-    reta.style.gap = "7px";
-    reta.style.margin = "0 0 14px 0";
+    reta.style.gap = "5px";
+    reta.style.margin = "0 0 8px 0";
     reta.style.width = "100%";
     retas[idx] = reta;
 
-    for (let val = 0; val <= 10; val++) {
+    for (let val = 1; val <= 10; val++) {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.textContent = val;
-      btn.className = "reta-btn";
+      btn.className = "reta-btn" + (notasUsadas[idx] === val ? " reta-btn-selected" : "");
       btn.dataset.value = val;
       btn.dataset.idx = idx;
       btn.onclick = function () {
@@ -460,6 +476,11 @@ function showFase3Rodada() {
         notaPorValor[val] = idx;
         updateRetas();
       };
+      if (notasUsadas[idx] === val) {
+        btn.style.background = "#4fc1ad";
+        btn.style.color = "#fff";
+        btn.style.fontWeight = "bold";
+      }
       reta.appendChild(btn);
     }
     wrapper.appendChild(reta);
