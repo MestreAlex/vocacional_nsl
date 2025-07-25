@@ -60,16 +60,8 @@ function showDiscQuestion() {
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
 
-  // Legenda no topo das perguntas da FASE 1 (cada número em uma linha)
+  // REMOVE legenda no topo das perguntas da FASE 1
   document.getElementById("questionText").innerHTML = `
-    <div style="text-align:left; margin-bottom:12px; font-size:0.93em;">
-      <b>Legenda:</b><br>
-      1 = discordo totalmente<br>
-      2 = discordo<br>
-      3 = neutro<br>
-      4 = concordo<br>
-      5 = concordo totalmente
-    </div>
     <div style="font-weight:bold; margin-bottom:8px;">Responda às questões abaixo:</div>
   `;
   document.getElementById("questionText").style.textAlign = "center";
@@ -100,16 +92,16 @@ function showDiscQuestion() {
     qText.style.textAlign = "center";
     qWrapper.appendChild(qText);
 
-    // Botões com números de 1 a 5
+    // Botões com números de 1 a 5 - MESMA FORMATAÇÃO DAS FASES 2 E 3
     const optsRow = document.createElement("div");
-    optsRow.className = "optsRow";
+    optsRow.className = "reta-pontuacao";
     optsRow.style.display = "flex";
     optsRow.style.justifyContent = "center";
-    optsRow.style.gap = "5px";
+    optsRow.style.gap = "2px"; // espaço reduzido entre números
     optsRow.style.marginBottom = "2px";
     for (let val = 1; val <= 5; val++) {
       const btn = document.createElement("button");
-      btn.className = "disc-option-btn" + (discAnswers[i] === val ? " selected" : "");
+      btn.className = "reta-btn" + (discAnswers[i] === val ? " reta-btn-selected" : "");
       btn.textContent = val;
       btn.onclick = () => {
         discAnswers[i] = val;
