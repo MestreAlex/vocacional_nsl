@@ -30,5 +30,13 @@ export const riasecTypes = {
   L: {
     nome: "Cuidador/Relacional (L)",
     descricao: "Pessoas que se dedicam ao cuidado direto, saúde, bem-estar emocional, empatia e apoio a outras pessoas."
+  },
+  T: {
+    nome: "Tecnológico/Digital (T)",
+    descricao: "Pessoas com interesse e habilidade em programação, desenvolvimento de sistemas, inovação digital, inteligência artificial, ciência de dados, infraestrutura de TI e novas tecnologias."
+  },
+  M: {
+    nome: "Computacional/Informática (M)",
+    descricao: "Pessoas com foco em lógica, algoritmos, hardware, redes, segurança da informação, banco de dados e sistemas computacionais."
   }
 };
