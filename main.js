@@ -63,6 +63,11 @@ function showDiscQuestion() {
   // REMOVE legenda no topo das perguntas da FASE 1
   document.getElementById("questionText").innerHTML = `
     <div style="font-weight:bold; margin-bottom:8px;">Responda às questões abaixo:</div>
+    <div style="font-size:0.7em;font-style:italic;color:#666;margin-top:2px;">
+      Evite repetir a mesma nota.
+      <p>Quanto maior for o número, </p>
+      <p>mais você se identifica com a afirmação.</p>
+    </div>
   `;
   document.getElementById("questionText").style.textAlign = "center";
 
