@@ -104,7 +104,8 @@ function showDiscQuestion() {
       btn.className = "reta-btn" + (discAnswers[i] === val ? " reta-btn-selected" : "");
       btn.textContent = val;
       btn.onclick = () => {
-        discAnswers[i] = val;
+        // Toggle: clique novamente desmarca
+        discAnswers[i] = (discAnswers[i] === val ? undefined : val);
         showDiscQuestion();
       };
       if (discAnswers[i] === val) {
@@ -245,6 +246,13 @@ function showRiasecnrQuestionSet() {
       btn.dataset.value = val;
       btn.dataset.idx = idx;
       btn.onclick = function () {
+        // Toggle: clique novamente desmarca
+        if (notasUsadas[idx] === val) {
+          delete notaPorValor[val];
+          notasUsadas[idx] = undefined;
+          updateRetas();
+          return;
+        }
         if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) return;
         if (notasUsadas[idx] !== undefined) {
           const antigoVal = notasUsadas[idx];
@@ -456,6 +464,13 @@ function showFase3Rodada() {
       btn.dataset.value = val;
       btn.dataset.idx = idx;
       btn.onclick = function () {
+        // Toggle: clique novamente desmarca
+        if (notasUsadas[idx] === val) {
+          delete notaPorValor[val];
+          notasUsadas[idx] = undefined;
+          updateRetas();
+          return;
+        }
         if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) return;
         if (notasUsadas[idx] !== undefined) {
           const antigoVal = notasUsadas[idx];
