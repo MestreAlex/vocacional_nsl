@@ -166,15 +166,16 @@ function finishPhase1() {
   hideAll();
   document.getElementById("phase1Result").style.display = "block";
 
-  // Pontuação dos Perfis DISC em coluna, cada perfil por linha, centralizado e com mesma formatação de botões das fases seguintes
+  // Alteração: botões mais escuros para melhor contraste com fonte branca
+  // Use um tom mais escuro de azul/cinza para o background
   let discScoreColumn = `
     <div class="area-result" style="margin:22px auto;text-align:center;">
       <h4 style="text-align:center;color:#29a1d8;margin-bottom:10px;">Pontuação dos Perfis DISC</h4>
       <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
-        <button class="reta-btn" disabled style="width:180px;"><b>Dominância (D):</b> ${scores.Dominancia}</button>
-        <button class="reta-btn" disabled style="width:180px;"><b>Influência (I):</b> ${scores.Influencia}</button>
-        <button class="reta-btn" disabled style="width:180px;"><b>Estabilidade (S):</b> ${scores.Estabilidade}</button>
-        <button class="reta-btn" disabled style="width:180px;"><b>Conformidade (C):</b> ${scores.Conformidade}</button>
+        <button class="reta-btn" disabled style="width:180px;background:#145c7d;color:#fff;"><b>Dominância (D):</b> ${scores.Dominancia}</button>
+        <button class="reta-btn" disabled style="width:180px;background:#145c7d;color:#fff;"><b>Influência (I):</b> ${scores.Influencia}</button>
+        <button class="reta-btn" disabled style="width:180px;background:#145c7d;color:#fff;"><b>Estabilidade (S):</b> ${scores.Estabilidade}</button>
+        <button class="reta-btn" disabled style="width:180px;background:#145c7d;color:#fff;"><b>Conformidade (C):</b> ${scores.Conformidade}</button>
       </div>
     </div>
   `;
