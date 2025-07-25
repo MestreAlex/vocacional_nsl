@@ -11,6 +11,28 @@ import { riasecTypes } from "./riasec.js";
 import { discTypes } from "./disc.js";
 import { getFase3Rodadas, calcularPontuacaoProfissoes, getTopProfissoes } from "./fase3_utils.js";
 
+// ============ EMBARALHAMENTO SEM REPETIÇÃO DE POSIÇÃO =============
+
+function shuffleAvoidSamePosition(arr, prevArr) {
+  if (!prevArr) {
+    // Primeira rodada pode ser embaralhada normalmente
+    return arr.slice().sort(() => Math.random() - 0.5);
+  }
+  let shuffled, tries = 0, maxTries = 20;
+  do {
+    shuffled = arr.slice().sort(() => Math.random() - 0.5);
+    tries++;
+    // Verifica se algum item ficou na mesma posição (por perfil ou profissão)
+    var same = shuffled.some((q, idx) => prevArr[idx] && (
+      (q.perfil && prevArr[idx].perfil && q.perfil === prevArr[idx].perfil) ||
+      (q.profissao && prevArr[idx].profissao && q.profissao === prevArr[idx].profissao)
+    ));
+  } while (same && tries < maxTries);
+  return shuffled;
+}
+
+// ======================= VARIÁVEIS DE CONTROLE ========================
+
 // Fase 1
 let currentPhase = 1;
 let currentQuestion = 0;
@@ -21,10 +43,14 @@ let discScores = null;
 let riasecnrScores = null;
 let riasecnrResult = null;
 
-// Fase 3 controles
+// Fase 2 controles (embaralhamento)
+let riasecnrPrevOrder = null;
+
+// Fase 3 controles (embaralhamento)
 let fase3Rodadas = [];
 let fase3Respostas = [];
 let fase3RodadaAtual = 0;
+let fase3PreviousOrder = null;
 
 // Utilidades de interface
 function hideAll() {
@@ -60,7 +86,6 @@ function showDiscQuestion() {
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
 
-  // REMOVE legenda no topo das perguntas da FASE 1
   document.getElementById("questionText").innerHTML = `
     <div style="font-weight:bold; margin-bottom:8px;">Responda às questões abaixo:</div>
     <div style="font-size:0.7em;font-style:italic;color:#666;margin-top:2px;">
@@ -75,7 +100,7 @@ function showDiscQuestion() {
   questionsGroup.style.display = "flex";
   questionsGroup.style.flexDirection = "column";
   questionsGroup.style.alignItems = "center";
-  questionsGroup.style.gap = "12px"; // espaçamento reduzido entre perguntas
+  questionsGroup.style.gap = "12px";
 
   for (let i = startIdx; i < endIdx; i++) {
     const question = discQuestions[i];
@@ -97,12 +122,11 @@ function showDiscQuestion() {
     qText.style.textAlign = "center";
     qWrapper.appendChild(qText);
 
-    // Botões com números de 1 a 5 - MESMA FORMATAÇÃO DAS FASES 2 E 3
     const optsRow = document.createElement("div");
     optsRow.className = "reta-pontuacao";
     optsRow.style.display = "flex";
     optsRow.style.justifyContent = "center";
-    optsRow.style.gap = "2px"; // espaço reduzido entre números
+    optsRow.style.gap = "2px";
     optsRow.style.marginBottom = "2px";
     for (let val = 1; val <= 5; val++) {
       const btn = document.createElement("button");
@@ -171,8 +195,6 @@ function finishPhase1() {
   hideAll();
   document.getElementById("phase1Result").style.display = "block";
 
-  // Alteração: botões mais escuros para melhor contraste com fonte branca
-  // Use um tom mais escuro de azul/cinza para o background
   let discScoreColumn = `
     <div class="area-result" style="margin:22px auto;text-align:center;">
       <h4 style="text-align:center;color:#29a1d8;margin-bottom:10px;">Pontuação dos Perfis DISC</h4>
@@ -201,13 +223,18 @@ function startPhase2() {
   currentPhase = 2;
   currentQuestion = 0;
   riasecnrAnswers = [];
+  riasecnrPrevOrder = null; // reset embaralhamento
   hideAll();
   document.getElementById("questionContainer").style.display = "block";
   showRiasecnrQuestionSet();
 }
 
 function showRiasecnrQuestionSet() {
-  const set = riasecnrQuestionSets[currentQuestion];
+  let set = riasecnrQuestionSets[currentQuestion];
+  // EMBARALHAR EVITANDO MESMA POSIÇÃO
+  set = shuffleAvoidSamePosition(set, riasecnrPrevOrder);
+  riasecnrPrevOrder = set;
+
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
 
@@ -234,12 +261,11 @@ function showRiasecnrQuestionSet() {
     pergunta.style.textAlign = "center";
     wrapper.appendChild(pergunta);
 
-    // Botões de 1 a 10 (sem zero) - espaço menor entre eles
     const reta = document.createElement("div");
     reta.className = "reta-pontuacao";
     reta.style.display = "flex";
     reta.style.justifyContent = "center";
-    reta.style.gap = "2px"; // reduzido o espaço entre os números
+    reta.style.gap = "2px";
     reta.style.margin = "10px 0 5px 0";
     retas[idx] = reta;
 
@@ -251,7 +277,6 @@ function showRiasecnrQuestionSet() {
       btn.dataset.value = val;
       btn.dataset.idx = idx;
       btn.onclick = function () {
-        // Toggle & MIGRATION LOGIC: se já está marcado nesta pergunta, desmarca. Se já está em outra, migra.
         if (notasUsadas[idx] === val) {
           delete notaPorValor[val];
           notasUsadas[idx] = undefined;
@@ -259,7 +284,6 @@ function showRiasecnrQuestionSet() {
           return;
         }
         if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) {
-          // Migrar valor: desmarca na pergunta anterior e marca aqui
           const idxAnterior = notaPorValor[val];
           notasUsadas[idxAnterior] = undefined;
           delete notaPorValor[val];
@@ -337,7 +361,6 @@ function showRiasecnrQuestionSet() {
 }
 
 function finishPhase2() {
-  // Acrescenta os perfis T e M ao objeto de pontuação
   const scores = { R: 0, I: 0, A: 0, S: 0, E: 0, C: 0, N: 0, L: 0, T: 0, M: 0 };
   riasecnrAnswers.forEach(set => {
     Object.keys(set).forEach(perfil => {
@@ -345,7 +368,6 @@ function finishPhase2() {
     });
   });
   riasecnrScores = scores;
-  // Atualiza o cálculo do perfil de maior pontuação considerando também T e M
   let maxPerfil = "R";
   let maxScore = scores["R"];
   Object.entries(scores).forEach(([perfil, pont]) => {
@@ -399,11 +421,9 @@ function getPerguntasFase3PorPerfil(discPerfil) {
 // Fase 3: Profissões específicas
 function startPhase3() {
   currentPhase = 3;
+  fase3PreviousOrder = null; // reset embaralhamento
 
-  // Aqui está a alteração fundamental: escolher perguntas da FASE 3 conforme perfil DISC
   const perguntasFase3 = getPerguntasFase3PorPerfil(discResult);
-
-  // O getFase3Rodadas agora recebe as perguntas do perfil comportamental correto
   fase3Rodadas = getFase3Rodadas(perguntasFase3, riasecnrResult);
   fase3Respostas = [];
   fase3RodadaAtual = 0;
@@ -413,11 +433,14 @@ function startPhase3() {
 }
 
 function showFase3Rodada() {
-  const perguntasRodada = fase3Rodadas[fase3RodadaAtual];
+  let perguntasRodada = fase3Rodadas[fase3RodadaAtual];
+  // EMBARALHAR EVITANDO MESMA POSIÇÃO
+  perguntasRodada = shuffleAvoidSamePosition(perguntasRodada, fase3PreviousOrder);
+  fase3PreviousOrder = perguntasRodada;
+
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
 
-  // Retirada a legenda das fases 2 e 3
   document.getElementById("questionText").innerHTML =
     `<div style="text-align:center;">
       <div style="font-size:1.2em;font-weight:bold;margin-bottom:6px;">
@@ -460,12 +483,11 @@ function showFase3Rodada() {
     pergunta.style.width = "100%";
     wrapper.appendChild(pergunta);
 
-    // Botões de 1 a 10 (sem zero) - espaço menor entre eles
     const reta = document.createElement("div");
     reta.className = "reta-pontuacao";
     reta.style.display = "flex";
     reta.style.justifyContent = "center";
-    reta.style.gap = "2px"; // reduzido o espaço entre os números
+    reta.style.gap = "2px";
     reta.style.margin = "0 0 8px 0";
     reta.style.width = "100%";
     retas[idx] = reta;
@@ -478,7 +500,6 @@ function showFase3Rodada() {
       btn.dataset.value = val;
       btn.dataset.idx = idx;
       btn.onclick = function () {
-        // Toggle & MIGRATION LOGIC: se já está marcado nesta pergunta, desmarca. Se já está em outra, migra.
         if (notasUsadas[idx] === val) {
           delete notaPorValor[val];
           notasUsadas[idx] = undefined;
@@ -486,7 +507,6 @@ function showFase3Rodada() {
           return;
         }
         if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) {
-          // Migrar valor: desmarca na pergunta anterior e marca aqui
           const idxAnterior = notaPorValor[val];
           notasUsadas[idxAnterior] = undefined;
           delete notaPorValor[val];
