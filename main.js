@@ -166,17 +166,15 @@ function finishPhase1() {
   hideAll();
   document.getElementById("phase1Result").style.display = "block";
 
-  // Pontuação dos Perfis DISC centralizada e em linha, com mesma formatação de botões das respostas da Fase 2
-  let discScoreLine = `
+  // Pontuação dos Perfis DISC em coluna, cada perfil por linha, centralizado e com mesma formatação de botões das fases seguintes
+  let discScoreColumn = `
     <div class="area-result" style="margin:22px auto;text-align:center;">
       <h4 style="text-align:center;color:#29a1d8;margin-bottom:10px;">Pontuação dos Perfis DISC</h4>
-      <div style="display:flex;justify-content:center;gap:18px;">
-        <div class="reta-pontuacao" style="display:flex;flex-direction:row;gap:2px;">
-          <button class="reta-btn" disabled><b>D</b>: ${scores.Dominancia}</button>
-          <button class="reta-btn" disabled><b>I</b>: ${scores.Influencia}</button>
-          <button class="reta-btn" disabled><b>S</b>: ${scores.Estabilidade}</button>
-          <button class="reta-btn" disabled><b>C</b>: ${scores.Conformidade}</button>
-        </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+        <button class="reta-btn" disabled style="width:180px;"><b>Dominância (D):</b> ${scores.Dominancia}</button>
+        <button class="reta-btn" disabled style="width:180px;"><b>Influência (I):</b> ${scores.Influencia}</button>
+        <button class="reta-btn" disabled style="width:180px;"><b>Estabilidade (S):</b> ${scores.Estabilidade}</button>
+        <button class="reta-btn" disabled style="width:180px;"><b>Conformidade (C):</b> ${scores.Conformidade}</button>
       </div>
     </div>
   `;
@@ -185,7 +183,7 @@ function finishPhase1() {
     <div class="profile-summary" style="text-align:center;">
       <h3 style="text-align:center;">Seu Perfil DISC: ${discTypes[discResult]?.nome || discResult}</h3>
       <p style="text-align:center;">${discTypes[discResult]?.descricao || ""}</p>
-      ${discScoreLine}
+      ${discScoreColumn}
       <button id="continueToPhase2" class="start-button" style="margin-top:20px;">Continuar para a Fase 2</button>
     </div>
   `;
