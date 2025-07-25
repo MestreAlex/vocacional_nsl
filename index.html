@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste Vocacional Profissional</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .carousel-container {
+      max-width: 550px;
+      margin: 0 auto;
+      position: relative;
+      padding: 0 0 24px 0;
+      min-height: 280px;
+      transition: min-height 0.3s;
+    }
+    .carousel-slide {
+      display: none;
+      animation: fadein 0.5s;
+      background: #f8f9fa;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 28px 24px 24px 24px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .carousel-slide.active {
+      display: block;
+    }
+    .carousel-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      margin-top: 12px;
+      margin-bottom: 18px;
+    }
+    .carousel-dot {
+      height: 12px;
+      width: 12px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background 0.3s;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .carousel-dot.active {
+      background-color: #4287f5;
+    }
+    .carousel-arrow {
+      font-size: 1.8em;
+      background: none;
+      border: none;
+      color: #4287f5;
+      cursor: pointer;
+      padding: 2px 10px;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+    .carousel-arrow:disabled {
+      color: #b9c5db;
+      cursor: default;
+    }
+    @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    @media (max-width: 600px) {
+      .carousel-container {
+        padding: 0 0 16px 0;
+      }
+      .carousel-slide {
+        padding: 16px 7vw 18px 7vw;
+      }
+    }
+    .start-section {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    /* Centraliza o título principal */
+    #intro h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Intro block -->
+    <div id="intro" style="display: block;">
+      <h1>Teste Vocacional Profissional</h1>
+      <div class="intro-content">
+        <p>
+          Este teste foi desenvolvido para ajudar você a descobrir sua vocação profissional através de uma análise completa do seu perfil comportamental e suas áreas de interesse.
+        </p>
+        <div class="start-section">
+          <button id="start-button" class="start-button" style="margin-bottom:16px;">INICIAR O TESTE</button>
+        </div>
+        <div class="carousel-nav">
+          <button class="carousel-arrow" id="carousel-prev" aria-label="Anterior" disabled>&#8592;</button>
+          <span>
+            <button class="carousel-dot active" data-dot="0"></button>
+            <button class="carousel-dot" data-dot="1"></button>
+            <button class="carousel-dot" data-dot="2"></button>
+            <button class="carousel-dot" data-dot="3"></button>
+          </span>
+          <button class="carousel-arrow" id="carousel-next" aria-label="Próximo">&#8594;</button>
+        </div>
+        <div class="carousel-container" id="carousel-container">
+          <div class="carousel-slide active" id="carousel-slide-0">
+            <h3>Fase 1: Análise Comportamental DISC</h3>
+            <p>Nesta primeira etapa, você responderá 20 questões que avaliarão seu perfil comportamental em quatro dimensões:</p>
+            <ul>
+              <li><strong>Dominância:</strong> Como você lida com desafios</li>
+              <li><strong>Influência:</strong> Como você se relaciona com pessoas</li>
+              <li><strong>Segurança:</strong> Como você responde a mudanças</li>
+              <li><strong>Conformidade:</strong> Como você segue regras</li>
+            </ul>
+            <p class="phase-time">Tempo estimado: 2-3 minutos</p>
+          </div>
+          <div class="carousel-slide" id="carousel-slide-1">
+            <h3>Fase 2: Áreas de Interesse</h3>
+            <p>Na segunda etapa, você responderá 80 perguntas para identificar suas principais áreas de interesse entre:</p>
+            <ul>
+              <li><strong>Realista (R):</strong> Atividades práticas, manuais, uso de ferramentas e trabalho ao ar livre</li>
+              <li><strong>Investigativo (I):</strong> Pesquisa, análise, ciências, resolução de problemas e curiosidade intelectual</li>
+              <li><strong>Artístico (A):</strong> Criatividade, expressão artística, design, inovação e comunicação visual</li>
+              <li><strong>Social (S):</strong> Ensino, liderança de grupos, orientação e interação social</li>
+              <li><strong>Empreendedor (E):</strong> Liderança, negócios, persuasão, organização de projetos e empreendedorismo</li>
+              <li><strong>Convencional (C):</strong> Organização, precisão, tarefas administrativas e ambientes estruturados</li>
+              <li><strong>Naturalista/Ambiental (N):</strong> Natureza, sustentabilidade, ciências ambientais e cuidado com o meio ambiente</li>
+              <li><strong>Relacional/Cuidador (L):</strong> Apoio emocional, cuidado direto com pessoas, saúde mental e empatia</li>
+            </ul>
+            <p class="phase-time">Tempo estimado: 8-12 minutos</p>
+          </div>
+          <div class="carousel-slide" id="carousel-slide-2">
+            <h3>Fase 3: Profissões Específicas</h3>
+            <p>Na última etapa, você responderá perguntas focadas na sua área principal de interesse, para identificar as profissões mais compatíveis com seu perfil.</p>
+            <p class="phase-time">Tempo estimado: 2-3 minutos</p>
+          </div>
+          <div class="carousel-slide" id="carousel-slide-3">
+            <h3>Dicas para um resultado mais preciso</h3>
+            <ul>
+              <li>Responda com sinceridade - não existe resposta "certa" ou "errada"</li>
+              <li>Escolha a opção que mais se aproxima da sua realidade atual</li>
+              <li>Se nenhuma opção parecer adequada, use "Nenhuma destas alternativas"</li>
+              <li>Reserve um momento tranquilo para fazer o teste sem interrupções</li>
+            </ul>
+            <p>Tempo total estimado: <strong>13-18 minutos</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Question Container: perguntas de qualquer fase -->
+    <div id="questionContainer" style="display:none;">
+      <h2 id="questionText"></h2>
+      <div id="optionsContainer"></div>
+      <div class="navigation-buttons"></div>
+      <p id="progress"></p>
+    </div>
+    <!-- Resultado da Fase 1 (DISC) -->
+    <div id="phase1Result" style="display:none;">
+      <div id="discResultText"></div>
+    </div>
+    <!-- Resultado da Fase 2 (RIASECNR) -->
+    <div id="phase2Result" style="display:none;">
+      <div id="riasecResultText"></div>
+    </div>
+    <!-- Resultado Final (Profissões) -->
+    <div id="finalResults" style="display:none;">
+      <div id="finalResultsText"></div>
+      <button onclick="window.location.reload()">Refazer Teste</button>
+    </div>
+  </div>
+  <script>
+    // Carrossel com altura fixa baseada no maior slide
+    function setCarouselHeight() {
+      const slides = document.querySelectorAll('.carousel-slide');
+      let maxHeight = 0;
+      slides.forEach(slide => {
+        slide.style.display = 'block';
+        const height = slide.offsetHeight;
+        if (height > maxHeight) maxHeight = height;
+        if (!slide.classList.contains('active')) slide.style.display = 'none';
+      });
+      document.getElementById('carousel-container').style.minHeight = maxHeight + 'px';
+    }
+    // Carrossel JS
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.carousel-dot');
+    const prevBtn = document.getElementById('carousel-prev');
+    const nextBtn = document.getElementById('carousel-next');
+    let currentSlide = 0;
+
+    function showSlide(idx) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === idx);
+        slide.style.display = i === idx ? 'block' : 'none';
+        dots[i].classList.toggle('active', i === idx);
+      });
+      prevBtn.disabled = idx === 0;
+      nextBtn.disabled = idx === slides.length - 1;
+      currentSlide = idx;
+    }
+    prevBtn.addEventListener('click', () => {
+      if(currentSlide > 0) showSlide(currentSlide - 1);
+    });
+    nextBtn.addEventListener('click', () => {
+      if(currentSlide < slides.length - 1) showSlide(currentSlide + 1);
+    });
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => showSlide(i));
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      setCarouselHeight();
+      showSlide(0);
+      prevBtn.addEventListener('click', setCarouselHeight);
+      nextBtn.addEventListener('click', setCarouselHeight);
+      dots.forEach(dot => dot.addEventListener('click', setCarouselHeight));
+      window.addEventListener('resize', setCarouselHeight);
+    });
+  </script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
