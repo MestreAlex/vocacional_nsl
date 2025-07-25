@@ -1,583 +1,583 @@
-export const discRiasecnlPerguntasInfluencia = {
+export const discRiasecnlPerguntasInfluência = {
   Influencia: {
     R: {
       "Engenheiro Civil": [
-        "Você se imagina apresentando projetos de construção para clientes e órgãos públicos?",
-        "Tem facilidade para liderar equipes e comunicar soluções técnicas?",
-        "Valoriza o contato direto com clientes e fornecedores durante obras?",
-        "Gosta de negociar contratos e prazos de entrega em grandes projetos?",
-        "Se sente motivado ao mediar conflitos e alinhar expectativas em obras?"
+        "Você se sente à vontade para explicar ideias de construção para outras pessoas?",
+        "Você gosta de conversar com diferentes pessoas para combinar detalhes de um projeto?",
+        "Você curte mostrar como as coisas funcionam e convencer sobre o melhor jeito de fazer?",
+        "Você acha legal negociar prazos, materiais ou mudanças com quem está envolvido no projeto?",
+        "Você gosta de ajudar grupos diferentes a trabalharem juntos para tudo dar certo?"
       ],
       "Engenheiro Mecânico": [
-        "Você gosta de explicar conceitos técnicos de máquinas e equipamentos para equipes e clientes?",
-        "Tem facilidade para apresentar melhorias e convencer sobre mudanças em processos?",
-        "Valoriza treinamentos e capacitações para equipes sobre tecnologias mecânicas?",
-        "Se interessa por fazer apresentações de resultados de projetos?",
-        "Se sente motivado ao influenciar decisões técnicas e estratégicas na empresa?"
+        "Você gosta de explicar como máquinas ou aparelhos funcionam para quem não entende muito?",
+        "Você curte mostrar para o pessoal da equipe novas maneiras de fazer as coisas?",
+        "Você gosta de ensinar ou treinar colegas sobre novidades tecnológicas?",
+        "Você se sente bem falando para grupos sobre resultados ou melhorias?",
+        "Você acha interessante dar ideias e convencer as pessoas a testarem algo diferente?"
       ],
       "Gestor Industrial": [
-        "Você gosta de motivar equipes para atingir metas industriais?",
-        "Tem facilidade para comunicar mudanças e engajar colaboradores em novas rotinas?",
-        "Valoriza a influência positiva no clima organizacional?",
-        "Se interessa por liderar reuniões e apresentar resultados?",
-        "Se sente motivado ao inspirar pessoas para alcançar excelência industrial?"
+        "Você gosta de motivar as pessoas para trabalharem animadas e juntas?",
+        "Você curte conversar com o grupo para mudar alguma coisa e deixar o ambiente melhor?",
+        "Você gosta de ajudar as pessoas a se entenderem e evitarem confusão no trabalho?",
+        "Você se sente à vontade para apresentar metas ou resultados para todo mundo?",
+        "Você acha legal ser alguém que inspira outros a se esforçarem mais?"
       ],
       "Supervisor de Obras": [
-        "Você gosta de orientar equipes para o melhor resultado de uma obra?",
-        "Tem facilidade para resolver divergências e influenciar decisões no canteiro?",
-        "Valoriza comunicar claramente obrigações, metas e prazos?",
-        "Se interessa por alinhar expectativas entre clientes, fornecedores e equipes?",
-        "Se sente motivado ao ser referência e liderança em projetos de construção?"
+        "Você gosta de orientar e explicar para a equipe o que precisa ser feito?",
+        "Você se sente à vontade para resolver desentendimentos no grupo?",
+        "Você curte conversar com todos para alinhar o que cada um deve fazer?",
+        "Você gosta de ajudar as pessoas a entenderem por que certos prazos ou regras são importantes?",
+        "Você se vê como alguém que é procurado para tirar dúvidas quando as coisas ficam difíceis?"
       ],
       "Construtor": [
-        "Você gosta de convencer sobre a melhor forma de executar uma obra?",
-        "Tem facilidade para apresentar soluções práticas e alternativas?",
-        "Valoriza o contato próximo com clientes para entender suas necessidades?",
-        "Se interessa por negociar recursos e cronogramas com diferentes equipes?",
-        "Se sente motivado ao influenciar positivamente o andamento da construção?"
+        "Você gosta de trocar ideias com as pessoas para achar o melhor jeito de construir algo?",
+        "Você curte explicar para colegas e clientes por que certas escolhas são melhores?",
+        "Você gosta de ouvir opiniões e convencer outros sobre o melhor caminho a seguir?",
+        "Você se sente bem negociando e resolvendo dúvidas entre diferentes equipes?",
+        "Você acha legal ser referência quando o grupo precisa decidir alguma coisa?"
       ],
       "Supervisor de Manutenção": [
-        "Você gosta de engajar equipes para garantir a manutenção eficiente dos equipamentos?",
-        "Tem facilidade para comunicar procedimentos e mudanças técnicas?",
-        "Valoriza o treinamento e motivação dos colaboradores?",
-        "Se interessa por apresentar resultados de manutenção para gestores?",
-        "Se sente motivado ao influenciar a cultura de prevenção na empresa?"
+        "Você gosta de animar o pessoal para cuidar das máquinas juntos?",
+        "Você curte explicar jeitos mais fáceis de arrumar algo para quem está aprendendo?",
+        "Você gosta de ensinar boas práticas para evitar problemas mais tarde?",
+        "Você se sente à vontade mostrando para o grupo os resultados do trabalho?",
+        "Você acha interessante motivar todo mundo a cuidar do ambiente de trabalho?"
       ],
       "Engenheiro de Produção": [
-        "Você gosta de liderar equipes para otimizar processos produtivos?",
-        "Tem facilidade para mostrar os benefícios de melhorias industriais?",
-        "Valoriza reuniões produtivas para alinhar estratégias e metas?",
-        "Se interessa por apresentar indicadores de desempenho para diferentes públicos?",
-        "Se sente motivado ao inspirar equipes para resultados de qualidade?"
+        "Você gosta de mostrar para o grupo o que pode ser feito para melhorar o trabalho?",
+        "Você curte explicar por que mudanças são importantes para os colegas?",
+        "Você gosta de bater papo para alinhar estratégias e dividir tarefas?",
+        "Você se sente bem apresentando resultados e ideias para todo mundo?",
+        "Você acha legal inspirar a equipe para buscar qualidade juntos?"
       ],
       "Gestão da Tecnologia da Informação": [
-        "Você gosta de influenciar decisões sobre soluções tecnológicas em empresas?",
-        "Tem facilidade para apresentar propostas de TI para equipes e lideranças?",
-        "Valoriza o engajamento dos colaboradores em mudanças digitais?",
-        "Se interessa por liderar projetos de inovação em tecnologia?",
-        "Se sente motivado ao conduzir processos de transformação digital?"
+        "Você gosta de explicar novidades tecnológicas para o pessoal da empresa?",
+        "Você curte conversar sobre soluções digitais com quem não entende muito do assunto?",
+        "Você gosta de animar o grupo para participar de mudanças e inovações?",
+        "Você se sente bem liderando conversas sobre o futuro da tecnologia?",
+        "Você acha interessante convencer as pessoas de que a tecnologia pode facilitar a vida?"
       ]
     },
     I: {
       "Medicina": [
-        "Você gosta de compartilhar descobertas e avanços médicos em congressos ou reuniões?",
-        "Tem facilidade para orientar equipes multidisciplinares em pesquisas?",
-        "Valoriza influenciar protocolos e práticas de saúde?",
-        "Se interessa por liderar grupos em estudos clínicos?",
-        "Se sente motivado ao ser referência científica em sua área?"
+        "Você gosta de compartilhar novas ideias ou descobertas com colegas?",
+        "Você se sente à vontade para orientar grupos e explicar procedimentos?",
+        "Você gosta de incentivar os outros a seguirem boas práticas de saúde?",
+        "Você curte apresentar resultados de algum trabalho ou pesquisa em grupo?",
+        "Você acha legal ser reconhecido por ajudar o grupo a aprender algo novo?"
       ],
       "Farmácia": [
-        "Você gosta de apresentar resultados de pesquisas farmacêuticas para equipes?",
-        "Tem facilidade para orientar profissionais e clientes sobre medicamentos?",
-        "Valoriza o treinamento de equipes sobre boas práticas farmacêuticas?",
-        "Se interessa por divulgar novidades e tendências do setor?",
-        "Se sente motivado ao influenciar decisões sobre uso de medicamentos?"
+        "Você gosta de explicar para as pessoas como usar remédios de forma segura?",
+        "Você curte ensinar colegas sobre novidades ou mudanças em tratamentos?",
+        "Você gosta de conversar sobre boas práticas com quem trabalha junto?",
+        "Você se sente bem apresentando resultados de pesquisas ou testes?",
+        "Você acha interessante motivar outros a se manterem atualizados sobre novidades?"
       ],
       "Odontologia": [
-        "Você gosta de orientar equipes em procedimentos odontológicos?",
-        "Tem facilidade para apresentar casos clínicos e pesquisas em eventos?",
-        "Valoriza a divulgação de boas práticas em saúde bucal?",
-        "Se interessa por influenciar decisões em clínicas e consultórios?",
-        "Se sente motivado ao ser reconhecido como referência em odontologia?"
+        "Você gosta de explicar para colegas e pacientes como cuidar melhor dos dentes?",
+        "Você curte apresentar casos ou novidades em reuniões ou eventos?",
+        "Você gosta de orientar pessoas sobre como prevenir problemas de saúde?",
+        "Você se sente bem mostrando resultados ou avanços do seu trabalho?",
+        "Você acha legal incentivar boas práticas e convencer pessoas a cuidarem da saúde bucal?"
       ],
       "Ciência da Computação": [
-        "Você gosta de apresentar projetos de software para equipes e clientes?",
-        "Tem facilidade para ensinar outros profissionais sobre novas tecnologias?",
-        "Valoriza a divulgação de inovações digitais?",
-        "Se interessa por palestrar em eventos de tecnologia?",
-        "Se sente motivado ao influenciar tendências em desenvolvimento de sistemas?"
+        "Você gosta de mostrar projetos e ideias de tecnologia para grupos?",
+        "Você curte ensinar colegas e amigos a usarem novos programas ou ferramentas?",
+        "Você gosta de falar sobre novidades do mundo digital e influenciar tendências?",
+        "Você se sente bem dando palestras ou participando de eventos de tecnologia?",
+        "Você acha interessante engajar outras pessoas em projetos inovadores?"
       ],
       "Sistemas de Informação": [
-        "Você gosta de demonstrar soluções de sistemas para usuários e gestores?",
-        "Tem facilidade para orientar equipes sobre melhores práticas em TI?",
-        "Valoriza a comunicação clara em treinamentos e implantação de sistemas?",
-        "Se interessa por influenciar decisões de tecnologia nas organizações?",
-        "Se sente motivado ao conduzir projetos de transformação digital?"
+        "Você gosta de demonstrar sistemas ou aplicativos para todo mundo?",
+        "Você curte ensinar a equipe a usar melhor as ferramentas digitais?",
+        "Você gosta de explicar mudanças tecnológicas e convencer sobre a importância delas?",
+        "Você se sente bem liderando treinamentos de tecnologia para colegas?",
+        "Você acha legal influenciar pessoas a usarem melhor os sistemas do dia a dia?"
       ],
       "Economia": [
-        "Você gosta de apresentar análises econômicas para diferentes públicos?",
-        "Tem facilidade para influenciar decisões financeiras?",
-        "Valoriza a orientação de equipes em estratégias econômicas?",
-        "Se interessa por participar de debates sobre cenário econômico?",
-        "Se sente motivado ao impactar positivamente empresas e pessoas?"
+        "Você gosta de apresentar ideias e análises para diferentes pessoas?",
+        "Você curte explicar para o grupo como as decisões financeiras podem ajudar?",
+        "Você gosta de conversar e convencer sobre estratégias para melhorar resultados?",
+        "Você se sente bem liderando debates sobre temas do dia a dia?",
+        "Você acha interessante ajudar pessoas a entenderem o impacto de suas escolhas?"
       ],
       "Psicologia": [
-        "Você gosta de liderar projetos de pesquisa e apresentar resultados?",
-        "Tem facilidade para orientar grupos e equipes em temas psicológicos?",
-        "Valoriza a divulgação de boas práticas de saúde mental?",
-        "Se interessa por influenciar políticas públicas e práticas clínicas?",
-        "Se sente motivado ao ser referência em comportamento e saúde emocional?"
+        "Você gosta de incentivar grupos a conversar sobre sentimentos e emoções?",
+        "Você curte apresentar temas de saúde emocional em rodas de conversa?",
+        "Você gosta de ajudar o grupo a criar um clima mais colaborativo?",
+        "Você se sente bem explicando como pequenas atitudes melhoram o bem-estar?",
+        "Você acha legal ser referência em conversas sobre comportamento e relações?"
       ],
       "Redes de Computadores": [
-        "Você gosta de apresentar soluções e melhorias para equipes de TI?",
-        "Tem facilidade para treinar profissionais em protocolos e segurança de redes?",
-        "Valoriza a comunicação eficiente durante implantação de sistemas?",
-        "Se interessa por liderar projetos de infraestrutura tecnológica?",
-        "Se sente motivado ao influenciar a cultura digital nas empresas?"
+        "Você gosta de explicar para as pessoas como usar a internet com mais segurança?",
+        "Você curte ensinar colegas a resolver problemas de conexão?",
+        "Você gosta de apresentar melhorias para todo mundo usar a rede sem dor de cabeça?",
+        "Você se sente bem liderando treinamentos ou reuniões sobre tecnologia?",
+        "Você acha interessante engajar outros a cuidarem melhor das redes que usam?"
       ]
     },
     A: {
       "Design": [
-        "Você gosta de apresentar projetos visuais e convencer sobre suas ideias?",
-        "Tem facilidade para liderar equipes criativas?",
-        "Valoriza a influência em processos de decisão estética?",
-        "Se interessa por palestrar sobre tendências de design?",
-        "Se sente motivado ao ser reconhecido por sua criatividade?"
+        "Você gosta de mostrar suas ideias criativas para outras pessoas?",
+        "Você curte conversar sobre tendências de arte, cor ou estilo com o grupo?",
+        "Você gosta de convencer colegas sobre o melhor jeito de apresentar um trabalho visual?",
+        "Você se sente bem ensinando ou orientando sobre design para quem está começando?",
+        "Você acha interessante ser lembrado como alguém que inspira criatividade?"
       ],
       "Arquitetura e Urbanismo": [
-        "Você gosta de defender propostas arquitetônicas em reuniões e eventos?",
-        "Tem facilidade para convencer sobre soluções inovadoras em projetos?",
-        "Valoriza o contato com clientes e órgãos públicos?",
-        "Se interessa por liderar equipes multidisciplinares?",
-        "Se sente motivado ao influenciar decisões urbanísticas?"
+        "Você gosta de defender ideias diferentes sobre espaços e construções?",
+        "Você curte explicar por que certas escolhas de projeto são importantes?",
+        "Você gosta de conversar com diferentes pessoas para chegar na melhor solução?",
+        "Você se sente bem mostrando ideias inovadoras para clientes ou colegas?",
+        "Você acha interessante engajar o grupo em projetos que mudam a cidade?"
       ],
       "Jogos Digitais": [
-        "Você gosta de apresentar conceitos de games para equipes e investidores?",
-        "Tem facilidade para engajar times de desenvolvimento em projetos inovadores?",
-        "Valoriza a divulgação de tendências em eventos e conferências?",
-        "Se interessa por influenciar o mercado de entretenimento digital?",
-        "Se sente motivado ao ser referência em criação de jogos eletrônicos?"
+        "Você gosta de apresentar suas ideias de jogos para o grupo?",
+        "Você curte motivar colegas a participarem de projetos inovadores?",
+        "Você gosta de falar sobre novidades e engajar o time para testar coisas novas?",
+        "Você se sente bem mostrando o que criou em eventos ou para amigos?",
+        "Você acha legal influenciar tendências no mundo dos games?"
       ],
       "Publicidade e Propaganda": [
-        "Você gosta de convencer clientes sobre campanhas publicitárias?",
-        "Tem facilidade para liderar brainstorms e tomar decisões criativas?",
-        "Valoriza a influência sobre o público-alvo?",
-        "Se interessa por apresentar ideias em reuniões e eventos?",
-        "Se sente motivado ao inspirar equipes de comunicação?"
+        "Você gosta de convencer outras pessoas sobre campanhas criativas?",
+        "Você curte liderar reuniões para bolar novas ideias de divulgação?",
+        "Você gosta de explicar por que uma mensagem vai funcionar melhor?",
+        "Você se sente bem inspirando o grupo a ser mais criativo?",
+        "Você acha interessante apresentar projetos para muitos ouvirem?"
       ],
       "Letras": [
-        "Você gosta de apresentar textos, livros ou projetos culturais?",
-        "Tem facilidade para convencer sobre a importância da linguagem?",
-        "Valoriza a influência em debates sobre literatura e comunicação?",
-        "Se interessa por liderar equipes editoriais?",
-        "Se sente motivado ao ser reconhecido por sua produção intelectual?"
+        "Você gosta de mostrar poemas, histórias ou textos para outras pessoas?",
+        "Você curte participar de debates sobre literatura ou comunicação?",
+        "Você gosta de convencer as pessoas sobre a importância das palavras?",
+        "Você se sente bem liderando grupos de leitura ou escrita?",
+        "Você acha legal inspirar outros a se interessarem por livros e textos?"
       ],
       "Diretor de Arte": [
-        "Você gosta de liderar equipes em projetos visuais?",
-        "Tem facilidade para influenciar decisões estéticas?",
-        "Valoriza a comunicação da identidade visual de marcas?",
-        "Se interessa por apresentar resultados em eventos de design?",
-        "Se sente motivado ao ser referência em direção de arte?"
+        "Você gosta de liderar grupos criativos e discutir ideias visuais?",
+        "Você curte explicar como um projeto pode ficar mais bonito ou marcante?",
+        "Você gosta de inspirar colegas a pensar fora da caixa?",
+        "Você se sente bem mostrando o resultado do trabalho em eventos?",
+        "Você acha interessante influenciar o estilo visual de campanhas ou projetos?"
       ],
       "Produtor Audiovisual": [
-        "Você gosta de convencer sobre roteiros, ideias e produções audiovisuais?",
-        "Tem facilidade para engajar equipes em projetos de vídeo?",
-        "Valoriza o contato com clientes, patrocinadores e público?",
-        "Se interessa por apresentar resultados em festivais?",
-        "Se sente motivado ao ser reconhecido por suas produções?"
+        "Você gosta de apresentar roteiros ou ideias de vídeos para o grupo?",
+        "Você curte engajar pessoas de diferentes áreas em um mesmo projeto?",
+        "Você gosta de convencer patrocinadores sobre o valor das suas produções?",
+        "Você se sente bem mostrando resultados audiovisuais em festivais ou para amigos?",
+        "Você acha legal motivar equipes a criar conteúdos inovadores?"
       ],
       "Designer Industrial": [
-        "Você gosta de apresentar projetos industriais para equipes e clientes?",
-        "Tem facilidade para liderar processos de inovação?",
-        "Valoriza a influência sobre decisões de produção e design?",
-        "Se interessa por engajar equipes multidisciplinares?",
-        "Se sente motivado ao impactar positivamente o mercado?"
+        "Você gosta de mostrar projetos de produtos diferentes para outras pessoas?",
+        "Você curte convencer equipes sobre a melhor solução para facilitar a vida das pessoas?",
+        "Você gosta de engajar colegas em processos criativos e colaborativos?",
+        "Você se sente bem apresentando ideias inovadoras para clientes ou grupos?",
+        "Você acha interessante influenciar tendências no design de produtos?"
       ]
     },
     S: {
       "Relações Públicas": [
-        "Você gosta de engajar públicos e construir relacionamentos duradouros?",
-        "Tem facilidade para motivar equipes em campanhas institucionais?",
-        "Valoriza a comunicação clara e estratégica?",
-        "Se interessa por apresentar ideias em eventos e reuniões?",
-        "Se sente motivado ao fortalecer a imagem de empresas e pessoas?"
+        "Você gosta de ajudar grupos a se comunicarem melhor entre si?",
+        "Você curte apresentar ideias para aproximar pessoas e empresas?",
+        "Você gosta de motivar colegas a participarem de campanhas juntos?",
+        "Você se sente bem mostrando resultados positivos em eventos ou reuniões?",
+        "Você acha interessante engajar o grupo para fortalecer o nome de uma empresa?"
       ],
       "Fisioterapia": [
-        "Você gosta de orientar pacientes e equipes sobre tratamentos de reabilitação?",
-        "Tem facilidade para engajar pessoas na busca pela qualidade de vida?",
-        "Valoriza a comunicação positiva durante o processo terapêutico?",
-        "Se interessa por apresentar resultados em congressos?",
-        "Se sente motivado ao influenciar práticas de saúde física?"
+        "Você gosta de explicar para pacientes e colegas sobre exercícios ou tratamentos?",
+        "Você curte motivar as pessoas a cuidarem da própria saúde?",
+        "Você gosta de apresentar resultados das melhorias para o grupo?",
+        "Você se sente bem liderando campanhas ou eventos de bem-estar?",
+        "Você acha legal influenciar colegas a cuidar melhor dos pacientes?"
       ],
       "Gestor de RH": [
-        "Você gosta de motivar colaboradores para o desenvolvimento profissional?",
-        "Tem facilidade para liderar processos de seleção e treinamento?",
-        "Valoriza a influência sobre o clima organizacional?",
-        "Se interessa por apresentar resultados em reuniões de equipe?",
-        "Se sente motivado ao engajar pessoas para crescimento na empresa?"
+        "Você gosta de motivar pessoas a se desenvolverem no trabalho?",
+        "Você curte apresentar soluções para melhorar o clima entre colegas?",
+        "Você gosta de ensinar boas práticas para todo mundo na empresa?",
+        "Você se sente bem liderando reuniões sobre crescimento profissional?",
+        "Você acha interessante engajar o grupo para buscar melhores resultados juntos?"
       ],
       "Instrutor de Treinamento Empresarial": [
-        "Você gosta de engajar profissionais em atividades de capacitação?",
-        "Tem facilidade para apresentar conteúdos e motivar equipes?",
-        "Valoriza a comunicação clara e interativa?",
-        "Se interessa por liderar treinamentos e workshops?",
-        "Se sente motivado ao ver resultados concretos no desenvolvimento dos participantes?"
+        "Você gosta de apresentar conteúdos novos de forma animada?",
+        "Você curte motivar o grupo a aprender e colocar em prática?",
+        "Você gosta de engajar as pessoas durante treinamentos e oficinas?",
+        "Você se sente bem mostrando resultados e avanços em eventos?",
+        "Você acha legal inspirar colegas a buscarem mais conhecimento?"
       ],
       "Consultor de Desenvolvimento Humano": [
-        "Você gosta de influenciar o crescimento profissional de pessoas?",
-        "Tem facilidade para apresentar soluções de desenvolvimento?",
-        "Valoriza a comunicação estratégica na gestão de talentos?",
-        "Se interessa por liderar projetos de mudança organizacional?",
-        "Se sente motivado ao impactar positivamente equipes e empresas?"
+        "Você gosta de apresentar ideias para o crescimento das pessoas?",
+        "Você curte explicar soluções para ajudar colegas a se desenvolverem?",
+        "Você gosta de motivar grupos para mudar hábitos e rotinas?",
+        "Você se sente bem liderando projetos de mudança positiva?",
+        "Você acha interessante engajar equipes para buscar melhorias juntos?"
       ],
       "Supervisor Educacional": [
-        "Você gosta de motivar professores e alunos para o aprendizado?",
-        "Tem facilidade para apresentar propostas e estratégias educacionais?",
-        "Valoriza a influência positiva no ambiente escolar?",
-        "Se interessa por liderar reuniões pedagógicas?",
-        "Se sente motivado ao engajar todos para melhores resultados?"
+        "Você gosta de motivar professores e alunos a buscarem melhores resultados?",
+        "Você curte apresentar ideias para melhorar o aprendizado?",
+        "Você gosta de mostrar conquistas e avanços em reuniões escolares?",
+        "Você se sente bem liderando projetos pedagógicos inovadores?",
+        "Você acha interessante engajar todos para criar um ambiente melhor?"
       ],
       "Gestor de Formação Profissional": [
-        "Você gosta de convencer sobre a importância da capacitação?",
-        "Tem facilidade para motivar equipes para novos desafios?",
-        "Valoriza a comunicação de resultados e oportunidades?",
-        "Se interessa por liderar projetos educacionais?",
-        "Se sente motivado ao impactar carreiras e trajetórias profissionais?"
+        "Você gosta de mostrar a importância de aprender coisas novas para o grupo?",
+        "Você curte motivar colegas a enfrentarem novos desafios?",
+        "Você gosta de apresentar oportunidades de crescimento para todos?",
+        "Você se sente bem liderando projetos que ajudam as pessoas a evoluir?",
+        "Você acha legal engajar equipes em treinamentos e cursos?"
       ],
       "Medicina": [
-        "Você gosta de influenciar equipes médicas para melhores práticas?",
-        "Tem facilidade para apresentar pesquisas e resultados clínicos?",
-        "Valoriza a comunicação clara com pacientes e profissionais?",
-        "Se interessa por liderar campanhas de saúde?",
-        "Se sente motivado ao ser referência em sua área de atuação?"
+        "Você gosta de influenciar colegas para adotarem boas práticas de saúde?",
+        "Você curte apresentar novidades e pesquisas para o grupo?",
+        "Você gosta de conversar com equipes sobre melhorias no atendimento?",
+        "Você se sente bem liderando campanhas de prevenção e cuidado?",
+        "Você acha interessante ser referência em conversas sobre saúde?"
       ]
     },
     E: {
       "Gestão da Qualidade": [
-        "Você gosta de orientar equipes para garantir padrões de qualidade?",
-        "Tem facilidade para apresentar resultados e convencer sobre mudanças?",
-        "Valoriza a influência sobre processos produtivos?",
-        "Se interessa por engajar colaboradores em melhorias contínuas?",
-        "Se sente motivado ao impactar positivamente produtos e serviços?"
+        "Você gosta de mostrar para a equipe como melhorar a qualidade do trabalho?",
+        "Você curte ensinar boas práticas para todo mundo crescer junto?",
+        "Você gosta de apresentar resultados e motivar o grupo a melhorar sempre?",
+        "Você se sente bem liderando campanhas para buscar excelência?",
+        "Você acha interessante engajar todo mundo para alcançar padrões altos?"
       ],
       "Gestão da Tecnologia da Informação": [
-        "Você gosta de apresentar projetos de TI para equipes e diretoria?",
-        "Tem facilidade para convencer sobre investimentos em tecnologia?",
-        "Valoriza o engajamento dos profissionais em processos de inovação?",
-        "Se interessa por liderar mudanças digitais nas empresas?",
-        "Se sente motivado ao influenciar decisões estratégicas de tecnologia?"
+        "Você gosta de explicar novidades digitais para o pessoal da empresa?",
+        "Você curte convencer colegas a investir em tecnologia?",
+        "Você gosta de engajar todos para participarem de mudanças digitais?",
+        "Você se sente bem liderando reuniões sobre inovação tecnológica?",
+        "Você acha interessante inspirar o grupo para criar soluções novas?"
       ],
       "Administrador de Empresas": [
-        "Você gosta de engajar equipes para alcançar objetivos organizacionais?",
-        "Tem facilidade para apresentar estratégias e metas em reuniões?",
-        "Valoriza a influência positiva no ambiente empresarial?",
-        "Se interessa por liderar projetos e mudanças corporativas?",
-        "Se sente motivado ao inspirar pessoas para resultados de excelência?"
+        "Você gosta de motivar equipes para cumprirem objetivos juntos?",
+        "Você curte apresentar estratégias em reuniões para todo mundo entender?",
+        "Você gosta de engajar o grupo para melhorar o ambiente de trabalho?",
+        "Você se sente bem liderando projetos de mudança na empresa?",
+        "Você acha legal inspirar as pessoas a buscarem melhores resultados?"
       ],
       "Consultor de Negócios": [
-        "Você gosta de convencer clientes sobre soluções empresariais?",
-        "Tem facilidade para apresentar propostas de melhorias?",
-        "Valoriza a comunicação clara e objetiva?",
-        "Se interessa por engajar equipes em processos de mudança?",
-        "Se sente motivado ao impactar positivamente resultados financeiros?"
+        "Você gosta de apresentar soluções e convencer clientes sobre novas ideias?",
+        "Você curte motivar equipes para experimentar mudanças?",
+        "Você gosta de explicar propostas de melhoria de forma clara?",
+        "Você se sente bem liderando reuniões para discutir resultados?",
+        "Você acha interessante engajar o grupo para crescer junto na empresa?"
       ],
       "Gerente de Vendas": [
-        "Você gosta de motivar equipes para superar metas de vendas?",
-        "Tem facilidade para apresentar estratégias comerciais?",
-        "Valoriza a influência sobre clientes e parceiros?",
-        "Se interessa por liderar reuniões de alinhamento e negociação?",
-        "Se sente motivado ao inspirar profissionais para crescimento comercial?"
+        "Você gosta de motivar a equipe para superar metas juntos?",
+        "Você curte apresentar estratégias e animar o grupo antes das vendas?",
+        "Você gosta de engajar colegas para buscar clientes novos?",
+        "Você se sente bem liderando reuniões para mostrar resultados?",
+        "Você acha interessante inspirar a equipe a sempre melhorar?"
       ],
       "Diretor Comercial": [
-        "Você gosta de influenciar decisões estratégicas em vendas?",
-        "Tem facilidade para apresentar resultados para a diretoria?",
-        "Valoriza a comunicação eficiente com equipes e clientes?",
-        "Se interessa por liderar campanhas de expansão?",
-        "Se sente motivado ao impactar o sucesso da empresa?"
+        "Você gosta de influenciar decisões importantes para o time de vendas?",
+        "Você curte apresentar metas e animar a equipe para vender mais?",
+        "Você gosta de motivar colegas para abraçarem novos desafios?",
+        "Você se sente bem liderando campanhas e estratégias comerciais?",
+        "Você acha legal engajar todos para buscar resultados melhores?"
       ],
       "Gestor de Projetos": [
-        "Você gosta de apresentar projetos para diferentes públicos?",
-        "Tem facilidade para engajar equipes em desafios e metas?",
-        "Valoriza a comunicação clara e transparente?",
-        "Se interessa por liderar negociações e reuniões de acompanhamento?",
-        "Se sente motivado ao inspirar pessoas para entregar resultados?"
+        "Você gosta de apresentar projetos de forma clara para diferentes pessoas?",
+        "Você curte motivar e engajar equipes para aceitarem desafios?",
+        "Você gosta de mostrar o progresso para animar o grupo?",
+        "Você se sente bem liderando reuniões para discutir ideias e soluções?",
+        "Você acha interessante inspirar as pessoas a se dedicarem mais em projetos?"
       ],
       "Empreendedor": [
-        "Você gosta de convencer investidores e parceiros sobre novas ideias?",
-        "Tem facilidade para apresentar planos de negócios?",
-        "Valoriza a influência positiva em ambientes inovadores?",
-        "Se interessa por liderar equipes para criar projetos do zero?",
-        "Se sente motivado ao transformar ideias em projetos de sucesso?"
+        "Você gosta de apresentar ideias novas e convencer parceiros para entrar no projeto?",
+        "Você curte engajar pessoas para tirar um negócio do papel?",
+        "Você gosta de motivar o grupo a correr atrás de oportunidades?",
+        "Você se sente bem mostrando resultados para animar investidores?",
+        "Você acha interessante inspirar outros a acreditarem no seu negócio?"
       ]
     },
     C: {
       "Contabilidade": [
-        "Você gosta de apresentar relatórios financeiros para clientes e gestores?",
-        "Tem facilidade para orientar equipes sobre boas práticas contábeis?",
-        "Valoriza a comunicação clara sobre normas e procedimentos?",
-        "Se interessa por liderar reuniões sobre resultados contábeis?",
-        "Se sente motivado ao influenciar decisões financeiras?"
+        "Você gosta de explicar números e resultados de forma clara para o grupo?",
+        "Você curte orientar colegas sobre boas práticas contábeis?",
+        "Você gosta de apresentar relatórios e convencer sobre decisões financeiras?",
+        "Você se sente bem liderando reuniões para discutir resultados?",
+        "Você acha interessante engajar o grupo para cuidar melhor das finanças?"
       ],
       "Analista de Processos": [
-        "Você gosta de apresentar melhorias em processos empresariais?",
-        "Tem facilidade para convencer sobre mudanças e inovações?",
-        "Valoriza a comunicação eficiente para implementar soluções?",
-        "Se interessa por liderar treinamentos sobre processos?",
-        "Se sente motivado ao impactar positivamente resultados operacionais?"
+        "Você gosta de apresentar melhorias para facilitar o trabalho do grupo?",
+        "Você curte convencer colegas a testarem novas ideias e mudanças?",
+        "Você gosta de liderar treinamentos para ensinar métodos diferentes?",
+        "Você se sente bem mostrando resultados positivos para todos?",
+        "Você acha legal engajar o grupo para buscar mais eficiência juntos?"
       ],
       "Gerente Administrativo": [
-        "Você gosta de engajar equipes administrativas para melhores resultados?",
-        "Tem facilidade para apresentar propostas de otimização?",
-        "Valoriza a influência positiva no ambiente de trabalho?",
-        "Se interessa por liderar reuniões e implementar melhorias?",
-        "Se sente motivado ao inspirar profissionais para eficiência operacional?"
+        "Você gosta de engajar colegas para melhorar o trabalho do escritório?",
+        "Você curte apresentar propostas para tornar os processos mais rápidos?",
+        "Você gosta de motivar a equipe para experimentar jeitos diferentes de fazer as coisas?",
+        "Você se sente bem liderando reuniões para discutir melhorias?",
+        "Você acha interessante inspirar o grupo a buscar mais organização?"
       ],
       "Coordenador de Qualidade": [
-        "Você gosta de convencer sobre a importância de padrões de qualidade?",
-        "Tem facilidade para apresentar resultados e propor mudanças?",
-        "Valoriza a comunicação clara em treinamentos?",
-        "Se interessa por engajar equipes em auditorias?",
-        "Se sente motivado ao influenciar positivamente a cultura da empresa?"
+        "Você gosta de convencer os colegas sobre a importância de fazer tudo bem feito?",
+        "Você curte apresentar resultados e mostrar jeitos de melhorar a qualidade?",
+        "Você gosta de engajar o grupo para todos seguirem as mesmas regras?",
+        "Você se sente bem liderando treinamentos para ensinar boas práticas?",
+        "Você acha legal motivar a equipe para alcançar padrões altos juntos?"
       ],
       "Auditor": [
-        "Você gosta de apresentar resultados de auditorias para gestores?",
-        "Tem facilidade para convencer sobre ajustes e melhorias?",
-        "Valoriza a comunicação clara sobre normas e procedimentos?",
-        "Se interessa por liderar treinamentos sobre compliance?",
-        "Se sente motivado ao impactar positivamente a transparência empresarial?"
+        "Você gosta de apresentar resultados de auditorias para o grupo?",
+        "Você curte convencer colegas sobre mudanças importantes?",
+        "Você gosta de engajar todos para corrigir problemas encontrados?",
+        "Você se sente bem liderando reuniões sobre regras e controles?",
+        "Você acha interessante inspirar o grupo a buscar mais transparência?"
       ],
       "Especialista em Processos": [
-        "Você gosta de apresentar fluxos de trabalho eficientes?",
-        "Tem facilidade para orientar equipes sobre novas rotinas?",
-        "Valoriza a comunicação clara e objetiva?",
-        "Se interessa por liderar projetos de automação?",
-        "Se sente motivado ao engajar profissionais para melhores resultados?"
+        "Você gosta de apresentar jeitos novos de fazer as coisas para o grupo?",
+        "Você curte ensinar colegas a seguir métodos diferentes?",
+        "Você gosta de motivar a equipe para buscar mais produtividade?",
+        "Você se sente bem mostrando como pequenas mudanças ajudam todo mundo?",
+        "Você acha legal engajar o grupo para trabalhar junto em melhorias?"
       ],
       "Gestor de Normas e Procedimentos": [
-        "Você gosta de convencer sobre a importância de normas e procedimentos?",
-        "Tem facilidade para apresentar treinamentos e documentações?",
-        "Valoriza o alinhamento entre equipes e setores?",
-        "Se interessa por engajar profissionais para padronização?",
-        "Se sente motivado ao influenciar positivamente a organização?"
+        "Você gosta de explicar para o grupo por que certas regras são importantes?",
+        "Você curte liderar treinamentos para ajudar colegas a seguirem normas?",
+        "Você gosta de convencer sobre a importância da padronização?",
+        "Você se sente bem engajando a equipe para trabalhar de forma parecida?",
+        "Você acha interessante inspirar o grupo a seguir boas práticas dia a dia?"
       ],
       "Gestão da Tecnologia da Informação": [
-        "Você gosta de apresentar normas e procedimentos de TI?",
-        "Tem facilidade para orientar equipes sobre padrões tecnológicos?",
-        "Valoriza o engajamento dos profissionais em boas práticas digitais?",
-        "Se interessa por liderar treinamentos em tecnologia?",
-        "Se sente motivado ao influenciar decisões estratégicas em TI?"
+        "Você gosta de apresentar normas e dicas de tecnologia para o grupo?",
+        "Você curte convencer colegas a seguir boas práticas digitais?",
+        "Você gosta de engajar o time para manter tudo seguro e funcionando?",
+        "Você se sente bem liderando reuniões sobre melhorias tecnológicas?",
+        "Você acha interessante inspirar o grupo a cuidar melhor dos sistemas?"
       ]
     },
     N: {
       "Agronomia": [
-        "Você gosta de apresentar técnicas agrícolas para equipes e produtores?",
-        "Tem facilidade para convencer sobre práticas sustentáveis?",
-        "Valoriza a comunicação com comunidades rurais?",
-        "Se interessa por liderar projetos de inovação no campo?",
-        "Se sente motivado ao influenciar decisões para o desenvolvimento rural?"
+        "Você gosta de explicar novas formas de cuidar da natureza para o grupo?",
+        "Você curte convencer colegas sobre práticas sustentáveis?",
+        "Você gosta de apresentar ideias para melhorar a vida no campo?",
+        "Você se sente bem liderando projetos ambientais ou ecológicos?",
+        "Você acha legal engajar o grupo para proteger o meio ambiente juntos?"
       ],
       "Gestor Ambiental": [
-        "Você gosta de engajar equipes em projetos ambientais?",
-        "Tem facilidade para apresentar soluções de sustentabilidade?",
-        "Valoriza a influência sobre decisões ecológicas?",
-        "Se interessa por liderar campanhas e treinamentos ambientais?",
-        "Se sente motivado ao impactar positivamente a preservação ambiental?"
+        "Você gosta de motivar equipes para participar de ações ambientais?",
+        "Você curte apresentar soluções para preservar a natureza?",
+        "Você gosta de engajar comunidades em projetos ecológicos?",
+        "Você se sente bem explicando a importância da sustentabilidade para todos?",
+        "Você acha interessante inspirar o grupo a cuidar do planeta?"
       ],
       "Engenheiro Agrônomo": [
-        "Você gosta de apresentar projetos de tecnologia para o campo?",
-        "Tem facilidade para convencer sobre inovações agrícolas?",
-        "Valoriza a comunicação com produtores e comunidades rurais?",
-        "Se interessa por liderar equipes multidisciplinares?",
-        "Se sente motivado ao influenciar decisões para o desenvolvimento do agronegócio?"
+        "Você gosta de apresentar ideias de tecnologia para o pessoal do campo?",
+        "Você curte convencer sobre novidades para melhorar a produção?",
+        "Você gosta de engajar colegas em projetos de inovação?",
+        "Você se sente bem mostrando novas formas de cuidar da lavoura?",
+        "Você acha legal inspirar outros a usar tecnologia no campo?"
       ],
       "Veterinário": [
-        "Você gosta de orientar equipes sobre cuidados com animais?",
-        "Tem facilidade para apresentar resultados de tratamentos e pesquisas?",
-        "Valoriza a comunicação com criadores e comunidades?",
-        "Se interessa por liderar campanhas de saúde animal?",
-        "Se sente motivado ao influenciar práticas de bem-estar animal?"
+        "Você gosta de explicar para os outros como cuidar melhor dos animais?",
+        "Você curte liderar campanhas de saúde animal?",
+        "Você gosta de engajar criadores e comunidades em ações de bem-estar animal?",
+        "Você se sente bem apresentando resultados de cuidados para o grupo?",
+        "Você acha interessante inspirar outros a tratar bem os bichos?"
       ],
       "Supervisor Florestal": [
-        "Você gosta de apresentar soluções para manejo sustentável?",
-        "Tem facilidade para liderar equipes em projetos ambientais?",
-        "Valoriza a comunicação clara com comunidades e órgãos ambientais?",
-        "Se interessa por liderar treinamentos em conservação?",
-        "Se sente motivado ao influenciar decisões de preservação?"
+        "Você gosta de mostrar para a equipe como conservar as florestas?",
+        "Você curte apresentar soluções para o grupo proteger a natureza?",
+        "Você gosta de engajar comunidades para cuidar do meio ambiente?",
+        "Você se sente bem liderando treinamentos sobre preservação?",
+        "Você acha legal motivar o grupo para proteger a floresta?"
       ],
       "Gerente de Projetos Ambientais": [
-        "Você gosta de engajar equipes em ações ecológicas?",
-        "Tem facilidade para apresentar resultados para patrocinadores?",
-        "Valoriza a comunicação com órgãos públicos e privados?",
-        "Se interessa por liderar campanhas de sustentabilidade?",
-        "Se sente motivado ao impactar positivamente o meio ambiente?"
+        "Você gosta de engajar pessoas em projetos ecológicos?",
+        "Você curte apresentar resultados de ações ambientais?",
+        "Você gosta de convencer patrocinadores e comunidades sobre a importância do projeto?",
+        "Você se sente bem liderando campanhas para cuidar do planeta?",
+        "Você acha interessante inspirar o grupo a participar de ações ambientais?"
       ],
       "Especialista em Gestão Ambiental": [
-        "Você gosta de convencer sobre estratégias de gestão ambiental?",
-        "Tem facilidade para apresentar treinamentos e relatórios?",
-        "Valoriza a comunicação clara entre equipes multidisciplinares?",
-        "Se interessa por engajar profissionais em projetos ecológicos?",
-        "Se sente motivado ao influenciar políticas e práticas ambientais?"
+        "Você gosta de explicar para equipes e comunidades porque proteger a natureza é importante?",
+        "Você curte apresentar soluções para preservar água, solo e ar?",
+        "Você gosta de engajar o grupo em projetos ecológicos?",
+        "Você se sente bem liderando debates sobre sustentabilidade?",
+        "Você acha legal motivar todo mundo para cuidar do planeta juntos?"
       ],
       "Gestor de Recursos Naturais": [
-        "Você gosta de apresentar projetos de uso sustentável de recursos?",
-        "Tem facilidade para engajar comunidades e órgãos ambientais?",
-        "Valoriza a influência positiva em decisões ecológicas?",
-        "Se interessa por liderar campanhas de recuperação ambiental?",
-        "Se sente motivado ao impactar positivamente o equilíbrio da natureza?"
+        "Você gosta de apresentar ideias para usar recursos naturais sem desperdício?",
+        "Você curte engajar comunidades em projetos de conservação?",
+        "Você gosta de convencer sobre a importância de cuidar do meio ambiente?",
+        "Você se sente bem liderando campanhas de preservação?",
+        "Você acha interessante inspirar o grupo a respeitar a natureza?"
       ]
     },
     L: {
       "Medicina": [
-        "Você gosta de orientar equipes de saúde para melhores práticas?",
-        "Tem facilidade para apresentar resultados de tratamentos?",
-        "Valoriza a comunicação clara com pacientes e familiares?",
-        "Se interessa por liderar campanhas de prevenção?",
-        "Se sente motivado ao influenciar decisões para o bem-estar da comunidade?"
+        "Você gosta de motivar outros profissionais a cuidar melhor dos pacientes?",
+        "Você curte apresentar novidades sobre saúde para o grupo?",
+        "Você gosta de conversar sobre como melhorar o atendimento para todos?",
+        "Você se sente bem liderando campanhas de prevenção?",
+        "Você acha interessante inspirar colegas a seguirem boas práticas de saúde?"
       ],
       "Fisioterapia": [
-        "Você gosta de engajar pacientes e equipes em programas de reabilitação?",
-        "Tem facilidade para apresentar resultados terapêuticos?",
-        "Valoriza a influência positiva em práticas de saúde física?",
-        "Se interessa por liderar campanhas de qualidade de vida?",
-        "Se sente motivado ao impactar positivamente a área da saúde?"
+        "Você gosta de engajar pacientes e colegas em campanhas de saúde?",
+        "Você curte apresentar resultados de tratamentos para o grupo?",
+        "Você gosta de explicar exercícios e motivar as pessoas a praticarem?",
+        "Você se sente bem liderando eventos de bem-estar?",
+        "Você acha legal inspirar colegas e pacientes a cuidarem da saúde juntos?"
       ],
       "Odontologia": [
-        "Você gosta de orientar equipes em clínicas odontológicas?",
-        "Tem facilidade para apresentar pesquisas e resultados de tratamentos?",
-        "Valoriza a comunicação clara com pacientes e profissionais?",
-        "Se interessa por liderar campanhas de saúde bucal?",
-        "Se sente motivado ao influenciar práticas odontológicas?"
+        "Você gosta de explicar para as pessoas como cuidar melhor do sorriso?",
+        "Você curte liderar campanhas de saúde bucal?",
+        "Você gosta de engajar equipes e pacientes em ações de prevenção?",
+        "Você se sente bem apresentando resultados e avanços nos tratamentos?",
+        "Você acha interessante inspirar outros a cuidar da saúde dos dentes?"
       ],
       "Psicologia": [
-        "Você gosta de engajar grupos em projetos de saúde emocional?",
-        "Tem facilidade para apresentar resultados de pesquisas em congressos?",
-        "Valoriza a influência positiva em ambientes de trabalho?",
-        "Se interessa por liderar campanhas de prevenção ao adoecimento mental?",
-        "Se sente motivado ao impactar positivamente a vida das pessoas?"
+        "Você gosta de motivar grupos a falar sobre emoções e sentimentos?",
+        "Você curte apresentar ideias para melhorar o bem-estar emocional do grupo?",
+        "Você gosta de engajar pessoas em ações de saúde mental?",
+        "Você se sente bem liderando campanhas de prevenção ao sofrimento psicológico?",
+        "Você acha legal inspirar outros a cuidarem da mente e das relações?"
       ],
       "Gestor de Assistência Social": [
-        "Você gosta de apresentar projetos sociais para comunidades?",
-        "Tem facilidade para engajar equipes e voluntários?",
-        "Valoriza a comunicação clara com órgãos públicos e privados?",
-        "Se interessa por liderar campanhas de apoio social?",
-        "Se sente motivado ao influenciar decisões para inclusão e bem-estar?"
+        "Você gosta de apresentar projetos sociais para a comunidade?",
+        "Você curte motivar equipes para apoiar quem precisa?",
+        "Você gosta de engajar voluntários em campanhas de inclusão?",
+        "Você se sente bem mostrando resultados de ações sociais?",
+        "Você acha interessante inspirar outros a participar de ações solidárias?"
       ],
       "Gerente de Saúde Pública": [
-        "Você gosta de liderar campanhas de saúde para a população?",
-        "Tem facilidade para engajar equipes multidisciplinares?",
-        "Valoriza a comunicação com órgãos públicos e sociedade?",
-        "Se interessa por apresentar resultados de projetos de saúde?",
-        "Se sente motivado ao impactar positivamente a saúde coletiva?"
+        "Você gosta de liderar campanhas de saúde para muita gente?",
+        "Você curte engajar equipes e órgãos públicos em ações sociais?",
+        "Você gosta de apresentar resultados de projetos de saúde coletiva?",
+        "Você se sente bem mostrando conquistas para toda a comunidade?",
+        "Você acha legal inspirar o grupo a cuidar melhor da saúde da população?"
       ],
       "Supervisor de Serviços Médicos": [
-        "Você gosta de engajar equipes médicas para melhores resultados?",
-        "Tem facilidade para apresentar relatórios e indicadores?",
-        "Valoriza a comunicação clara com pacientes e gestores?",
-        "Se interessa por liderar treinamentos e capacitações?",
-        "Se sente motivado ao influenciar práticas de excelência em saúde?"
+        "Você gosta de motivar equipes em hospitais ou clínicas para buscar melhores resultados?",
+        "Você curte apresentar relatórios e avanços para o grupo?",
+        "Você gosta de engajar colegas em treinamentos e capacitações?",
+        "Você se sente bem liderando conversas sobre melhorias no atendimento?",
+        "Você acha interessante inspirar outros a buscar excelência nos serviços de saúde?"
       ],
       "Administrador Hospitalar": [
-        "Você gosta de apresentar propostas de gestão para equipes hospitalares?",
-        "Tem facilidade para engajar profissionais em melhorias administrativas?",
-        "Valoriza a comunicação eficiente entre setores?",
-        "Se interessa por liderar reuniões e negociações hospitalares?",
-        "Se sente motivado ao impactar positivamente a gestão hospitalar?"
+        "Você gosta de apresentar novidades e melhorias para equipes hospitalares?",
+        "Você curte motivar profissionais a buscar melhores resultados?",
+        "Você gosta de engajar o grupo em campanhas de saúde e prevenção?",
+        "Você se sente bem mostrando conquistas administrativas para todos?",
+        "Você acha legal inspirar colegas a buscarem um ambiente melhor no hospital?"
       ]
     },
     T: {
       "Gestão da Tecnologia da Informação": [
-        "Você gosta de apresentar soluções digitais para equipes e diretoria?",
-        "Tem facilidade para convencer sobre investimentos em tecnologia?",
-        "Valoriza a influência em processos de transformação digital?",
-        "Se interessa por liderar treinamentos em inovação tecnológica?",
-        "Se sente motivado ao impactar positivamente a cultura digital da empresa?"
+        "Você gosta de explicar novidades digitais para o pessoal da empresa?",
+        "Você curte convencer colegas a investir em tecnologia?",
+        "Você gosta de engajar todos para participarem de mudanças digitais?",
+        "Você se sente bem liderando reuniões sobre inovação tecnológica?",
+        "Você acha interessante inspirar o grupo para criar soluções novas?"
       ],
       "Ciência da Computação": [
-        "Você gosta de apresentar projetos de software para outros profissionais?",
-        "Tem facilidade para ensinar conceitos de programação e inovação?",
-        "Valoriza a comunicação em eventos e conferências de tecnologia?",
-        "Se interessa por engajar equipes em projetos de alta complexidade?",
-        "Se sente motivado ao influenciar tendências digitais?"
+        "Você gosta de mostrar projetos e ideias de tecnologia para grupos?",
+        "Você curte ensinar colegas e amigos a usarem novos programas ou ferramentas?",
+        "Você gosta de falar sobre novidades do mundo digital e influenciar tendências?",
+        "Você se sente bem dando palestras ou participando de eventos de tecnologia?",
+        "Você acha interessante engajar outras pessoas em projetos inovadores?"
       ],
       "Sistemas de Informação": [
-        "Você gosta de apresentar soluções sistêmicas para diferentes públicos?",
-        "Tem facilidade para convencer sobre mudanças em processos informacionais?",
-        "Valoriza a comunicação efetiva na implantação de sistemas?",
-        "Se interessa por liderar treinamentos em softwares empresariais?",
-        "Se sente motivado ao impactar positivamente a gestão de dados?"
+        "Você gosta de demonstrar sistemas ou aplicativos para todo mundo?",
+        "Você curte ensinar a equipe a usar melhor as ferramentas digitais?",
+        "Você gosta de explicar mudanças tecnológicas e convencer sobre a importância delas?",
+        "Você se sente bem liderando treinamentos de tecnologia para colegas?",
+        "Você acha legal influenciar pessoas a usarem melhor os sistemas do dia a dia?"
       ],
       "Redes de Computadores": [
-        "Você gosta de engajar equipes na implantação de redes e infraestrutura?",
-        "Tem facilidade para apresentar soluções de segurança digital?",
-        "Valoriza treinamentos sobre protocolos e novas tecnologias de redes?",
-        "Se interessa por liderar projetos de expansão tecnológica?",
-        "Se sente motivado ao influenciar decisões sobre conectividade?"
+        "Você gosta de explicar para as pessoas como usar a internet com mais segurança?",
+        "Você curte ensinar colegas a resolver problemas de conexão?",
+        "Você gosta de apresentar melhorias para todo mundo usar a rede sem dor de cabeça?",
+        "Você se sente bem liderando treinamentos ou reuniões sobre tecnologia?",
+        "Você acha interessante engajar outros a cuidarem melhor das redes que usam?"
       ],
       "Engenharia de Software": [
         "Você gosta de apresentar arquiteturas e soluções para equipes de desenvolvimento?",
-        "Tem facilidade para convencer sobre melhores práticas e metodologias?",
-        "Valoriza a comunicação em projetos colaborativos?",
-        "Se interessa por liderar treinamentos em desenvolvimento ágil?",
-        "Se sente motivado ao impactar positivamente a qualidade dos softwares?"
+        "Você curte explicar como um projeto pode ficar mais bonito ou marcante?",
+        "Você gosta de inspirar colegas a pensar fora da caixa?",
+        "Você se sente bem mostrando o resultado do trabalho em eventos?",
+        "Você acha interessante influenciar o estilo visual de campanhas ou projetos?"
       ],
       "Engenharia da Computação": [
         "Você gosta de orientar equipes em projetos de hardware e software?",
-        "Tem facilidade para explicar soluções embarcadas e integradas?",
-        "Valoriza a comunicação multidisciplinar em projetos inovadores?",
-        "Se interessa por liderar eventos de tecnologia e inovação?",
-        "Se sente motivado ao influenciar tendências em computação?"
+        "Você curte explicar soluções embarcadas e integradas?",
+        "Você gosta de motivar colegas a buscarem soluções inovadoras?",
+        "Você se sente bem apresentando resultados em eventos de tecnologia?",
+        "Você acha interessante inspirar o grupo para criar projetos inovadores?"
       ],
       "Segurança da Informação": [
-        "Você gosta de apresentar soluções de proteção digital para equipes?",
-        "Tem facilidade para convencer sobre políticas e investimentos em segurança?",
-        "Valoriza treinamentos sobre boas práticas de segurança?",
-        "Se interessa por liderar projetos de compliance e proteção de dados?",
-        "Se sente motivado ao influenciar decisões estratégicas de segurança digital?"
+        "Você gosta de explicar para o grupo por que proteger dados é importante?",
+        "Você curte ensinar sobre boas práticas de segurança para todos?",
+        "Você gosta de engajar todos em campanhas de proteção digital?",
+        "Você se sente bem apresentando relatórios sobre riscos e soluções?",
+        "Você acha interessante motivar o grupo para manter tudo seguro?"
       ],
       "Análise e Desenvolvimento de Sistemas": [
-        "Você gosta de apresentar projetos de sistemas para clientes e equipes?",
-        "Tem facilidade para convencer sobre funcionalidades e integrações?",
-        "Valoriza treinamentos sobre novas linguagens e plataformas?",
-        "Se interessa por liderar equipes em projetos colaborativos?",
-        "Se sente motivado ao impactar positivamente resultados digitais?"
+        "Você gosta de apresentar sistemas novos para clientes e equipes?",
+        "Você curte ensinar sobre funcionalidades e convencer sobre a importância delas?",
+        "Você gosta de motivar o grupo a buscar melhorias nos programas?",
+        "Você se sente bem liderando reuniões para discutir soluções digitais?",
+        "Você acha interessante engajar todos para criar sistemas melhores juntos?"
       ]
     },
     M: {
       "Ciência de Dados": [
-        "Você gosta de apresentar análises de dados para equipes e gestores?",
-        "Tem facilidade para convencer sobre decisões baseadas em dados?",
-        "Valoriza treinamentos sobre ferramentas de análise e visualização?",
-        "Se interessa por liderar projetos de inteligência artificial?",
-        "Se sente motivado ao influenciar estratégias digitais?"
+        "Você gosta de mostrar resultados de análise de dados para o grupo?",
+        "Você curte explicar como usar informações para tomar decisões melhores?",
+        "Você gosta de motivar colegas a aprenderem novas ferramentas digitais?",
+        "Você se sente bem apresentando projetos de inteligência artificial?",
+        "Você acha interessante engajar o grupo para buscar soluções inovadoras juntos?"
       ],
       "Administração de Banco de Dados": [
-        "Você gosta de apresentar soluções para gestão de dados em empresas?",
-        "Tem facilidade para orientar equipes sobre integridade e segurança das informações?",
-        "Valoriza treinamentos sobre bancos de dados e plataformas digitais?",
-        "Se interessa por liderar projetos de infraestrutura de dados?",
-        "Se sente motivado ao impactar positivamente processos críticos de negócio?"
+        "Você gosta de explicar para equipes como organizar e proteger informações?",
+        "Você curte ensinar sobre boas práticas em bancos de dados?",
+        "Você gosta de motivar colegas a usar sistemas de forma mais eficiente?",
+        "Você se sente bem liderando projetos para melhorar a segurança digital?",
+        "Você acha interessante engajar o grupo para cuidar melhor das informações?"
       ],
       "Analista de Segurança da Informação": [
-        "Você gosta de apresentar análises sobre vulnerabilidades e riscos digitais?",
-        "Tem facilidade para convencer equipes sobre práticas de segurança?",
-        "Valoriza treinamentos sobre ferramentas de proteção e compliance?",
-        "Se interessa por liderar projetos de auditoria digital?",
-        "Se sente motivado ao influenciar decisões sobre segurança da informação?"
+        "Você gosta de apresentar dicas para evitar riscos digitais para o grupo?",
+        "Você curte ensinar sobre ferramentas de proteção para todos?",
+        "Você gosta de motivar colegas a se preocuparem com segurança digital?",
+        "Você se sente bem mostrando relatórios sobre ameaças e soluções?",
+        "Você acha interessante engajar o grupo a manter tudo protegido?"
       ],
       "Arquiteto de Software": [
-        "Você gosta de apresentar soluções arquiteturais para equipes de desenvolvimento?",
-        "Tem facilidade para explicar padrões e integrações de sistemas?",
-        "Valoriza treinamentos sobre melhores práticas em software?",
-        "Se interessa por liderar projetos de inovação digital?",
-        "Se sente motivado ao impactar positivamente qualidade e performance dos sistemas?"
+        "Você gosta de apresentar ideias para conectar diferentes sistemas?",
+        "Você curte explicar para o grupo como melhorar os programas?",
+        "Você gosta de motivar colegas a buscar soluções criativas?",
+        "Você se sente bem mostrando projetos de inovação digital?",
+        "Você acha interessante engajar todos para pensar juntos em soluções melhores?"
       ],
       "Analista de Redes": [
-        "Você gosta de apresentar soluções para infraestrutura de redes?",
-        "Tem facilidade para treinar equipes sobre protocolos e segurança?",
-        "Valoriza a comunicação durante implantação de novas tecnologias de rede?",
-        "Se interessa por liderar projetos de expansão de conectividade?",
-        "Se sente motivado ao influenciar decisões sobre redes empresariais?"
+        "Você gosta de mostrar para o grupo como resolver problemas de conexão?",
+        "Você curte ensinar sobre protocolos e segurança de redes?",
+        "Você gosta de motivar colegas a cuidar do funcionamento da internet?",
+        "Você se sente bem liderando treinamentos de tecnologia?",
+        "Você acha interessante engajar todos para manter as redes funcionando bem?"
       ],
       "Desenvolvimento de Software (Mobile e Web)": [
         "Você gosta de apresentar aplicativos e soluções digitais para equipes?",
-        "Tem facilidade para convencer sobre funcionalidades e tendências do mercado?",
-        "Valoriza treinamentos sobre frameworks e linguagens modernas?",
-        "Se interessa por liderar projetos de inovação digital?",
-        "Se sente motivado ao influenciar a experiência do usuário?"
+        "Você curte motivar o grupo a buscar novidades tecnológicas?",
+        "Você gosta de ensinar sobre tendências em desenvolvimento de aplicativos?",
+        "Você se sente bem mostrando resultados de projetos digitais para todos?",
+        "Você acha interessante engajar o grupo em desafios de inovação?"
       ],
       "Jogos Digitais": [
-        "Você gosta de apresentar projetos de games para investidores e equipes?",
-        "Tem facilidade para convencer sobre potencial de entretenimento digital?",
-        "Valoriza treinamentos sobre plataformas e engines de jogos?",
-        "Se interessa por liderar equipes multidisciplinares?",
-        "Se sente motivado ao influenciar o mercado de jogos digitais?"
+        "Você gosta de apresentar ideias de jogos para equipes e amigos?",
+        "Você curte motivar o grupo para criar novidades em entretenimento digital?",
+        "Você gosta de ensinar sobre novas plataformas de jogos?",
+        "Você se sente bem mostrando projetos em eventos ou reuniões?",
+        "Você acha interessante engajar o grupo para criar jogos inovadores?"
       ],
       "Inteligência Artificial": [
-        "Você gosta de apresentar projetos de IA para equipes e diretoria?",
-        "Tem facilidade para convencer sobre aplicações inovadoras?",
-        "Valoriza treinamentos sobre machine learning e automação?",
-        "Se interessa por liderar projetos de tecnologia avançada?",
-        "Se sente motivado ao impactar positivamente estratégias digitais?"
+        "Você gosta de apresentar projetos de IA para o grupo ou empresa?",
+        "Você curte ensinar sobre machine learning e automação?",
+        "Você gosta de motivar colegas a experimentar soluções inteligentes?",
+        "Você se sente bem mostrando novidades de tecnologia para todos?",
+        "Você acha interessante engajar o grupo para buscar avanços em IA?"
       ]
     }
   }

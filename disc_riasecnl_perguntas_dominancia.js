@@ -2,582 +2,582 @@ export const discRiasecnlPerguntasDominancia = {
   Dominancia: {
     R: {
       "Engenheiro Civil": [
-        "Você se interessa por planejar e acompanhar todas as etapas de uma obra de construção civil?",
-        "Gosta de lidar com cálculos estruturais e garantir que tudo esteja dentro das normas técnicas?",
-        "Valoriza supervisionar equipes e tomar decisões rápidas em situações de obra?",
-        "Tem facilidade para negociar prazos, contratos e recursos com fornecedores?",
-        "Se sente motivado ao resolver problemas práticos e desafios estruturais em projetos de construção?"
+        "Você gosta de pensar em como as coisas são construídas, tipo prédios, casas ou pontes?",
+        "Você se sente bem quando precisa decidir rápido para resolver problemas ou imprevistos?",
+        "Você gosta de organizar grupos para fazer algum projeto sair do papel?",
+        "Você acha interessante cuidar para que tudo seja feito do jeito certo e seguro?",
+        "Você gosta de comparar preços, negociar e decidir o que comprar para um projeto?"
       ],
       "Engenheiro Mecânico": [
-        "Você se interessa por projetar e analisar máquinas e equipamentos industriais?",
-        "Gosta de resolver falhas técnicas e propor melhorias em processos de produção?",
-        "Valoriza o acompanhamento de testes e funcionamento de sistemas mecânicos?",
-        "Tem afinidade com cálculos, física aplicada e tecnologia de materiais?",
-        "Se sente motivado ao trabalhar na manutenção preventiva de equipamentos?"
+        "Você gosta de entender como funcionam máquinas ou consertar coisas que quebram?",
+        "Você prefere resolver problemas práticos do dia a dia, tipo fazer algo funcionar de novo?",
+        "Você curte pensar em maneiras de melhorar aparelhos ou equipamentos?",
+        "Você gosta de testar se algo está funcionando direitinho antes de entregar para alguém?",
+        "Você gosta quando precisa usar lógica para descobrir o que está errado em algo?"
       ],
       "Supervisor de Obras": [
-        "Você gosta de acompanhar diariamente o andamento de uma obra, garantindo prazos e qualidade?",
-        "Tem facilidade para fiscalizar equipes e cobrar resultados?",
-        "Se interessa por identificar problemas técnicos e propor soluções eficientes?",
-        "Valoriza a organização e segurança dos ambientes de trabalho?",
-        "Gosta de garantir que os projetos sejam executados conforme o planejado?"
+        "Você gosta de acompanhar de perto quando algo está sendo montado ou feito?",
+        "Você se sente à vontade para cobrar alguém quando percebe que algo não está certo?",
+        "Você gosta de observar e encontrar soluções para problemas práticos?",
+        "Você prefere manter tudo organizado e seguro enquanto as coisas acontecem?",
+        "Você se sente bem quando vê um projeto sendo feito do jeito que foi combinado?"
       ],
       "Gestor Industrial": [
-        "Você se imagina liderando grandes equipes em ambientes industriais?",
-        "Gosta de definir metas e otimizar processos para aumentar a produtividade de uma fábrica?",
-        "Tem interesse em implementar sistemas de gestão e controle de produção?",
-        "Valoriza tomar decisões rápidas para solucionar conflitos e problemas industriais?",
-        "Se sente motivado ao analisar resultados e indicadores de desempenho em processos industriais?"
+        "Você gosta de liderar grupos para bater uma meta juntos?",
+        "Você curte pensar em jeitos de deixar as tarefas mais rápidas e práticas?",
+        "Você gosta de decidir como as coisas vão ser feitas no dia a dia?",
+        "Você se sente bem quando toma decisões para resolver confusão no trabalho?",
+        "Você gosta de ver o resultado do esforço do grupo no final de um projeto?"
       ],
       "Supervisor de Manutenção": [
-        "Você gosta de liderar equipes de manutenção em ambientes industriais?",
-        "Tem facilidade para identificar problemas em máquinas e organizar reparos rápidos?",
-        "Valoriza o planejamento de atividades de manutenção preventiva?",
-        "Gosta de garantir o cumprimento de normas técnicas e de segurança?",
-        "Se sente motivado ao lidar com situações de emergência e tomar decisões rápidas?"
+        "Você gosta de ser responsável por manter as coisas funcionando direitinho?",
+        "Você se sente à vontade para chamar alguém para arrumar algo que está com defeito?",
+        "Você prefere planejar o que precisa ser consertado antes de dar problema?",
+        "Você gosta de garantir que todos sigam as regras para não ter acidentes?",
+        "Você gosta de resolver problemas quando aparece alguma emergência?"
       ],
       "Engenheiro de Produção": [
-        "Você se interessa por otimizar processos produtivos e aumentar a eficiência de fábricas?",
-        "Gosta de elaborar projetos para redução de custos e desperdícios?",
-        "Valoriza o uso de métodos e ferramentas de qualidade industrial?",
-        "Se sente motivado ao trabalhar com indicadores de performance e produtividade?",
-        "Tem afinidade com gestão de pessoas e liderança de equipes técnicas?"
+        "Você gosta de pensar em como fazer as coisas gastando menos tempo e dinheiro?",
+        "Você curte bolar ideias para evitar desperdício ou bagunça no trabalho?",
+        "Você gosta de usar métodos para ter certeza que tudo está saindo certinho?",
+        "Você prefere acompanhar se o que foi planejado está realmente acontecendo?",
+        "Você se sente bem quando precisa ajudar o grupo a trabalhar melhor junto?"
       ],
       "Construtor": [
-        "Você gosta de planejar e executar obras, desde a fundação até o acabamento?",
-        "Tem facilidade para organizar equipes em diferentes etapas da construção?",
-        "Se sente motivado ao resolver imprevistos e adaptar planos na prática?",
-        "Valoriza o cumprimento de prazos e padrões de qualidade?",
-        "Gosta de negociar materiais, mão de obra e recursos para a obra?"
+        "Você gosta de ver as coisas acontecendo desde o começo até o fim?",
+        "Você curte organizar quem faz o que em cada parte de um projeto?",
+        "Você gosta de resolver os problemas que aparecem no meio do caminho?",
+        "Você sente satisfação quando tudo fica pronto dentro do prazo?",
+        "Você gosta de negociar materiais e pessoas para não faltar nada durante o trabalho?"
       ],
       "Agrônomo": [
-        "Você se interessa por planejar e acompanhar projetos agrícolas?",
-        "Gosta de pesquisar novas técnicas de cultivo e manejo de solo?",
-        "Tem afinidade com tecnologias para aumentar produtividade agrícola?",
-        "Valoriza a sustentabilidade e o equilíbrio ambiental nas atividades rurais?",
-        "Se sente motivado ao contribuir para o desenvolvimento do campo?"
+        "Você gosta de acompanhar plantio ou criação de animais, desde o início até a colheita?",
+        "Você curte buscar jeitos novos de melhorar o crescimento das plantas ou o cuidado com os bichos?",
+        "Você prefere cuidar para que tudo seja feito de modo sustentável e sem prejudicar o ambiente?",
+        "Você gosta de pensar em como usar máquinas e ferramentas para facilitar o trabalho no campo?",
+        "Você sente satisfação em ver a fazenda ou plantação dando bons resultados?"
       ]
     },
     I: {
       "Medicina": [
-        "Você se interessa por diagnosticar e tratar problemas de saúde?",
-        "Gosta de estudar constantemente para acompanhar avanços na área médica?",
-        "Tem facilidade para analisar sintomas e propor soluções?",
-        "Valoriza o contato com pacientes e o trabalho em equipe multidisciplinar?",
-        "Se sente motivado ao ajudar pessoas a recuperar a saúde?"
+        "Você gosta de ajudar pessoas a se sentirem melhor quando estão doentes?",
+        "Você curte aprender coisas novas sobre como o corpo funciona?",
+        "Você gosta de observar sintomas e pensar em possíveis soluções?",
+        "Você se sente bem em conversar e escutar quem precisa de ajuda?",
+        "Você sente realização em ver alguém melhorar por sua causa?"
       ],
       "Farmácia": [
-        "Você gosta de trabalhar com medicamentos e buscar soluções para o bem-estar das pessoas?",
-        "Tem facilidade para entender processos químicos e biológicos?",
-        "Valoriza a pesquisa e o desenvolvimento de novos produtos?",
-        "Se interessa por atuar em laboratórios, farmácias ou indústria farmacêutica?",
-        "Se sente motivado ao contribuir para tratamentos inovadores?"
+        "Você gosta de pensar em como os remédios ajudam as pessoas?",
+        "Você tem facilidade em entender receitas ou fórmulas?",
+        "Você gosta de pesquisar ou aprender sobre novos medicamentos?",
+        "Você se sente à vontade em ambientes como laboratórios ou farmácias?",
+        "Você sente orgulho quando vê alguém melhorar com o que indicou?"
       ],
       "Odontologia": [
-        "Você se interessa por cuidar da saúde bucal das pessoas?",
-        "Gosta de realizar procedimentos clínicos e cirúrgicos?",
-        "Tem facilidade para lidar com instrumentos e técnicas odontológicas?",
-        "Valoriza o contato com pacientes e o acompanhamento de tratamentos?",
-        "Se sente motivado ao devolver autoestima e bem-estar aos pacientes?"
+        "Você gosta de cuidar do sorriso e da saúde das pessoas?",
+        "Você prefere usar as mãos para arrumar ou melhorar algo?",
+        "Você gosta de aprender sobre diferentes maneiras de tratar dentes e boca?",
+        "Você se sente bem em ver alguém sair feliz depois de um atendimento?",
+        "Você gosta de acompanhar o progresso das pessoas ao longo do tempo?"
       ],
       "Ciência da Computação": [
-        "Você gosta de criar algoritmos e resolver problemas complexos de tecnologia?",
-        "Tem facilidade para aprender novas linguagens de programação?",
-        "Valoriza trabalhar com inteligência artificial, machine learning e inovação?",
-        "Se interessa por desenvolvimento de softwares e sistemas?",
-        "Se sente motivado ao participar de projetos que exigem raciocínio lógico?"
+        "Você gosta de resolver desafios usando computadores?",
+        "Você curte pensar em formas criativas de usar a tecnologia?",
+        "Você gosta de aprender novas linguagens de programação?",
+        "Você se sente animado quando consegue fazer um programa funcionar?",
+        "Você gosta de usar lógica para encontrar soluções diferentes?"
       ],
       "Sistemas de Informação": [
-        "Você gosta de analisar e melhorar processos de gestão de dados?",
-        "Tem facilidade para identificar e solucionar problemas em sistemas informacionais?",
-        "Valoriza o desenvolvimento de soluções tecnológicas para empresas?",
-        "Se interessa por integração de plataformas e bancos de dados?",
-        "Se sente motivado ao otimizar o fluxo de informações em organizações?"
+        "Você gosta de pensar em como organizar informações de um jeito melhor?",
+        "Você curte resolver problemas de funcionamento em sistemas ou aplicativos?",
+        "Você gosta de ajudar pessoas a usarem melhor a tecnologia?",
+        "Você prefere buscar maneiras de conectar diferentes sistemas?",
+        "Você sente satisfação em ver as coisas funcionando sem travar?"
       ],
       "Economia": [
-        "Você se interessa por estudar cenários econômicos e propor soluções?",
-        "Gosta de trabalhar com análise de dados e estatísticas?",
-        "Tem facilidade para entender tendências de mercado e finanças?",
-        "Valoriza o impacto social de decisões econômicas?",
-        "Se sente motivado ao ajudar empresas e pessoas a tomarem decisões financeiras?"
+        "Você gosta de entender como o dinheiro e os preços mudam?",
+        "Você curte analisar dados para descobrir tendências e oportunidades?",
+        "Você gosta de pensar em soluções para melhorar a vida financeira das pessoas?",
+        "Você prefere acompanhar notícias do mercado?",
+        "Você se sente realizado quando ajuda alguém a tomar uma boa decisão financeira?"
       ],
       "Psicologia": [
-        "Você se interessa por entender o comportamento humano?",
-        "Gosta de pesquisar causas e consequências de fenômenos psicológicos?",
-        "Tem facilidade para ouvir e analisar relatos de pessoas?",
-        "Valoriza o desenvolvimento de testes, avaliações e tratamentos?",
-        "Se sente motivado ao contribuir para o equilíbrio emocional dos outros?"
+        "Você gosta de ouvir as pessoas e entender como se sentem?",
+        "Você curte pensar sobre o comportamento das pessoas?",
+        "Você gosta de descobrir motivos que fazem alguém agir de determinado jeito?",
+        "Você prefere ajudar alguém a enxergar novas possibilidades?",
+        "Você sente realização ao perceber que ajudou alguém a se sentir melhor?"
       ],
       "Redes de Computadores": [
-        "Você gosta de configurar, monitorar e solucionar problemas de redes?",
-        "Tem facilidade para aprender sobre protocolos, infraestrutura e segurança digital?",
-        "Valoriza o funcionamento eficiente e seguro das comunicações?",
-        "Se interessa por criar soluções para ambientes corporativos?",
-        "Se sente motivado ao implementar melhorias e expandir redes de computadores?"
+        "Você gosta de entender como computadores se conectam uns aos outros?",
+        "Você curte resolver problemas de internet ou conexão?",
+        "Você gosta de descobrir jeitos de deixar a rede mais rápida e segura?",
+        "Você prefere organizar tudo para que ninguém fique sem acesso?",
+        "Você sente satisfação quando todo mundo consegue usar a internet sem problema?"
       ]
     },
     A: {
       "Design": [
-        "Você gosta de criar soluções visuais para produtos, marcas ou ambientes?",
-        "Tem facilidade para desenhar, ilustrar ou usar softwares gráficos?",
-        "Valoriza a inovação e criatividade no desenvolvimento de projetos?",
-        "Se interessa por design gráfico, industrial ou digital?",
-        "Se sente motivado ao ver suas ideias ganhando vida em projetos reais?"
+        "Você gosta de desenhar, criar imagens ou inventar coisas diferentes?",
+        "Você curte imaginar novos jeitos de deixar algo mais bonito?",
+        "Você gosta de transformar ideias em algo que todo mundo possa ver?",
+        "Você prefere ambientes onde pode soltar a criatividade?",
+        "Você sente realização ao ver alguém admirando o que você criou?"
       ],
       "Arquitetura e Urbanismo": [
-        "Você gosta de planejar espaços urbanos e criar projetos arquitetônicos?",
-        "Tem facilidade para desenhar e usar softwares de arquitetura?",
-        "Valoriza a estética, funcionalidade e sustentabilidade nos projetos?",
-        "Se interessa por acompanhar obras e gerenciar equipes?",
-        "Se sente motivado ao transformar cidades e ambientes?"
+        "Você gosta de imaginar espaços, casas ou cidades diferentes?",
+        "Você curte desenhar ou planejar como as coisas vão ficar?",
+        "Você gosta de pensar em soluções para deixar um ambiente melhor?",
+        "Você prefere inovar na hora de criar ou construir algo?",
+        "Você sente orgulho ao ver um lugar pronto do jeito que imaginou?"
       ],
       "Jogos Digitais": [
-        "Você gosta de criar e desenvolver jogos eletrônicos?",
-        "Tem facilidade para trabalhar com design, programação e produção digital?",
-        "Valoriza a inovação e a criatividade no desenvolvimento de games?",
-        "Se interessa por tendências e tecnologias do universo gamer?",
-        "Se sente motivado ao ver pessoas se divertindo com seus jogos?"
+        "Você gosta de criar histórias ou desafios em jogos?",
+        "Você curte pensar em personagens, cenários ou regras diferentes?",
+        "Você gosta de testar ideias novas para ver se funcionam no jogo?",
+        "Você prefere ambientes onde pode experimentar o novo?",
+        "Você sente alegria quando vê alguém se divertindo com o que criou?"
       ],
       "Publicidade e Propaganda": [
-        "Você gosta de criar campanhas criativas para divulgar ideias ou produtos?",
-        "Tem facilidade para trabalhar em equipe e desenvolver peças publicitárias?",
-        "Valoriza a comunicação visual e estratégica?",
-        "Se interessa por novas tendências de marketing e mídias sociais?",
-        "Se sente motivado ao ver resultados positivos de suas campanhas?"
+        "Você gosta de bolar ideias para chamar a atenção das pessoas?",
+        "Você curte criar campanhas, textos ou vídeos criativos?",
+        "Você gosta de ver suas ideias espalhadas para muita gente?",
+        "Você prefere trabalhar junto com pessoas que também gostam de criar?",
+        "Você sente satisfação quando uma campanha faz sucesso?"
       ],
       "Letras": [
-        "Você se interessa por escrita, literatura e comunicação?",
-        "Gosta de criar textos, revisar ou traduzir conteúdos?",
-        "Tem facilidade para ensinar ou compartilhar conhecimento?",
-        "Valoriza o impacto cultural da linguagem?",
-        "Se sente motivado ao contribuir para o desenvolvimento intelectual das pessoas?"
+        "Você gosta de escrever, contar histórias ou criar poesias?",
+        "Você curte ler e aprender palavras novas?",
+        "Você gosta de ensinar ou ajudar alguém a se comunicar melhor?",
+        "Você prefere ambientes onde pode pensar livremente?",
+        "Você sente alegria quando vê alguém gostando do que escreveu?"
       ],
       "Diretor de Arte": [
-        "Você se imagina coordenando projetos visuais em campanhas publicitárias ou culturais?",
-        "Gosta de definir conceitos e direcionar equipes criativas?",
-        "Tem facilidade para avaliar e aprovar peças visuais?",
-        "Valoriza o impacto estético na comunicação com o público?",
-        "Se sente motivado ao criar identidade visual para marcas ou eventos?"
+        "Você gosta de escolher cores, imagens ou estilos para um projeto?",
+        "Você curte liderar grupos que criam juntos?",
+        "Você gosta de imaginar como tudo vai ficar antes de começar?",
+        "Você prefere inovar e experimentar coisas diferentes?",
+        "Você sente orgulho quando vê um projeto pronto e bonito?"
       ],
       "Produtor Audiovisual": [
-        "Você gosta de planejar e produzir vídeos, filmes ou documentários?",
-        "Tem facilidade para organizar equipes e cronogramas de gravação?",
-        "Se interessa por roteiro, edição e pós-produção de conteúdos audiovisuais?",
-        "Valoriza a inovação e criatividade na produção de imagens e sons?",
-        "Se sente motivado ao entregar projetos audiovisuais de impacto?"
+        "Você gosta de planejar vídeos, filmes ou gravações?",
+        "Você curte organizar pessoas e tarefas para tudo dar certo?",
+        "Você gosta de criar roteiros ou pensar em cenas diferentes?",
+        "Você prefere ambientes onde pode experimentar novas ideias?",
+        "Você sente alegria ao ver o resultado final de um vídeo?"
       ],
       "Designer Industrial": [
-        "Você se imagina criando produtos industriais com foco em funcionalidade e design?",
-        "Gosta de pesquisar tendências e adaptar materiais para novos produtos?",
-        "Tem afinidade com processos produtivos e prototipagem?",
-        "Valoriza o impacto do design na experiência do usuário?",
-        "Se sente motivado ao inovar na criação de objetos e equipamentos?"
+        "Você gosta de inventar produtos ou objetos diferentes e úteis?",
+        "Você curte testar materiais, formas e cores até achar o melhor?",
+        "Você gosta de pensar em jeitos de facilitar a vida das pessoas?",
+        "Você prefere ambientes onde pode mexer e criar coisas novas?",
+        "Você sente realização quando vê alguém usando o que você criou?"
       ]
     },
     S: {
       "Relações Públicas": [
-        "Você gosta de promover o relacionamento entre empresas e público?",
-        "Tem facilidade para organizar eventos e campanhas institucionais?",
-        "Valoriza a comunicação clara e estratégica?",
-        "Se interessa por lidar com crises e fortalecer marcas?",
-        "Se sente motivado ao ampliar a reputação e alcance de organizações?"
+        "Você gosta de conversar com diferentes tipos de pessoas?",
+        "Você curte organizar eventos ou encontros?",
+        "Você gosta de explicar ideias de um jeito claro para todos entenderem?",
+        "Você prefere ajudar outros a resolverem problemas juntos?",
+        "Você sente alegria quando percebe que ajudou alguém a se sentir melhor com o grupo?"
       ],
       "Fisioterapia": [
-        "Você se interessa por ajudar pessoas na reabilitação física?",
-        "Gosta de trabalhar com exercícios terapêuticos e tratamentos funcionais?",
-        "Tem facilidade para lidar com pacientes em diferentes situações?",
-        "Valoriza o acompanhamento individual e os resultados positivos?",
-        "Se sente motivado ao promover qualidade de vida e saúde?"
+        "Você gosta de ajudar pessoas a se recuperar de machucados ou dores?",
+        "Você curte ver de perto o progresso de quem está melhorando?",
+        "Você gosta de ensinar exercícios ou jeitos de melhorar a saúde?",
+        "Você prefere cuidar das pessoas de forma atenciosa?",
+        "Você sente satisfação ao ver alguém voltar a fazer o que gosta?"
       ],
       "Gestor de RH": [
-        "Você se imagina planejando ações para atrair, reter e desenvolver talentos?",
-        "Gosta de resolver conflitos e promover o bem-estar no ambiente de trabalho?",
-        "Tem afinidade com entrevistas, seleção e acompanhamento de colaboradores?",
-        "Valoriza a gestão estratégica de pessoas e equipes?",
-        "Se sente motivado ao implementar políticas de desenvolvimento humano?"
+        "Você gosta de pensar em como deixar o trabalho das pessoas mais fácil?",
+        "Você curte motivar colegas e ajudar a resolver conflitos?",
+        "Você gosta de organizar treinamentos ou reuniões?",
+        "Você prefere ambientes onde todo mundo pode crescer junto?",
+        "Você sente alegria quando vê o grupo trabalhando em harmonia?"
       ],
       "Instrutor de Treinamento Empresarial": [
-        "Você gosta de preparar e ministrar treinamentos para profissionais?",
-        "Tem facilidade para transmitir conhecimento e motivar equipes?",
-        "Valoriza adaptar conteúdos para diferentes públicos?",
-        "Se interessa por tecnologias educacionais e métodos de ensino?",
-        "Se sente motivado ao perceber que os participantes aplicam o que aprenderam?"
+        "Você gosta de ensinar novos conhecimentos para outras pessoas?",
+        "Você curte planejar e organizar aulas ou oficinas?",
+        "Você gosta de motivar colegas a aprenderem algo novo?",
+        "Você prefere ambientes onde pode ajudar cada um a se desenvolver?",
+        "Você sente orgulho ao ver alguém colocando em prática o que você ensinou?"
       ],
       "Consultor de Desenvolvimento Humano": [
-        "Você gosta de propor estratégias para desenvolver competências em pessoas?",
-        "Tem afinidade com diagnóstico de necessidades e elaboração de planos de ação?",
-        "Valoriza o acompanhamento de resultados e evolução dos colaboradores?",
-        "Se interessa por temas de comportamento humano e liderança?",
-        "Se sente motivado ao contribuir para a transformação de equipes e empresas?"
+        "Você gosta de ajudar pessoas a descobrir seus talentos?",
+        "Você curte escutar quem precisa de um conselho ou orientação?",
+        "Você gosta de pensar em maneiras de melhorar a vida das pessoas?",
+        "Você prefere ambientes onde pode apoiar o desenvolvimento de todos?",
+        "Você sente satisfação ao ver alguém conquistar algo com sua ajuda?"
       ],
       "Supervisor Educacional": [
-        "Você se imagina organizando e supervisionando processos pedagógicos?",
-        "Gosta de acompanhar o desenvolvimento dos alunos e professores?",
-        "Tem afinidade com elaboração de planos e estratégias educativas?",
-        "Valoriza a inovação e qualidade no ensino?",
-        "Se sente motivado ao contribuir para o crescimento institucional?"
+        "Você gosta de acompanhar o crescimento dos alunos e professores?",
+        "Você curte organizar projetos ou atividades na escola?",
+        "Você gosta de ajudar a resolver problemas do dia a dia escolar?",
+        "Você prefere ver todo mundo aprendendo junto?",
+        "Você sente alegria ao perceber o avanço de alguém na escola?"
       ],
       "Gestor de Formação Profissional": [
-        "Você gosta de desenvolver estratégias para formação e atualização de equipes?",
-        "Tem facilidade para alinhar necessidades do mercado com conteúdos formativos?",
-        "Valoriza o acompanhamento da evolução dos participantes?",
-        "Se interessa por parcerias com instituições de ensino?",
-        "Se sente motivado ao preparar pessoas para desafios profissionais?"
+        "Você gosta de planejar cursos ou oficinas para ajudar pessoas a crescer?",
+        "Você curte pensar em novas formas de ensinar?",
+        "Você gosta de ver o sucesso dos outros depois de um treinamento?",
+        "Você prefere ambientes onde pode apoiar o aprendizado de todos?",
+        "Você sente orgulho quando alguém consegue um novo trabalho graças ao seu apoio?"
       ],
       "Medicina": [
-        "Você se interessa por cuidar da saúde de pessoas e comunidades?",
-        "Gosta de trabalhar em equipe multidisciplinar?",
-        "Tem facilidade para lidar com situações de emergência?",
-        "Valoriza o acompanhamento dos pacientes e o impacto positivo no cotidiano?",
-        "Se sente motivado ao promover bem-estar e qualidade de vida?"
+        "Você gosta de cuidar da saúde das pessoas e vê-las melhorando?",
+        "Você curte aprender sobre o corpo humano e como tratar doenças?",
+        "Você gosta de conversar e tranquilizar quem está nervoso?",
+        "Você prefere ambientes onde pode ajudar quem mais precisa?",
+        "Você sente satisfação ao ver alguém sair do hospital melhor do que entrou?"
       ]
     },
     E: {
       "Gestão da Qualidade": [
-        "Você gosta de analisar processos para garantir padrões de qualidade?",
-        "Tem facilidade para implementar melhorias e solucionar problemas?",
-        "Valoriza auditorias, certificações e o uso de indicadores?",
-        "Se interessa por assegurar a excelência em produtos e serviços?",
-        "Se sente motivado ao ver resultados positivos da aplicação de boas práticas?"
+        "Você gosta de conferir se tudo está sendo feito do jeito certo?",
+        "Você curte pensar em formas de melhorar o trabalho das pessoas?",
+        "Você gosta de sugerir mudanças para facilitar o dia a dia?",
+        "Você prefere ambientes organizados e bem cuidados?",
+        "Você sente satisfação ao ver que as coisas funcionam sem erros?"
       ],
       "Gestão da Tecnologia da Informação": [
-        "Você gosta de liderar projetos e equipes de tecnologia?",
-        "Tem facilidade para implementar soluções inovadoras em TI?",
-        "Valoriza o uso estratégico de sistemas de informação nas empresas?",
-        "Se interessa por gerenciar infraestrutura, segurança e suporte?",
-        "Se sente motivado ao alinhar tecnologia e objetivos de negócio?"
+        "Você gosta de liderar projetos de tecnologia?",
+        "Você curte organizar tarefas para que tudo funcione junto na empresa?",
+        "Você gosta de ajudar as pessoas a resolver problemas tecnológicos?",
+        "Você prefere encontrar soluções novas para desafios do dia a dia?",
+        "Você sente alegria quando consegue resolver um problema difícil de informática?"
       ],
       "Administrador de Empresas": [
-        "Você gosta de organizar setores e processos para o bom funcionamento da empresa?",
-        "Tem facilidade para gerir recursos humanos, financeiros e materiais?",
-        "Valoriza a eficiência, controle e planejamento estratégico?",
-        "Se interessa por acompanhar indicadores e resultados empresariais?",
-        "Se sente motivado ao buscar melhorias contínuas em processos administrativos?"
+        "Você gosta de organizar equipes para alcançar objetivos juntos?",
+        "Você curte planejar e acompanhar o andamento do trabalho?",
+        "Você gosta de tomar decisões para resolver problemas da empresa?",
+        "Você prefere ambientes com metas claras para todos seguirem?",
+        "Você sente orgulho ao ver o sucesso do grupo no final de um projeto?"
       ],
       "Consultor de Negócios": [
-        "Você gosta de analisar empresas e propor soluções para aumento de desempenho?",
-        "Se interessa por identificar pontos de melhoria e oportunidades de crescimento?",
-        "Tem afinidade com planejamento estratégico e gestão de mudanças?",
-        "Valoriza o contato direto com clientes e equipes empresariais?",
-        "Se sente motivado ao ver resultados positivos nas empresas que atende?"
+        "Você gosta de analisar situações e sugerir soluções para melhorar o trabalho?",
+        "Você curte conversar com pessoas para entender o que pode ser mudado?",
+        "Você gosta de propor ideias novas para crescer nos negócios?",
+        "Você prefere ambientes onde pode ajudar diferentes equipes ao mesmo tempo?",
+        "Você sente realização ao ver uma empresa melhorando por sua causa?"
       ],
       "Gerente de Vendas": [
-        "Você gosta de liderar equipes comerciais e definir metas de vendas?",
-        "Tem facilidade para motivar profissionais e acompanhar resultados?",
-        "Valoriza estratégias para conquistar novos clientes e mercados?",
-        "Se interessa por negociar grandes contratos e parcerias?",
-        "Se sente motivado ao superar desafios e bater metas agressivas?"
+        "Você gosta de motivar pessoas para bater metas juntos?",
+        "Você curte negociar com clientes e fechar bons negócios?",
+        "Você gosta de ajudar colegas a melhorar os resultados?",
+        "Você prefere ambientes onde todos buscam superar desafios?",
+        "Você sente satisfação ao ver o sucesso da equipe de vendas?"
       ],
       "Diretor Comercial": [
-        "Você se imagina comandando o setor comercial de uma empresa?",
-        "Gosta de planejar ações para expansão e fidelização de clientes?",
-        "Tem afinidade com análise de resultados e estratégias de vendas?",
-        "Valoriza a liderança de equipes e o desenvolvimento de novos mercados?",
-        "Se sente motivado ao representar a empresa em negociações importantes?"
+        "Você gosta de liderar grandes equipes e pensar em novas estratégias?",
+        "Você curte planejar campanhas para atrair clientes?",
+        "Você gosta de decidir os próximos passos para vender mais?",
+        "Você prefere ambientes onde pode inovar e crescer sempre?",
+        "Você sente orgulho ao ver a empresa conquistando mais clientes?"
       ],
       "Gestor de Projetos": [
-        "Você gosta de planejar, executar e controlar projetos de diferentes áreas?",
-        "Tem facilidade para organizar equipes e gerenciar prazos e recursos?",
-        "Valoriza o acompanhamento de resultados e a entrega de soluções inovadoras?",
-        "Se interessa por lidar com desafios e imprevistos durante a execução dos projetos?",
-        "Se sente motivado ao ver o sucesso dos projetos sob sua liderança?"
+        "Você gosta de planejar cada etapa para que tudo aconteça no tempo certo?",
+        "Você curte organizar e dividir tarefas entre colegas?",
+        "Você gosta de resolver imprevistos para não atrasar o trabalho?",
+        "Você prefere ver todo mundo trabalhando junto para um objetivo comum?",
+        "Você sente realização ao ver um projeto finalizado com sucesso?"
       ],
       "Empreendedor": [
-        "Você gosta de identificar oportunidades e criar novos negócios do zero?",
-        "Tem facilidade para inovar e adaptar-se a diferentes cenários?",
-        "Valoriza o risco calculado e a busca por crescimento constante?",
-        "Se interessa por aprender com erros e buscar soluções criativas?",
-        "Se sente motivado ao transformar ideias em resultados concretos?"
+        "Você gosta de criar novas ideias e transformá-las em negócio?",
+        "Você curte arriscar e buscar oportunidades para crescer?",
+        "Você gosta de inovar e testar soluções diferentes?",
+        "Você prefere ambientes onde pode tomar decisões por conta própria?",
+        "Você sente orgulho ao ver seu próprio negócio dando certo?"
       ]
     },
     C: {
       "Contabilidade": [
-        "Você gosta de analisar e organizar informações financeiras?",
-        "Tem facilidade para trabalhar com números e relatórios contábeis?",
-        "Valoriza o controle e a precisão nos registros?",
-        "Se interessa por auditoria, planejamento tributário e consultoria?",
-        "Se sente motivado ao contribuir para a saúde financeira de empresas?"
+        "Você gosta de organizar contas e controlar o dinheiro de um lugar?",
+        "Você curte anotar tudo certinho para não perder nenhuma informação?",
+        "Você gosta de conferir se as contas estão corretas?",
+        "Você prefere ambientes onde tudo é bem planejado e registrado?",
+        "Você sente alegria ao ver que tudo está batendo no final do mês?"
       ],
       "Analista de Processos": [
-        "Você gosta de mapear e analisar processos empresariais para propor melhorias?",
-        "Tem afinidade com controle de qualidade e padronização de atividades?",
-        "Valoriza o uso de ferramentas de gestão e indicadores de desempenho?",
-        "Se interessa por identificar gargalos e implementar soluções eficientes?",
-        "Se sente motivado ao ver resultados práticos das mudanças implementadas?"
+        "Você gosta de entender como as tarefas são feitas e sugerir melhorias?",
+        "Você curte analisar cada passo de um trabalho para evitar erros?",
+        "Você gosta de criar jeitos mais fáceis de fazer as coisas?",
+        "Você prefere ambientes organizados onde tudo tem um motivo?",
+        "Você sente realização ao ver o resultado das suas ideias no dia a dia?"
       ],
       "Gerente Administrativo": [
-        "Você gosta de organizar rotinas administrativas e supervisionar equipes de escritório?",
-        "Tem facilidade para implementar procedimentos e garantir o cumprimento de normas?",
-        "Valoriza o controle de documentos, contratos e processos internos?",
-        "Se interessa por otimizar recursos e reduzir custos operacionais?",
-        "Se sente motivado ao garantir eficiência e qualidade nos resultados administrativos?"
+        "Você gosta de cuidar do funcionamento do escritório?",
+        "Você curte organizar papéis, contratos e documentos importantes?",
+        "Você gosta de ajudar colegas a manter as coisas em ordem?",
+        "Você prefere ambientes onde tudo é feito com atenção aos detalhes?",
+        "Você sente orgulho ao ver o escritório funcionando sem problemas?"
       ],
       "Coordenador de Qualidade": [
-        "Você gosta de implementar e acompanhar padrões de qualidade em produtos e serviços?",
-        "Tem afinidade com auditorias e certificações?",
-        "Valoriza o treinamento de equipes para melhoria contínua?",
-        "Se interessa por monitorar indicadores e propor ações corretivas?",
-        "Se sente motivado ao garantir satisfação dos clientes e excelência nos resultados?"
+        "Você gosta de garantir que tudo seja feito com cuidado?",
+        "Você curte acompanhar o trabalho dos colegas para evitar erros?",
+        "Você gosta de treinar pessoas para seguirem boas práticas?",
+        "Você prefere ambientes onde todos colaboram para melhorar?",
+        "Você sente satisfação ao ver a qualidade dos resultados?"
       ],
       "Auditor": [
-        "Você gosta de analisar documentos, procedimentos e registros financeiros?",
-        "Tem facilidade para identificar inconsistências e propor ajustes?",
-        "Valoriza a imparcialidade e rigor técnico em avaliações?",
-        "Se interessa por elaborar relatórios detalhados e orientar gestores?",
-        "Se sente motivado ao contribuir para a transparência e credibilidade da empresa?"
+        "Você gosta de conferir se as regras estão sendo seguidas?",
+        "Você curte analisar documentos e identificar detalhes?",
+        "Você gosta de sugerir correções quando acha algum problema?",
+        "Você prefere ambientes onde tudo é transparente e justo?",
+        "Você sente realização ao ajudar a empresa a fazer tudo do jeito certo?"
       ],
       "Especialista em Processos": [
-        "Você gosta de desenhar e otimizar fluxos de trabalho empresariais?",
-        "Tem afinidade com análise de dados e indicadores de performance?",
-        "Valoriza a padronização e automação de rotinas?",
-        "Se interessa por propor soluções para aumentar eficiência operacional?",
-        "Se sente motivado ao ver equipes trabalhando de forma integrada e produtiva?"
+        "Você gosta de desenhar o melhor caminho para fazer as tarefas?",
+        "Você curte acompanhar números e resultados para melhorar o trabalho?",
+        "Você gosta de pensar em automatizar tarefas repetitivas?",
+        "Você prefere ambientes onde pode testar novas ideias?",
+        "Você sente alegria ao ver o grupo trabalhando de forma eficiente?"
       ],
       "Gestor de Normas e Procedimentos": [
-        "Você gosta de criar e revisar normas para garantir a organização empresarial?",
-        "Tem afinidade com documentação e controle de processos?",
-        "Valoriza o alinhamento entre equipes e setores?",
-        "Se interessa por implementar treinamentos para padronização de rotinas?",
-        "Se sente motivado ao garantir que as atividades sigam padrões estabelecidos?"
+        "Você gosta de criar regras para organizar o trabalho?",
+        "Você curte ensinar colegas sobre como seguir essas regras?",
+        "Você gosta de ver todo mundo fazendo as coisas do mesmo jeito?",
+        "Você prefere ambientes onde cada um sabe o que deve fazer?",
+        "Você sente satisfação ao ver os processos rodando direitinho?"
       ],
       "Gestão da Tecnologia da Informação": [
-        "Você gosta de organizar e padronizar processos de TI?",
-        "Tem facilidade para implementar normas e métodos em infraestrutura tecnológica?",
-        "Valoriza a segurança, compliance e o funcionamento dos sistemas?",
-        "Se interessa por controle e documentação de ativos digitais?",
-        "Se sente motivado ao garantir que tudo esteja funcionando corretamente na área de tecnologia?"
+        "Você gosta de organizar arquivos e programas no computador?",
+        "Você curte criar métodos para deixar tudo mais seguro?",
+        "Você gosta de ajudar colegas a usar sistemas de forma correta?",
+        "Você prefere ambientes onde a tecnologia é bem cuidada?",
+        "Você sente alegria quando tudo digital funciona sem erro?"
       ]
     },
     N: {
       "Agronomia": [
-        "Você se interessa por planejar e acompanhar projetos agrícolas?",
-        "Gosta de pesquisar novas técnicas de cultivo e manejo de solo?",
-        "Tem afinidade com tecnologias para aumentar produtividade agrícola?",
-        "Valoriza a sustentabilidade e o equilíbrio ambiental nas atividades rurais?",
-        "Se sente motivado ao contribuir para o desenvolvimento do campo?"
+        "Você gosta de acompanhar o crescimento de plantas ou criação de animais?",
+        "Você curte buscar novas formas de cuidar da natureza?",
+        "Você gosta de pensar em soluções para aumentar a produção sem prejudicar o meio ambiente?",
+        "Você prefere ambientes ao ar livre, perto do campo ou da natureza?",
+        "Você sente satisfação ao ver bons resultados da sua dedicação no campo?"
       ],
       "Gestor Ambiental": [
-        "Você gosta de planejar projetos voltados à sustentabilidade e preservação ambiental?",
-        "Tem facilidade para liderar equipes em ações de educação ambiental?",
-        "Valoriza o acompanhamento de indicadores e impactos ambientais?",
-        "Se interessa por implementar soluções para redução de resíduos e otimização de recursos?",
-        "Se sente motivado ao promover mudanças positivas para o meio ambiente?"
+        "Você gosta de pensar em jeitos de proteger o meio ambiente?",
+        "Você curte organizar projetos para cuidar da natureza?",
+        "Você gosta de ajudar pessoas a entenderem a importância da sustentabilidade?",
+        "Você prefere ambientes onde pode fazer diferença para o planeta?",
+        "Você sente orgulho ao ver resultados positivos para o meio ambiente?"
       ],
       "Engenheiro Agrônomo": [
-        "Você gosta de planejar e acompanhar projetos rurais?",
-        "Tem interesse em tecnologia para o campo?",
-        "Valoriza práticas sustentáveis e produtivas?",
-        "Se interessa por liderar equipes agrícolas?",
-        "Se sente motivado com inovação e desenvolvimento rural?"
+        "Você gosta de unir tecnologia e campo para melhorar a produção?",
+        "Você curte pesquisar novas técnicas para ajudar a agricultura?",
+        "Você gosta de organizar equipes para cuidar de plantações?",
+        "Você prefere buscar equilíbrio entre produção e preservação ambiental?",
+        "Você sente alegria ao ver o campo crescendo com suas ideias?"
       ],
       "Veterinário": [
-        "Você se interessa por cuidar da saúde de animais?",
-        "Gosta de trabalhar com diagnóstico, prevenção e tratamento?",
-        "Tem facilidade para lidar com diferentes espécies?",
-        "Valoriza o bem-estar e qualidade de vida animal?",
-        "Se sente motivado ao contribuir para o equilíbrio ambiental?"
+        "Você gosta de cuidar da saúde dos animais?",
+        "Você curte descobrir o que está deixando um bicho doente?",
+        "Você gosta de ajudar animais a se recuperarem?",
+        "Você prefere ambientes onde pode conviver com diferentes espécies?",
+        "Você sente realização ao ver um animal saudável por sua causa?"
       ],
       "Supervisor Florestal": [
-        "Você gosta de coordenar equipes em áreas de manejo florestal?",
-        "Tem facilidade para identificar e resolver problemas ambientais?",
-        "Valoriza o monitoramento de áreas protegidas e reflorestamento?",
-        "Se interessa por implementar políticas de preservação e uso sustentável?",
-        "Se sente motivado ao promover a conservação de recursos naturais?"
+        "Você gosta de acompanhar o cuidado de matas e florestas?",
+        "Você curte pensar em soluções para conservar áreas verdes?",
+        "Você gosta de organizar equipes para proteger a natureza?",
+        "Você prefere ambientes ao ar livre, em contato com árvores e plantas?",
+        "Você sente satisfação ao ver uma floresta bem cuidada?"
       ],
       "Gerente de Projetos Ambientais": [
-        "Você gosta de planejar e executar projetos voltados para o meio ambiente?",
-        "Tem afinidade com captação de recursos e gestão de equipes?",
-        "Valoriza o acompanhamento de resultados e impacto social?",
-        "Se interessa por parcerias com órgãos públicos e privados?",
-        "Se sente motivado ao ver a implementação de soluções ecológicas?"
+        "Você gosta de planejar ações para proteger o meio ambiente?",
+        "Você curte organizar pessoas para cuidar da natureza?",
+        "Você gosta de buscar recursos para projetos ambientais?",
+        "Você prefere acompanhar resultados positivos para o planeta?",
+        "Você sente alegria ao ver projetos ecológicos dando certo?"
       ],
       "Especialista em Gestão Ambiental": [
-        "Você gosta de analisar e propor estratégias para a gestão eficiente dos recursos naturais?",
-        "Tem afinidade com legislação e normas ambientais?",
-        "Valoriza o uso de tecnologias para monitoramento ambiental?",
-        "Se interessa por elaborar planos de mitigação de impactos?",
-        "Se sente motivado ao colaborar com equipes multidisciplinares em projetos ambientais?"
+        "Você gosta de pensar em estratégias para proteger recursos naturais?",
+        "Você curte analisar dados para melhorar a vida do planeta?",
+        "Você gosta de sugerir ideias para reduzir impactos ambientais?",
+        "Você prefere ambientes onde pode fazer diferença para a natureza?",
+        "Você sente orgulho ao ver mudanças que ajudam o meio ambiente?"
       ],
       "Gestor de Recursos Naturais": [
-        "Você gosta de planejar o uso sustentável de áreas verdes e recursos naturais?",
-        "Tem facilidade para negociar com comunidades e órgãos ambientais?",
-        "Valoriza o equilíbrio entre produção e preservação?",
-        "Se interessa por monitorar indicadores de biodiversidade?",
-        "Se sente motivado ao promover a recuperação de ambientes degradados?"
+        "Você gosta de planejar o uso inteligente dos recursos da natureza?",
+        "Você curte negociar para proteger áreas verdes?",
+        "Você gosta de buscar equilíbrio entre produção e preservação?",
+        "Você prefere ambientes onde pode acompanhar resultados positivos na natureza?",
+        "Você sente satisfação em ver uma área natural recuperada?"
       ]
     },
     L: {
       "Medicina": [
-        "Você se interessa por cuidar da saúde de pessoas e comunidades?",
-        "Gosta de trabalhar em equipe multidisciplinar?",
-        "Tem facilidade para lidar com situações de emergência?",
-        "Valoriza o acompanhamento dos pacientes e o impacto positivo no cotidiano?",
-        "Se sente motivado ao promover bem-estar e qualidade de vida?"
+        "Você gosta de cuidar de pessoas que precisam de atenção médica?",
+        "Você curte aprender sobre como ajudar no tratamento de doenças?",
+        "Você gosta de escutar quem não está se sentindo bem?",
+        "Você prefere ambientes onde pode ajudar no bem-estar dos outros?",
+        "Você sente alegria ao ver alguém sair melhor depois do seu cuidado?"
       ],
       "Fisioterapia": [
-        "Você se interessa por ajudar pessoas na reabilitação física?",
-        "Gosta de trabalhar com exercícios terapêuticos e tratamentos funcionais?",
-        "Tem facilidade para lidar com pacientes em diferentes situações?",
-        "Valoriza o acompanhamento individual e os resultados positivos?",
-        "Se sente motivado ao promover qualidade de vida e saúde?"
+        "Você gosta de ajudar pessoas a se recuperarem de lesões ou dores?",
+        "Você curte ensinar exercícios para melhorar a saúde dos outros?",
+        "Você gosta de acompanhar o progresso de quem está se tratando?",
+        "Você prefere ambientes onde pode apoiar o desenvolvimento das pessoas?",
+        "Você sente satisfação ao ver alguém voltar a fazer o que gosta com sua ajuda?"
       ],
       "Odontologia": [
-        "Você se interessa por cuidar da saúde bucal das pessoas?",
-        "Gosta de realizar procedimentos clínicos e cirúrgicos?",
-        "Tem facilidade para lidar com instrumentos e técnicas odontológicas?",
-        "Valoriza o contato com pacientes e o acompanhamento de tratamentos?",
-        "Se sente motivado ao devolver autoestima e bem-estar aos pacientes?"
+        "Você gosta de ajudar alguém a sorrir de novo?",
+        "Você curte usar as mãos para melhorar a saúde de outra pessoa?",
+        "Você gosta de ensinar cuidados para evitar problemas de saúde?",
+        "Você prefere ambientes tranquilos para conversar e cuidar das pessoas?",
+        "Você sente alegria ao ver o resultado do seu trabalho no rosto de alguém?"
       ],
       "Psicologia": [
-        "Você se interessa por entender o comportamento humano?",
-        "Gosta de pesquisar causas e consequências de fenômenos psicológicos?",
-        "Tem facilidade para ouvir e analisar relatos de pessoas?",
-        "Valoriza o desenvolvimento de testes, avaliações e tratamentos?",
-        "Se sente motivado ao contribuir para o equilíbrio emocional dos outros?"
+        "Você gosta de ouvir pessoas e ajudar a resolver problemas emocionais?",
+        "Você curte pensar em jeitos de ajudar alguém a se sentir melhor?",
+        "Você gosta de apoiar quem está passando por dificuldades?",
+        "Você prefere ambientes onde pode conversar sobre sentimentos?",
+        "Você sente satisfação ao perceber que ajudou alguém a superar uma fase ruim?"
       ],
       "Gestor de Assistência Social": [
-        "Você gosta de gerenciar programas de assistência social e comunitária?",
-        "Tem afinidade com análise de demandas e necessidades da população?",
-        "Valoriza o acompanhamento de resultados e impactos sociais?",
-        "Se interessa por liderar equipes e promover capacitação profissional?",
-        "Se sente motivado ao contribuir para o desenvolvimento humano e social?"
+        "Você gosta de ajudar pessoas que estão passando por dificuldades?",
+        "Você curte organizar ações para apoiar quem precisa?",
+        "Você gosta de conversar e orientar quem está em situação difícil?",
+        "Você prefere ambientes onde pode fazer diferença na vida dos outros?",
+        "Você sente alegria ao ver alguém se reerguendo com sua ajuda?"
       ],
       "Gerente de Saúde Pública": [
-        "Você gosta de planejar políticas públicas para promoção da saúde?",
-        "Tem facilidade para coordenar equipes e projetos em saúde comunitária?",
-        "Valoriza a integração entre diferentes setores do sistema de saúde?",
-        "Se interessa por acompanhar indicadores e resultados em saúde pública?",
-        "Se sente motivado ao promover campanhas de prevenção e bem-estar?"
+        "Você gosta de planejar ações para melhorar a saúde de muita gente?",
+        "Você curte organizar campanhas ou eventos para ajudar a população?",
+        "Você gosta de conversar com diferentes pessoas sobre saúde?",
+        "Você prefere ambientes onde pode pensar em soluções para todos?",
+        "Você sente satisfação ao ver um grupo de pessoas mais saudável por sua causa?"
       ],
       "Supervisor de Serviços Médicos": [
-        "Você gosta de fiscalizar e organizar equipes médicas em hospitais ou clínicas?",
-        "Tem afinidade com controle de procedimentos e cumprimento de normas?",
-        "Valoriza o acompanhamento de resultados e qualidade no atendimento?",
-        "Se interessa por treinar profissionais e implementar melhorias?",
-        "Se sente motivado ao garantir padrão de excelência nos serviços médicos?"
+        "Você gosta de acompanhar quem trabalha em hospitais ou clínicas?",
+        "Você curte garantir que todos estejam fazendo seu trabalho direito?",
+        "Você gosta de resolver problemas do dia a dia em ambientes de saúde?",
+        "Você prefere cuidar para que todos sigam as regras de segurança?",
+        "Você sente orgulho ao ver o serviço funcionando sem problemas?"
       ],
       "Administrador Hospitalar": [
-        "Você gosta de gerenciar recursos e equipes em ambientes hospitalares?",
-        "Tem facilidade para implementar procedimentos e garantir qualidade nos serviços de saúde?",
-        "Valoriza o planejamento estratégico para melhoria do atendimento?",
-        "Se interessa por otimizar processos administrativos e financeiros em hospitais?",
-        "Se sente motivado ao contribuir para o bem-estar dos pacientes e profissionais?"
+        "Você gosta de organizar o funcionamento de hospitais ou clínicas?",
+        "Você curte ajudar colegas a resolver problemas do dia a dia?",
+        "Você gosta de garantir que tudo está funcionando do jeito certo?",
+        "Você prefere ambientes onde pode ajudar a melhorar o atendimento?",
+        "Você sente satisfação ao ver pacientes e profissionais felizes no trabalho?"
       ]
     },
     T: {
       "Gestão da Tecnologia da Informação": [
-        "Você gosta de liderar projetos e equipes de tecnologia?",
-        "Tem facilidade para implementar soluções inovadoras em TI?",
-        "Valoriza o uso estratégico de sistemas de informação nas empresas?",
-        "Se interessa por gerenciar infraestrutura, segurança e suporte?",
-        "Se sente motivado ao alinhar tecnologia e objetivos de negócio?"
+        "Você gosta de coordenar equipes para resolver problemas de informática?",
+        "Você curte organizar tarefas para tudo funcionar junto na tecnologia?",
+        "Você gosta de aprender sobre novas ferramentas digitais?",
+        "Você prefere ambientes onde pode ajudar todo mundo a usar a tecnologia melhor?",
+        "Você sente satisfação ao ver que tudo está funcionando sem travar?"
       ],
       "Ciência da Computação": [
-        "Você gosta de criar algoritmos e resolver problemas complexos de tecnologia?",
-        "Tem facilidade para aprender novas linguagens de programação?",
-        "Valoriza trabalhar com inteligência artificial, machine learning e inovação?",
-        "Se interessa por desenvolvimento de softwares e sistemas?",
-        "Se sente motivado ao participar de projetos que exigem raciocínio lógico?"
+        "Você gosta de resolver desafios usando computador?",
+        "Você curte criar programas ou aplicativos novos?",
+        "Você gosta de pesquisar jeitos de usar a tecnologia para facilitar a vida?",
+        "Você prefere ambientes onde pode mexer em computadores e testar ideias?",
+        "Você sente alegria ao ver algo que criou funcionando direitinho?"
       ],
       "Sistemas de Informação": [
-        "Você gosta de analisar e melhorar processos de gestão de dados?",
-        "Tem facilidade para identificar e solucionar problemas em sistemas informacionais?",
-        "Valoriza o desenvolvimento de soluções tecnológicas para empresas?",
-        "Se interessa por integração de plataformas e bancos de dados?",
-        "Se sente motivado ao otimizar o fluxo de informações em organizações?"
+        "Você gosta de organizar informações para facilitar o dia a dia das pessoas?",
+        "Você curte ajudar colegas a resolver problemas com sistemas digitais?",
+        "Você gosta de buscar soluções quando algo para de funcionar?",
+        "Você prefere ambientes onde pode inovar usando tecnologia?",
+        "Você sente satisfação quando tudo está funcionando ao mesmo tempo?"
       ],
       "Redes de Computadores": [
-        "Você gosta de configurar, monitorar e solucionar problemas de redes?",
-        "Tem facilidade para aprender sobre protocolos, infraestrutura e segurança digital?",
-        "Valoriza o funcionamento eficiente e seguro das comunicações?",
-        "Se interessa por criar soluções para ambientes corporativos?",
-        "Se sente motivado ao implementar melhorias e expandir redes de computadores?"
+        "Você gosta de entender como a internet chega até as pessoas?",
+        "Você curte resolver problemas quando alguém fica sem conexão?",
+        "Você gosta de deixar tudo mais rápido e seguro para todo mundo?",
+        "Você prefere ambientes onde pode organizar e cuidar das redes de computadores?",
+        "Você sente alegria ao ver todo mundo usando a internet sem dificuldades?"
       ],
       "Engenharia de Software": [
-        "Você gosta de planejar, criar e testar sistemas de software?",
-        "Tem facilidade para trabalhar em equipes multidisciplinares?",
-        "Valoriza métodos de desenvolvimento ágil e práticas de qualidade?",
-        "Se interessa por automação de testes e documentação técnica?",
-        "Se sente motivado ao entregar soluções digitais inovadoras?"
+        "Você gosta de planejar e criar programas desde o começo?",
+        "Você curte trabalhar em grupo para desenvolver ideias tecnológicas?",
+        "Você gosta de pensar em jeitos de fazer aplicativos melhores?",
+        "Você prefere ambientes onde pode testar e corrigir programas?",
+        "Você sente orgulho ao ver alguém usando o que você programou?"
       ],
       "Engenharia da Computação": [
-        "Você gosta de atuar tanto com hardware quanto com software?",
-        "Tem facilidade para integrar sistemas embarcados e arquiteturas computacionais?",
-        "Valoriza o desenvolvimento de novos dispositivos eletrônicos?",
-        "Se interessa por projetos de automação, robótica ou IoT?",
-        "Se sente motivado ao criar soluções tecnológicas completas?"
+        "Você gosta de juntar computador, eletrônica e criatividade para criar coisas novas?",
+        "Você curte mexer com equipamentos e testar soluções diferentes?",
+        "Você gosta de fazer tudo funcionar ao mesmo tempo, sem erro?",
+        "Você prefere ambientes onde pode experimentar novas tecnologias?",
+        "Você sente alegria quando vê um projeto de tecnologia funcionando de verdade?"
       ],
       "Segurança da Informação": [
-        "Você gosta de proteger dados e sistemas contra ameaças virtuais?",
-        "Tem facilidade para identificar vulnerabilidades e implementar medidas preventivas?",
-        "Valoriza o constante aprendizado sobre novas técnicas de ataque e defesa?",
-        "Se interessa por criar políticas e treinamentos de segurança?",
-        "Se sente motivado ao garantir privacidade e integridade das informações?"
+        "Você gosta de proteger dados e informações na internet?",
+        "Você curte descobrir e resolver falhas antes que causem problemas?",
+        "Você gosta de ensinar colegas a usar a tecnologia com segurança?",
+        "Você prefere ambientes onde pode cuidar da privacidade de todos?",
+        "Você sente satisfação ao ver tudo seguro e funcionando bem?"
       ],
       "Análise e Desenvolvimento de Sistemas": [
-        "Você gosta de levantar requisitos, programar e testar sistemas?",
-        "Tem facilidade para entender as necessidades dos clientes?",
-        "Valoriza metodologias ágeis e trabalho colaborativo?",
-        "Se interessa por diversas linguagens e plataformas de desenvolvimento?",
-        "Se sente motivado ao entregar softwares funcionais e personalizados?"
+        "Você gosta de entender o que as pessoas precisam para criar sistemas úteis?",
+        "Você curte programar e testar soluções diferentes?",
+        "Você gosta de ajudar colegas a resolver problemas usando tecnologia?",
+        "Você prefere ambientes onde pode criar e colocar sistemas para funcionar?",
+        "Você sente alegria ao ver as pessoas usando o que desenvolveu?"
       ]
     },
     M: {
       "Ciência de Dados": [
-        "Você gosta de analisar grandes volumes de dados para encontrar padrões e soluções?",
-        "Tem facilidade para trabalhar com estatística, programação e inteligência artificial?",
-        "Valoriza a tomada de decisão baseada em dados?",
-        "Se interessa por criar painéis e modelos preditivos?",
-        "Se sente motivado ao transformar informações em estratégias eficazes?"
+        "Você gosta de analisar informações para descobrir padrões ou soluções?",
+        "Você curte usar números e tecnologia para entender melhor as coisas?",
+        "Você gosta de criar gráficos ou relatórios que mostram o que está acontecendo?",
+        "Você prefere ambientes onde pode pesquisar e aprender sempre mais?",
+        "Você sente satisfação ao ver suas descobertas ajudando alguém?"
       ],
       "Administração de Banco de Dados": [
-        "Você gosta de gerenciar, organizar e manter bancos de dados?",
-        "Tem facilidade para garantir a segurança e integridade das informações?",
-        "Valoriza o desempenho e a disponibilidade dos sistemas de dados?",
-        "Se interessa por backup, recuperação e otimização de bancos de dados?",
-        "Se sente motivado ao apoiar processos críticos de negócio?"
+        "Você gosta de organizar e cuidar das informações guardadas no computador?",
+        "Você curte garantir que ninguém perca dados importantes?",
+        "Você gosta de pensar em jeitos de deixar tudo mais rápido e seguro?",
+        "Você prefere ambientes onde pode atualizar e melhorar sistemas sempre?",
+        "Você sente alegria quando tudo está funcionando e ninguém reclama?"
       ],
       "Analista de Segurança da Informação": [
-        "Você gosta de proteger sistemas, redes e dados de ameaças digitais?",
-        "Tem facilidade para monitorar, auditar e responder a incidentes?",
-        "Valoriza processos de conformidade e boas práticas de segurança?",
-        "Se interessa por ferramentas, normas e políticas da área?",
-        "Se sente motivado ao manter ambientes digitais seguros?"
+        "Você gosta de proteger sistemas e informações de possíveis ataques?",
+        "Você curte pesquisar sobre ameaças e como evitá-las?",
+        "Você gosta de ajudar colegas a usar o computador sem riscos?",
+        "Você prefere ambientes onde pode monitorar e corrigir problemas?",
+        "Você sente satisfação ao ver tudo protegido e funcionando bem?"
       ],
       "Arquiteto de Software": [
-        "Você gosta de definir a estrutura e organização de sistemas de software?",
-        "Tem facilidade para analisar requisitos e propor soluções escaláveis?",
-        "Valoriza padrões de arquitetura e documentação técnica?",
-        "Se interessa por integração entre sistemas e tecnologias?",
-        "Se sente motivado ao garantir qualidade e performance nos projetos?"
+        "Você gosta de planejar como um sistema vai funcionar do início ao fim?",
+        "Você curte escolher as melhores formas de conectar diferentes programas?",
+        "Você gosta de ajudar colegas a desenvolver soluções completas?",
+        "Você prefere ambientes onde pode inovar e propor mudanças?",
+        "Você sente orgulho ao ver um sistema grande funcionando perfeitamente?"
       ],
       "Analista de Redes": [
-        "Você gosta de administrar e solucionar problemas em redes corporativas?",
-        "Tem facilidade para configurar equipamentos e monitorar tráfego?",
-        "Valoriza a segurança, desempenho e disponibilidade das redes?",
-        "Se interessa por novas tecnologias de comunicação?",
-        "Se sente motivado ao garantir conectividade eficiente para empresas?"
+        "Você gosta de cuidar para que todo mundo tenha acesso à internet?",
+        "Você curte organizar e arrumar fios, aparelhos e computadores?",
+        "Você gosta de descobrir e resolver problemas de conexão?",
+        "Você prefere ambientes onde pode monitorar o funcionamento das redes?",
+        "Você sente alegria ao ver tudo conectado e funcionando sem travar?"
       ],
       "Desenvolvimento de Software (Mobile e Web)": [
-        "Você gosta de criar aplicativos para celulares, tablets e web?",
-        "Tem facilidade para usar frameworks, APIs e linguagens modernas?",
-        "Valoriza a experiência do usuário e a inovação?",
-        "Se interessa por tendências em desenvolvimento mobile/web?",
-        "Se sente motivado ao entregar soluções digitais acessíveis?"
+        "Você gosta de criar aplicativos para celular ou sites que ajudam no dia a dia?",
+        "Você curte testar novas ideias e ver o que funciona melhor?",
+        "Você gosta de pensar em formas de facilitar a vida das pessoas usando a internet?",
+        "Você prefere ambientes onde pode atualizar e melhorar os programas sempre?",
+        "Você sente satisfação ao ver muita gente usando o que criou?"
       ],
       "Jogos Digitais": [
-        "Você gosta de desenvolver jogos interativos e envolventes?",
-        "Tem facilidade para trabalhar com programação, arte e design?",
-        "Valoriza a experiência dos jogadores e feedback do público?",
-        "Se interessa por novas plataformas e tendências do setor?",
-        "Se sente motivado ao criar entretenimento digital de impacto?"
+        "Você gosta de criar jogos para celular ou computador?",
+        "Você curte imaginar personagens, fases e desafios diferentes?",
+        "Você gosta de testar e melhorar os jogos até ficarem divertidos?",
+        "Você prefere ambientes onde pode trabalhar em equipe e trocar ideias?",
+        "Você sente alegria ao ver as pessoas se divertindo com seu jogo?"
       ],
       "Inteligência Artificial": [
-        "Você gosta de criar sistemas que aprendem, se adaptam e resolvem problemas?",
-        "Tem facilidade para trabalhar com machine learning, deep learning e automação?",
-        "Valoriza projetos inovadores para diferentes áreas?",
-        "Se interessa por desafios complexos e tecnologia de ponta?",
-        "Se sente motivado ao transformar ideias em soluções inteligentes?"
+        "Você gosta de pensar em como criar máquinas que aprendem sozinhas?",
+        "Você curte pesquisar jeitos de automatizar tarefas usando tecnologia?",
+        "Você gosta de testar novas ideias para facilitar a vida das pessoas?",
+        "Você prefere ambientes onde pode inovar e experimentar sempre?",
+        "Você sente satisfação ao ver uma solução inteligente funcionando de verdade?"
       ]
     }
   }
