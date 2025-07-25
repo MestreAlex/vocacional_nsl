@@ -1,467 +1,583 @@
 export const discRiasecnlPerguntasInfluencia = {
   Influencia: {
     R: {
-      "Instrutor Técnico": [
-        "Você gosta de ensinar técnicas específicas para grupos em ambientes industriais?",
-        "Se sente confortável ao demonstrar procedimentos práticos e orientar colegas?",
-        "Valoriza a aplicação imediata do conhecimento técnico no trabalho?",
-        "Tem facilidade para adaptar sua comunicação para diferentes públicos?",
-        "Se sente motivado ao ver os outros aplicando corretamente o que ensinou?"
+      "Engenheiro Civil": [
+        "Você se imagina apresentando projetos de construção para clientes e órgãos públicos?",
+        "Tem facilidade para liderar equipes e comunicar soluções técnicas?",
+        "Valoriza o contato direto com clientes e fornecedores durante obras?",
+        "Gosta de negociar contratos e prazos de entrega em grandes projetos?",
+        "Se sente motivado ao mediar conflitos e alinhar expectativas em obras?"
       ],
-      "Supervisor de Operações": [
-        "Você gosta de liderar equipes e garantir o funcionamento eficiente dos processos?",
-        "Tem facilidade para motivar colaboradores em ambientes industriais?",
-        "Valoriza o diálogo aberto para resolver problemas operacionais?",
-        "Se interessa por orientar e treinar funcionários para melhores resultados?",
-        "Se sente motivado ao influenciar positivamente as decisões da equipe?"
+      "Engenheiro Mecânico": [
+        "Você gosta de explicar conceitos técnicos de máquinas e equipamentos para equipes e clientes?",
+        "Tem facilidade para apresentar melhorias e convencer sobre mudanças em processos?",
+        "Valoriza treinamentos e capacitações para equipes sobre tecnologias mecânicas?",
+        "Se interessa por fazer apresentações de resultados de projetos?",
+        "Se sente motivado ao influenciar decisões técnicas e estratégicas na empresa?"
       ],
-      "Líder de Equipe de Campo": [
-        "Você gosta de coordenar equipes trabalhando em campo ou em ambientes externos?",
-        "Tem facilidade para engajar colegas em tarefas práticas e desafiadoras?",
-        "Valoriza o relacionamento interpessoal na busca por resultados?",
-        "Se interessa por dar feedback e orientar o time durante atividades externas?",
-        "Se sente motivado ao inspirar confiança e cooperação em sua equipe?"
+      "Gestor Industrial": [
+        "Você gosta de motivar equipes para atingir metas industriais?",
+        "Tem facilidade para comunicar mudanças e engajar colaboradores em novas rotinas?",
+        "Valoriza a influência positiva no clima organizacional?",
+        "Se interessa por liderar reuniões e apresentar resultados?",
+        "Se sente motivado ao inspirar pessoas para alcançar excelência industrial?"
       ],
-      "Consultor de Equipamentos": [
-        "Você gosta de apresentar soluções técnicas e orientar clientes sobre equipamentos?",
-        "Tem facilidade para explicar funcionalidades e vantagens de diferentes tecnologias?",
-        "Valoriza a construção de relacionamentos duradouros com clientes?",
-        "Se interessa por adaptar a abordagem de vendas conforme o perfil do cliente?",
-        "Se sente motivado ao influenciar a decisão de compra através do seu conhecimento técnico?"
+      "Supervisor de Obras": [
+        "Você gosta de orientar equipes para o melhor resultado de uma obra?",
+        "Tem facilidade para resolver divergências e influenciar decisões no canteiro?",
+        "Valoriza comunicar claramente obrigações, metas e prazos?",
+        "Se interessa por alinhar expectativas entre clientes, fornecedores e equipes?",
+        "Se sente motivado ao ser referência e liderança em projetos de construção?"
       ],
-      "Gestor de Manutenção": [
-        "Você gosta de liderar equipes de manutenção, motivando-os a alcançar resultados?",
-        "Tem facilidade para negociar prioridades e soluções com diferentes setores?",
-        "Valoriza o relacionamento próximo com colaboradores para resolver problemas?",
-        "Se interessa por promover treinamentos para atualização dos profissionais?",
-        "Se sente motivado ao ver sua equipe engajada na busca por excelência operacional?"
+      "Construtor": [
+        "Você gosta de convencer sobre a melhor forma de executar uma obra?",
+        "Tem facilidade para apresentar soluções práticas e alternativas?",
+        "Valoriza o contato próximo com clientes para entender suas necessidades?",
+        "Se interessa por negociar recursos e cronogramas com diferentes equipes?",
+        "Se sente motivado ao influenciar positivamente o andamento da construção?"
       ],
-      "Supervisor de Produção": [
-        "Você gosta de orientar equipes em processos produtivos, buscando eficiência?",
-        "Tem facilidade para engajar colaboradores e incentivar o cumprimento de metas?",
-        "Valoriza o diálogo constante para alinhar expectativas na produção?",
-        "Se interessa por reconhecer e valorizar o desempenho dos funcionários?",
-        "Se sente motivado ao influenciar o ambiente de trabalho para maior produtividade?"
+      "Supervisor de Manutenção": [
+        "Você gosta de engajar equipes para garantir a manutenção eficiente dos equipamentos?",
+        "Tem facilidade para comunicar procedimentos e mudanças técnicas?",
+        "Valoriza o treinamento e motivação dos colaboradores?",
+        "Se interessa por apresentar resultados de manutenção para gestores?",
+        "Se sente motivado ao influenciar a cultura de prevenção na empresa?"
       ],
-      "Instrutor de Treinamento Técnico": [
-        "Você gosta de ensinar conteúdos técnicos de forma clara e prática?",
-        "Tem facilidade para adaptar exemplos e recursos para diferentes perfis de alunos?",
-        "Valoriza a interação e troca de experiências durante os treinamentos?",
-        "Se interessa por motivar os participantes a aprender e aplicar novas técnicas?",
-        "Se sente motivado ao ver a evolução dos alunos após seus treinamentos?"
+      "Engenheiro de Produção": [
+        "Você gosta de liderar equipes para otimizar processos produtivos?",
+        "Tem facilidade para mostrar os benefícios de melhorias industriais?",
+        "Valoriza reuniões produtivas para alinhar estratégias e metas?",
+        "Se interessa por apresentar indicadores de desempenho para diferentes públicos?",
+        "Se sente motivado ao inspirar equipes para resultados de qualidade?"
       ],
-      "Consultor de Instalações": [
-        "Você gosta de apresentar soluções técnicas e orientar clientes sobre instalações?",
-        "Tem facilidade para negociar e persuadir clientes sobre melhores práticas?",
-        "Valoriza a construção de confiança ao longo do relacionamento profissional?",
-        "Se interessa por adaptar a comunicação conforme a necessidade do cliente?",
-        "Se sente motivado ao influenciar decisões técnicas e comerciais?"
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de influenciar decisões sobre soluções tecnológicas em empresas?",
+        "Tem facilidade para apresentar propostas de TI para equipes e lideranças?",
+        "Valoriza o engajamento dos colaboradores em mudanças digitais?",
+        "Se interessa por liderar projetos de inovação em tecnologia?",
+        "Se sente motivado ao conduzir processos de transformação digital?"
       ]
     },
     I: {
-      "Consultor Científico": [
-        "Você gosta de apresentar resultados de pesquisas de forma clara e acessível?",
-        "Tem facilidade para adaptar explicações científicas para diferentes públicos?",
-        "Valoriza o contato frequente com clientes e colaboradores interessados em inovação?",
-        "Se interessa por influenciar decisões estratégicas com base em dados científicos?",
-        "Se sente motivado ao promover conhecimento científico junto a empresas e instituições?"
+      "Medicina": [
+        "Você gosta de compartilhar descobertas e avanços médicos em congressos ou reuniões?",
+        "Tem facilidade para orientar equipes multidisciplinares em pesquisas?",
+        "Valoriza influenciar protocolos e práticas de saúde?",
+        "Se interessa por liderar grupos em estudos clínicos?",
+        "Se sente motivado ao ser referência científica em sua área?"
       ],
-      "Divulgador de Inovação": [
-        "Você gosta de comunicar novidades tecnológicas e científicas para o público?",
-        "Tem facilidade para apresentar palestras e conteúdos inovadores de forma envolvente?",
-        "Valoriza o engajamento do público em eventos e campanhas de divulgação?",
-        "Se interessa por usar redes sociais e mídia para promover novas ideias?",
-        "Se sente motivado ao inspirar pessoas a adotar novas soluções tecnológicas?"
+      "Farmácia": [
+        "Você gosta de apresentar resultados de pesquisas farmacêuticas para equipes?",
+        "Tem facilidade para orientar profissionais e clientes sobre medicamentos?",
+        "Valoriza o treinamento de equipes sobre boas práticas farmacêuticas?",
+        "Se interessa por divulgar novidades e tendências do setor?",
+        "Se sente motivado ao influenciar decisões sobre uso de medicamentos?"
       ],
-      "Analista de Pesquisa de Mercado": [
-        "Você gosta de apresentar dados e tendências de mercado para equipes e clientes?",
-        "Tem facilidade para persuadir gestores sobre oportunidades estratégicas?",
-        "Valoriza a comunicação clara dos resultados de suas análises?",
-        "Se interessa por influenciar decisões empresariais com base nos estudos realizados?",
-        "Se sente motivado ao ver suas recomendações sendo implementadas no mercado?"
+      "Odontologia": [
+        "Você gosta de orientar equipes em procedimentos odontológicos?",
+        "Tem facilidade para apresentar casos clínicos e pesquisas em eventos?",
+        "Valoriza a divulgação de boas práticas em saúde bucal?",
+        "Se interessa por influenciar decisões em clínicas e consultórios?",
+        "Se sente motivado ao ser reconhecido como referência em odontologia?"
       ],
-      "Facilitador de Workshops": [
-        "Você gosta de conduzir dinâmicas participativas e estimular o aprendizado em grupo?",
-        "Tem facilidade para motivar participantes e criar ambientes colaborativos?",
-        "Valoriza o compartilhamento de experiências e ideias entre os envolvidos?",
-        "Se interessa por adaptar metodologias de ensino conforme o perfil dos participantes?",
-        "Se sente motivado ao ver o engajamento e evolução dos participantes durante o workshop?"
+      "Ciência da Computação": [
+        "Você gosta de apresentar projetos de software para equipes e clientes?",
+        "Tem facilidade para ensinar outros profissionais sobre novas tecnologias?",
+        "Valoriza a divulgação de inovações digitais?",
+        "Se interessa por palestrar em eventos de tecnologia?",
+        "Se sente motivado ao influenciar tendências em desenvolvimento de sistemas?"
       ],
-      "Palestrante Técnico": [
-        "Você gosta de apresentar temas técnicos para grandes públicos de forma envolvente?",
-        "Tem facilidade para responder dúvidas e interagir durante apresentações?",
-        "Valoriza o impacto que sua comunicação pode gerar nos ouvintes?",
-        "Se interessa por adaptar o conteúdo conforme o público-alvo da palestra?",
-        "Se sente motivado ao inspirar profissionais com seus conhecimentos técnicos?"
+      "Sistemas de Informação": [
+        "Você gosta de demonstrar soluções de sistemas para usuários e gestores?",
+        "Tem facilidade para orientar equipes sobre melhores práticas em TI?",
+        "Valoriza a comunicação clara em treinamentos e implantação de sistemas?",
+        "Se interessa por influenciar decisões de tecnologia nas organizações?",
+        "Se sente motivado ao conduzir projetos de transformação digital?"
       ],
-      "Divulgador Científico": [
-        "Você gosta de transformar conceitos científicos em conteúdos acessíveis e interessantes?",
-        "Tem facilidade para engajar diferentes públicos em eventos de divulgação?",
-        "Valoriza o uso de mídias digitais para difundir conhecimento científico?",
-        "Se interessa por promover debates e discussões sobre ciência?",
-        "Se sente motivado ao despertar o interesse pela ciência em outras pessoas?"
+      "Economia": [
+        "Você gosta de apresentar análises econômicas para diferentes públicos?",
+        "Tem facilidade para influenciar decisões financeiras?",
+        "Valoriza a orientação de equipes em estratégias econômicas?",
+        "Se interessa por participar de debates sobre cenário econômico?",
+        "Se sente motivado ao impactar positivamente empresas e pessoas?"
       ],
-      "Gestor de Projetos Científicos": [
-        "Você gosta de liderar equipes em projetos de pesquisa e inovação?",
-        "Tem facilidade para motivar pesquisadores e engajar colaboradores?",
-        "Valoriza o compartilhamento de resultados e a comunicação dos avanços científicos?",
-        "Se interessa por apresentar projetos em eventos e congressos?",
-        "Se sente motivado ao ver a equipe envolvida e os resultados reconhecidos?"
+      "Psicologia": [
+        "Você gosta de liderar projetos de pesquisa e apresentar resultados?",
+        "Tem facilidade para orientar grupos e equipes em temas psicológicos?",
+        "Valoriza a divulgação de boas práticas de saúde mental?",
+        "Se interessa por influenciar políticas públicas e práticas clínicas?",
+        "Se sente motivado ao ser referência em comportamento e saúde emocional?"
       ],
-      "Coordenador de Pesquisa": [
-        "Você gosta de organizar equipes de pesquisa e orientar participantes?",
-        "Tem facilidade para engajar colaboradores na busca por resultados?",
-        "Valoriza o acompanhamento próximo dos avanços do grupo?",
-        "Se interessa por apresentar relatórios e discutir resultados com diferentes públicos?",
-        "Se sente motivado ao influenciar o direcionamento das pesquisas?"
+      "Redes de Computadores": [
+        "Você gosta de apresentar soluções e melhorias para equipes de TI?",
+        "Tem facilidade para treinar profissionais em protocolos e segurança de redes?",
+        "Valoriza a comunicação eficiente durante implantação de sistemas?",
+        "Se interessa por liderar projetos de infraestrutura tecnológica?",
+        "Se sente motivado ao influenciar a cultura digital nas empresas?"
       ]
     },
     A: {
-      "Publicitário": [
-        "Você gosta de criar campanhas publicitárias que impactam e envolvem o público?",
-        "Tem facilidade para apresentar ideias criativas em reuniões e brainstorms?",
-        "Valoriza o trabalho em equipe na construção de conceitos de comunicação?",
-        "Se interessa por persuadir clientes e consumidores através de estratégias visuais?",
-        "Se sente motivado ao ver seus projetos ganhando destaque no mercado?"
+      "Design": [
+        "Você gosta de apresentar projetos visuais e convencer sobre suas ideias?",
+        "Tem facilidade para liderar equipes criativas?",
+        "Valoriza a influência em processos de decisão estética?",
+        "Se interessa por palestrar sobre tendências de design?",
+        "Se sente motivado ao ser reconhecido por sua criatividade?"
       ],
-      "Ator/Apresentador": [
-        "Você gosta de atuar ou apresentar em público, transmitindo emoção e mensagem?",
-        "Tem facilidade para se comunicar de forma expressiva diante das câmeras ou plateia?",
-        "Valoriza o contato direto com o público durante espetáculos ou apresentações?",
-        "Se interessa por participar de eventos, peças ou programas de mídia?",
-        "Se sente motivado ao inspirar e entreter pessoas através da sua performance?"
+      "Arquitetura e Urbanismo": [
+        "Você gosta de defender propostas arquitetônicas em reuniões e eventos?",
+        "Tem facilidade para convencer sobre soluções inovadoras em projetos?",
+        "Valoriza o contato com clientes e órgãos públicos?",
+        "Se interessa por liderar equipes multidisciplinares?",
+        "Se sente motivado ao influenciar decisões urbanísticas?"
       ],
-      "Gestor de Eventos": [
-        "Você gosta de organizar eventos, coordenando equipes e fornecedores?",
-        "Tem facilidade para negociar com clientes e parceiros para garantir sucesso do evento?",
-        "Valoriza o envolvimento de diferentes públicos em projetos culturais ou corporativos?",
-        "Se interessa por promover experiências marcantes para os participantes?",
-        "Se sente motivado ao ver os eventos que organizou sendo comentados e elogiados?"
+      "Jogos Digitais": [
+        "Você gosta de apresentar conceitos de games para equipes e investidores?",
+        "Tem facilidade para engajar times de desenvolvimento em projetos inovadores?",
+        "Valoriza a divulgação de tendências em eventos e conferências?",
+        "Se interessa por influenciar o mercado de entretenimento digital?",
+        "Se sente motivado ao ser referência em criação de jogos eletrônicos?"
       ],
-      "Roteirista": [
-        "Você gosta de criar histórias e roteiros que influenciam emoções e ideias?",
-        "Tem facilidade para colaborar com equipes em projetos audiovisuais?",
-        "Valoriza a comunicação criativa e envolvente através do texto?",
-        "Se interessa por apresentar suas ideias para diretores e produtores?",
-        "Se sente motivado ao ver seu roteiro transformado em obras audiovisuais?"
+      "Publicidade e Propaganda": [
+        "Você gosta de convencer clientes sobre campanhas publicitárias?",
+        "Tem facilidade para liderar brainstorms e tomar decisões criativas?",
+        "Valoriza a influência sobre o público-alvo?",
+        "Se interessa por apresentar ideias em reuniões e eventos?",
+        "Se sente motivado ao inspirar equipes de comunicação?"
       ],
-      "Diretor de Comunicação": [
-        "Você gosta de liderar equipes de comunicação e definir estratégias de divulgação?",
-        "Tem facilidade para apresentar planos de mídia e campanhas para diferentes públicos?",
-        "Valoriza o alinhamento entre comunicação interna e externa da empresa?",
-        "Se interessa por influenciar a opinião pública através de ações estratégicas?",
-        "Se sente motivado ao ver o impacto das ações de comunicação que coordenou?"
+      "Letras": [
+        "Você gosta de apresentar textos, livros ou projetos culturais?",
+        "Tem facilidade para convencer sobre a importância da linguagem?",
+        "Valoriza a influência em debates sobre literatura e comunicação?",
+        "Se interessa por liderar equipes editoriais?",
+        "Se sente motivado ao ser reconhecido por sua produção intelectual?"
       ],
-      "Produtor Cultural": [
-        "Você gosta de organizar projetos culturais e promover artistas ou grupos?",
-        "Tem facilidade para engajar patrocinadores e envolver a comunidade?",
-        "Valoriza a diversidade de expressões culturais em seus projetos?",
-        "Se interessa por criar eventos que gerem impacto social e cultural?",
-        "Se sente motivado ao ver o sucesso e reconhecimento das produções culturais?"
+      "Diretor de Arte": [
+        "Você gosta de liderar equipes em projetos visuais?",
+        "Tem facilidade para influenciar decisões estéticas?",
+        "Valoriza a comunicação da identidade visual de marcas?",
+        "Se interessa por apresentar resultados em eventos de design?",
+        "Se sente motivado ao ser referência em direção de arte?"
       ],
-      "Influenciador Digital": [
-        "Você gosta de criar conteúdo digital para engajar seguidores nas redes sociais?",
-        "Tem facilidade para se comunicar com diferentes públicos online?",
-        "Valoriza o relacionamento próximo com sua audiência?",
-        "Se interessa por inspirar pessoas através de opiniões, dicas ou experiências?",
-        "Se sente motivado ao ver seu alcance crescer e seu conteúdo sendo compartilhado?"
+      "Produtor Audiovisual": [
+        "Você gosta de convencer sobre roteiros, ideias e produções audiovisuais?",
+        "Tem facilidade para engajar equipes em projetos de vídeo?",
+        "Valoriza o contato com clientes, patrocinadores e público?",
+        "Se interessa por apresentar resultados em festivais?",
+        "Se sente motivado ao ser reconhecido por suas produções?"
       ],
-      "Animador": [
-        "Você gosta de criar animações que emocionam e comunicam ideias?",
-        "Tem facilidade para apresentar projetos para equipes e clientes?",
-        "Valoriza o trabalho colaborativo na produção de conteúdos visuais?",
-        "Se interessa por influenciar públicos através de personagens e histórias animadas?",
-        "Se sente motivado ao ver suas criações ganhando vida em diferentes mídias?"
+      "Designer Industrial": [
+        "Você gosta de apresentar projetos industriais para equipes e clientes?",
+        "Tem facilidade para liderar processos de inovação?",
+        "Valoriza a influência sobre decisões de produção e design?",
+        "Se interessa por engajar equipes multidisciplinares?",
+        "Se sente motivado ao impactar positivamente o mercado?"
       ]
     },
     S: {
-      "Coach Motivacional": [
-        "Você gosta de inspirar pessoas a superar desafios e alcançar objetivos?",
-        "Tem facilidade para ouvir e motivar indivíduos em sessões de coaching?",
-        "Valoriza o desenvolvimento pessoal e profissional dos seus clientes?",
-        "Se interessa por conduzir palestras e treinamentos motivacionais?",
-        "Se sente motivado ao ver as mudanças positivas nas pessoas que acompanha?"
+      "Relações Públicas": [
+        "Você gosta de engajar públicos e construir relacionamentos duradouros?",
+        "Tem facilidade para motivar equipes em campanhas institucionais?",
+        "Valoriza a comunicação clara e estratégica?",
+        "Se interessa por apresentar ideias em eventos e reuniões?",
+        "Se sente motivado ao fortalecer a imagem de empresas e pessoas?"
       ],
-      "Professor Universitário": [
-        "Você gosta de ensinar e interagir com jovens adultos em ambiente acadêmico?",
-        "Tem facilidade para conduzir discussões e estimular o pensamento crítico?",
-        "Valoriza o relacionamento próximo com alunos e colegas de trabalho?",
-        "Se interessa por orientar pesquisas e projetos acadêmicos?",
-        "Se sente motivado ao ver o crescimento intelectual dos seus alunos?"
+      "Fisioterapia": [
+        "Você gosta de orientar pacientes e equipes sobre tratamentos de reabilitação?",
+        "Tem facilidade para engajar pessoas na busca pela qualidade de vida?",
+        "Valoriza a comunicação positiva durante o processo terapêutico?",
+        "Se interessa por apresentar resultados em congressos?",
+        "Se sente motivado ao influenciar práticas de saúde física?"
       ],
-      "Gestor de Projetos Sociais": [
-        "Você gosta de liderar iniciativas que promovem impacto social positivo?",
-        "Tem facilidade para engajar comunidades e mobilizar voluntários?",
-        "Valoriza a comunicação clara de objetivos e resultados dos projetos?",
-        "Se interessa por apresentar projetos para patrocinadores e órgãos públicos?",
-        "Se sente motivado ao ver transformações sociais geradas pelo seu trabalho?"
+      "Gestor de RH": [
+        "Você gosta de motivar colaboradores para o desenvolvimento profissional?",
+        "Tem facilidade para liderar processos de seleção e treinamento?",
+        "Valoriza a influência sobre o clima organizacional?",
+        "Se interessa por apresentar resultados em reuniões de equipe?",
+        "Se sente motivado ao engajar pessoas para crescimento na empresa?"
       ],
-      "Orientador Educacional": [
-        "Você gosta de orientar alunos na escolha de carreira e desenvolvimento pessoal?",
-        "Tem facilidade para ouvir e aconselhar jovens sobre seus desafios?",
-        "Valoriza o acompanhamento próximo do progresso dos estudantes?",
-        "Se interessa por conduzir reuniões, palestras e rodas de conversa?",
-        "Se sente motivado ao influenciar decisões importantes na vida dos alunos?"
+      "Instrutor de Treinamento Empresarial": [
+        "Você gosta de engajar profissionais em atividades de capacitação?",
+        "Tem facilidade para apresentar conteúdos e motivar equipes?",
+        "Valoriza a comunicação clara e interativa?",
+        "Se interessa por liderar treinamentos e workshops?",
+        "Se sente motivado ao ver resultados concretos no desenvolvimento dos participantes?"
       ],
       "Consultor de Desenvolvimento Humano": [
-        "Você gosta de propor estratégias para melhorar o ambiente de trabalho?",
-        "Tem facilidade para identificar necessidades de desenvolvimento nas equipes?",
-        "Valoriza o diálogo aberto e a troca de experiências entre colaboradores?",
-        "Se interessa por conduzir treinamentos e workshops de desenvolvimento pessoal?",
-        "Se sente motivado ao ver a evolução dos profissionais após sua orientação?"
+        "Você gosta de influenciar o crescimento profissional de pessoas?",
+        "Tem facilidade para apresentar soluções de desenvolvimento?",
+        "Valoriza a comunicação estratégica na gestão de talentos?",
+        "Se interessa por liderar projetos de mudança organizacional?",
+        "Se sente motivado ao impactar positivamente equipes e empresas?"
       ],
-      "Instrutor de Bem-Estar": [
-        "Você gosta de ensinar práticas e hábitos saudáveis para grupos diversos?",
-        "Tem facilidade para criar ambientes motivadores em aulas e treinamentos?",
-        "Valoriza a interação e participação ativa dos alunos?",
-        "Se interessa por promover qualidade de vida através de atividades físicas ou mentais?",
-        "Se sente motivado ao ver os participantes adotando um estilo de vida mais saudável?"
+      "Supervisor Educacional": [
+        "Você gosta de motivar professores e alunos para o aprendizado?",
+        "Tem facilidade para apresentar propostas e estratégias educacionais?",
+        "Valoriza a influência positiva no ambiente escolar?",
+        "Se interessa por liderar reuniões pedagógicas?",
+        "Se sente motivado ao engajar todos para melhores resultados?"
       ],
-      "Palestrante de Desenvolvimento Pessoal": [
-        "Você gosta de compartilhar sua experiência para inspirar mudanças positivas?",
-        "Tem facilidade para se comunicar de forma envolvente com grandes públicos?",
-        "Valoriza a preparação e apresentação de conteúdos motivacionais?",
-        "Se interessa por participar de eventos e congressos na área de desenvolvimento pessoal?",
-        "Se sente motivado ao perceber o impacto de suas palestras nas pessoas?"
+      "Gestor de Formação Profissional": [
+        "Você gosta de convencer sobre a importância da capacitação?",
+        "Tem facilidade para motivar equipes para novos desafios?",
+        "Valoriza a comunicação de resultados e oportunidades?",
+        "Se interessa por liderar projetos educacionais?",
+        "Se sente motivado ao impactar carreiras e trajetórias profissionais?"
       ],
-      "Treinador de Equipes": [
-        "Você gosta de conduzir treinamentos práticos para equipes esportivas ou empresariais?",
-        "Tem facilidade para engajar participantes e promover colaboração?",
-        "Valoriza o desenvolvimento das habilidades de liderança e trabalho em grupo?",
-        "Se interessa por acompanhar o progresso e os resultados das equipes?",
-        "Se sente motivado ao ver o sucesso coletivo resultado do seu treinamento?"
+      "Medicina": [
+        "Você gosta de influenciar equipes médicas para melhores práticas?",
+        "Tem facilidade para apresentar pesquisas e resultados clínicos?",
+        "Valoriza a comunicação clara com pacientes e profissionais?",
+        "Se interessa por liderar campanhas de saúde?",
+        "Se sente motivado ao ser referência em sua área de atuação?"
       ]
     },
     E: {
-      "Executivo de Vendas": [
-        "Você gosta de liderar equipes comerciais e motivar vendedores a alcançar metas?",
-        "Tem facilidade para negociar grandes contratos e fechar negócios?",
-        "Valoriza o reconhecimento pelo desempenho em vendas?",
-        "Se interessa por apresentar estratégias comerciais para diferentes públicos?",
-        "Se sente motivado ao conquistar novos clientes e mercados?"
+      "Gestão da Qualidade": [
+        "Você gosta de orientar equipes para garantir padrões de qualidade?",
+        "Tem facilidade para apresentar resultados e convencer sobre mudanças?",
+        "Valoriza a influência sobre processos produtivos?",
+        "Se interessa por engajar colaboradores em melhorias contínuas?",
+        "Se sente motivado ao impactar positivamente produtos e serviços?"
       ],
-      "Gerente de Relacionamento": [
-        "Você gosta de construir e manter relações duradouras com clientes e parceiros?",
-        "Tem facilidade para resolver conflitos e alinhar expectativas comerciais?",
-        "Valoriza o acompanhamento próximo dos resultados das equipes de vendas?",
-        "Se interessa por promover ações para fidelização dos clientes?",
-        "Se sente motivado ao fortalecer a reputação e imagem da empresa no mercado?"
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de apresentar projetos de TI para equipes e diretoria?",
+        "Tem facilidade para convencer sobre investimentos em tecnologia?",
+        "Valoriza o engajamento dos profissionais em processos de inovação?",
+        "Se interessa por liderar mudanças digitais nas empresas?",
+        "Se sente motivado ao influenciar decisões estratégicas de tecnologia?"
       ],
-      "Empreendedor Digital": [
-        "Você gosta de criar negócios e soluções inovadoras no ambiente online?",
-        "Tem facilidade para engajar públicos em plataformas digitais?",
-        "Valoriza o impacto da comunicação digital na conquista de clientes?",
-        "Se interessa por apresentar ideias e projetos para investidores e parceiros?",
-        "Se sente motivado ao ver sua marca crescer no universo digital?"
+      "Administrador de Empresas": [
+        "Você gosta de engajar equipes para alcançar objetivos organizacionais?",
+        "Tem facilidade para apresentar estratégias e metas em reuniões?",
+        "Valoriza a influência positiva no ambiente empresarial?",
+        "Se interessa por liderar projetos e mudanças corporativas?",
+        "Se sente motivado ao inspirar pessoas para resultados de excelência?"
       ],
-      "Consultor de Imagem": [
-        "Você gosta de orientar pessoas ou empresas sobre posicionamento e comunicação?",
-        "Tem facilidade para sugerir mudanças que influenciem a percepção do público?",
-        "Valoriza o relacionamento próximo com clientes em processos de consultoria?",
-        "Se interessa por apresentar soluções criativas para melhorar a imagem profissional?",
-        "Se sente motivado ao ver a transformação visual e de reputação dos clientes?"
+      "Consultor de Negócios": [
+        "Você gosta de convencer clientes sobre soluções empresariais?",
+        "Tem facilidade para apresentar propostas de melhorias?",
+        "Valoriza a comunicação clara e objetiva?",
+        "Se interessa por engajar equipes em processos de mudança?",
+        "Se sente motivado ao impactar positivamente resultados financeiros?"
       ],
-      "Líder de Equipe Comercial": [
-        "Você gosta de motivar seu time a atingir metas e superar desafios nas vendas?",
-        "Tem facilidade para engajar colaboradores e valorizar bons resultados?",
-        "Valoriza a comunicação clara para alinhar objetivos e estratégias comerciais?",
-        "Se interessa por reconhecer e premiar o desempenho dos vendedores?",
-        "Se sente motivado ao ver sua equipe crescendo e conquistando novos clientes?"
+      "Gerente de Vendas": [
+        "Você gosta de motivar equipes para superar metas de vendas?",
+        "Tem facilidade para apresentar estratégias comerciais?",
+        "Valoriza a influência sobre clientes e parceiros?",
+        "Se interessa por liderar reuniões de alinhamento e negociação?",
+        "Se sente motivado ao inspirar profissionais para crescimento comercial?"
       ],
-      "Gestor de Marketing": [
-        "Você gosta de liderar campanhas publicitárias e estratégias de marketing?",
-        "Tem facilidade para apresentar ideias inovadoras para diferentes públicos?",
-        "Valoriza a análise de resultados e o engajamento dos consumidores?",
-        "Se interessa por promover a marca da empresa em diversos canais?",
-        "Se sente motivado ao ver o sucesso das ações de marketing sob sua responsabilidade?"
+      "Diretor Comercial": [
+        "Você gosta de influenciar decisões estratégicas em vendas?",
+        "Tem facilidade para apresentar resultados para a diretoria?",
+        "Valoriza a comunicação eficiente com equipes e clientes?",
+        "Se interessa por liderar campanhas de expansão?",
+        "Se sente motivado ao impactar o sucesso da empresa?"
       ],
-      "Diretor de Expansão": [
-        "Você gosta de planejar a entrada da empresa em novos mercados?",
-        "Tem facilidade para negociar com parceiros e liderar equipes de expansão?",
-        "Valoriza o acompanhamento do desempenho comercial em regiões diferentes?",
-        "Se interessa por apresentar projetos de crescimento para investidores?",
-        "Se sente motivado ao ver o negócio crescer e conquistar novos territórios?"
+      "Gestor de Projetos": [
+        "Você gosta de apresentar projetos para diferentes públicos?",
+        "Tem facilidade para engajar equipes em desafios e metas?",
+        "Valoriza a comunicação clara e transparente?",
+        "Se interessa por liderar negociações e reuniões de acompanhamento?",
+        "Se sente motivado ao inspirar pessoas para entregar resultados?"
       ],
-      "Consultor Comercial": [
-        "Você gosta de analisar processos de vendas e sugerir melhorias para equipes?",
-        "Tem facilidade para engajar colaboradores na adoção de novas estratégias?",
-        "Valoriza o relacionamento próximo com clientes durante o processo comercial?",
-        "Se interessa por apresentar soluções personalizadas para diferentes negócios?",
-        "Se sente motivado ao ver o aumento de resultados nas empresas que atende?"
+      "Empreendedor": [
+        "Você gosta de convencer investidores e parceiros sobre novas ideias?",
+        "Tem facilidade para apresentar planos de negócios?",
+        "Valoriza a influência positiva em ambientes inovadores?",
+        "Se interessa por liderar equipes para criar projetos do zero?",
+        "Se sente motivado ao transformar ideias em projetos de sucesso?"
       ]
     },
     C: {
-      "Organizador de Eventos": [
-        "Você gosta de planejar e coordenar eventos para diferentes públicos?",
-        "Tem facilidade para engajar fornecedores e parceiros em projetos de eventos?",
-        "Valoriza o relacionamento próximo com clientes para entender suas expectativas?",
-        "Se interessa por promover experiências marcantes para os participantes?",
-        "Se sente motivado ao ver o sucesso dos eventos que organizou?"
+      "Contabilidade": [
+        "Você gosta de apresentar relatórios financeiros para clientes e gestores?",
+        "Tem facilidade para orientar equipes sobre boas práticas contábeis?",
+        "Valoriza a comunicação clara sobre normas e procedimentos?",
+        "Se interessa por liderar reuniões sobre resultados contábeis?",
+        "Se sente motivado ao influenciar decisões financeiras?"
       ],
-      "Gestor de Processos Administrativos": [
-        "Você gosta de liderar equipes administrativas, promovendo eficiência e colaboração?",
-        "Tem facilidade para engajar colaboradores na padronização de processos?",
-        "Valoriza o diálogo para resolver problemas e alinhar procedimentos?",
-        "Se interessa por apresentar soluções para otimizar rotinas administrativas?",
-        "Se sente motivado ao ver a equipe trabalhando de forma integrada?"
+      "Analista de Processos": [
+        "Você gosta de apresentar melhorias em processos empresariais?",
+        "Tem facilidade para convencer sobre mudanças e inovações?",
+        "Valoriza a comunicação eficiente para implementar soluções?",
+        "Se interessa por liderar treinamentos sobre processos?",
+        "Se sente motivado ao impactar positivamente resultados operacionais?"
       ],
-      "Supervisor de Logística": [
-        "Você gosta de coordenar fluxos logísticos e motivar equipes de transporte e armazenamento?",
-        "Tem facilidade para negociar soluções com fornecedores e clientes?",
-        "Valoriza a comunicação clara para garantir o cumprimento de prazos?",
-        "Se interessa por promover treinamentos para equipes logísticas?",
-        "Se sente motivado ao ver a operação funcionando sem falhas?"
+      "Gerente Administrativo": [
+        "Você gosta de engajar equipes administrativas para melhores resultados?",
+        "Tem facilidade para apresentar propostas de otimização?",
+        "Valoriza a influência positiva no ambiente de trabalho?",
+        "Se interessa por liderar reuniões e implementar melhorias?",
+        "Se sente motivado ao inspirar profissionais para eficiência operacional?"
       ],
-      "Coordenador de Atendimento": [
-        "Você gosta de liderar equipes de atendimento ao cliente, promovendo excelência?",
-        "Tem facilidade para resolver conflitos e alinhar expectativas dos consumidores?",
-        "Valoriza o reconhecimento e motivação dos colaboradores do setor?",
-        "Se interessa por apresentar melhorias e inovações no atendimento?",
-        "Se sente motivado ao ver clientes satisfeitos e fidelizados?"
+      "Coordenador de Qualidade": [
+        "Você gosta de convencer sobre a importância de padrões de qualidade?",
+        "Tem facilidade para apresentar resultados e propor mudanças?",
+        "Valoriza a comunicação clara em treinamentos?",
+        "Se interessa por engajar equipes em auditorias?",
+        "Se sente motivado ao influenciar positivamente a cultura da empresa?"
       ],
-      "Analista de Comunicação Interna": [
-        "Você gosta de promover a comunicação entre diferentes setores da empresa?",
-        "Tem facilidade para engajar colaboradores em campanhas internas?",
-        "Valoriza o relacionamento próximo com equipes para alinhar informações?",
-        "Se interessa por apresentar projetos de integração e motivação interna?",
-        "Se sente motivado ao ver a cultura organizacional fortalecida?"
+      "Auditor": [
+        "Você gosta de apresentar resultados de auditorias para gestores?",
+        "Tem facilidade para convencer sobre ajustes e melhorias?",
+        "Valoriza a comunicação clara sobre normas e procedimentos?",
+        "Se interessa por liderar treinamentos sobre compliance?",
+        "Se sente motivado ao impactar positivamente a transparência empresarial?"
       ],
-      "Supervisor de Serviços": [
-        "Você gosta de coordenar equipes de serviços e motivar colaboradores?",
-        "Tem facilidade para negociar soluções com clientes e parceiros?",
-        "Valoriza o reconhecimento do trabalho bem feito por sua equipe?",
-        "Se interessa por apresentar melhorias para aumentar a satisfação dos clientes?",
-        "Se sente motivado ao ver o desempenho da equipe superando expectativas?"
+      "Especialista em Processos": [
+        "Você gosta de apresentar fluxos de trabalho eficientes?",
+        "Tem facilidade para orientar equipes sobre novas rotinas?",
+        "Valoriza a comunicação clara e objetiva?",
+        "Se interessa por liderar projetos de automação?",
+        "Se sente motivado ao engajar profissionais para melhores resultados?"
       ],
-      "Gestor de Operações Administrativas": [
-        "Você gosta de liderar equipes administrativas em ambientes dinâmicos?",
-        "Tem facilidade para engajar colaboradores na busca por resultados?",
-        "Valoriza o diálogo aberto para resolver desafios do dia a dia?",
-        "Se interessa por apresentar inovações para otimizar processos administrativos?",
-        "Se sente motivado ao ver a eficiência e integração entre setores?"
+      "Gestor de Normas e Procedimentos": [
+        "Você gosta de convencer sobre a importância de normas e procedimentos?",
+        "Tem facilidade para apresentar treinamentos e documentações?",
+        "Valoriza o alinhamento entre equipes e setores?",
+        "Se interessa por engajar profissionais para padronização?",
+        "Se sente motivado ao influenciar positivamente a organização?"
       ],
-      "Coordenador de Atendimento ao Cliente": [
-        "Você gosta de motivar e engajar equipes de atendimento para superar expectativas?",
-        "Tem facilidade para promover treinamentos e desenvolvimento dos colaboradores?",
-        "Valoriza o contato direto com clientes para entender suas necessidades?",
-        "Se interessa por apresentar soluções personalizadas para diferentes tipos de clientes?",
-        "Se sente motivado ao ver o aumento da satisfação e fidelização dos consumidores?"
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de apresentar normas e procedimentos de TI?",
+        "Tem facilidade para orientar equipes sobre padrões tecnológicos?",
+        "Valoriza o engajamento dos profissionais em boas práticas digitais?",
+        "Se interessa por liderar treinamentos em tecnologia?",
+        "Se sente motivado ao influenciar decisões estratégicas em TI?"
       ]
     },
     N: {
-      "Educador Ambiental": [
-        "Você gosta de ensinar práticas de preservação ambiental para diferentes públicos?",
-        "Tem facilidade para engajar alunos em atividades de educação ambiental?",
-        "Valoriza a comunicação clara sobre questões ecológicas e sustentáveis?",
-        "Se interessa por promover campanhas e eventos ambientais em comunidades?",
-        "Se sente motivado ao ver pessoas adotando hábitos ecológicos após suas orientações?"
+      "Agronomia": [
+        "Você gosta de apresentar técnicas agrícolas para equipes e produtores?",
+        "Tem facilidade para convencer sobre práticas sustentáveis?",
+        "Valoriza a comunicação com comunidades rurais?",
+        "Se interessa por liderar projetos de inovação no campo?",
+        "Se sente motivado ao influenciar decisões para o desenvolvimento rural?"
       ],
-      "Divulgador Científico": [
-        "Você gosta de transformar dados ambientais em conteúdos acessíveis e envolventes?",
-        "Tem facilidade para engajar o público em eventos de divulgação científica?",
-        "Valoriza o uso de mídias digitais para promover questões ambientais?",
-        "Se interessa por apresentar palestras e debates sobre ecologia?",
-        "Se sente motivado ao ver o aumento do interesse pela ciência ambiental?"
+      "Gestor Ambiental": [
+        "Você gosta de engajar equipes em projetos ambientais?",
+        "Tem facilidade para apresentar soluções de sustentabilidade?",
+        "Valoriza a influência sobre decisões ecológicas?",
+        "Se interessa por liderar campanhas e treinamentos ambientais?",
+        "Se sente motivado ao impactar positivamente a preservação ambiental?"
       ],
-      "Líder de Projetos de Sustentabilidade": [
-        "Você gosta de liderar equipes em projetos ambientais e de sustentabilidade?",
-        "Tem facilidade para engajar colaboradores e parceiros em ações ecológicas?",
-        "Valoriza a comunicação dos resultados e impactos dos projetos ambientais?",
-        "Se interessa por apresentar soluções inovadoras para problemas ambientais?",
-        "Se sente motivado ao ver a comunidade envolvida e engajada nos projetos?"
+      "Engenheiro Agrônomo": [
+        "Você gosta de apresentar projetos de tecnologia para o campo?",
+        "Tem facilidade para convencer sobre inovações agrícolas?",
+        "Valoriza a comunicação com produtores e comunidades rurais?",
+        "Se interessa por liderar equipes multidisciplinares?",
+        "Se sente motivado ao influenciar decisões para o desenvolvimento do agronegócio?"
       ],
-      "Instrutor de Educação Ambiental": [
-        "Você gosta de ensinar práticas sustentáveis para grupos variados?",
-        "Tem facilidade para motivar participantes em oficinas e treinamentos ambientais?",
-        "Valoriza a troca de experiências entre os participantes sobre questões ecológicas?",
-        "Se interessa por promover atividades práticas de preservação do meio ambiente?",
-        "Se sente motivado ao ver o engajamento dos alunos em projetos ambientais?"
+      "Veterinário": [
+        "Você gosta de orientar equipes sobre cuidados com animais?",
+        "Tem facilidade para apresentar resultados de tratamentos e pesquisas?",
+        "Valoriza a comunicação com criadores e comunidades?",
+        "Se interessa por liderar campanhas de saúde animal?",
+        "Se sente motivado ao influenciar práticas de bem-estar animal?"
       ],
-      "Consultor de Responsabilidade Social": [
-        "Você gosta de orientar empresas e instituições sobre práticas sustentáveis?",
-        "Tem facilidade para persuadir gestores a adotar políticas de responsabilidade social?",
-        "Valoriza o relacionamento próximo com clientes na área ambiental?",
-        "Se interessa por apresentar projetos e campanhas de responsabilidade social?",
-        "Se sente motivado ao ver mudanças positivas nas organizações que atende?"
+      "Supervisor Florestal": [
+        "Você gosta de apresentar soluções para manejo sustentável?",
+        "Tem facilidade para liderar equipes em projetos ambientais?",
+        "Valoriza a comunicação clara com comunidades e órgãos ambientais?",
+        "Se interessa por liderar treinamentos em conservação?",
+        "Se sente motivado ao influenciar decisões de preservação?"
       ],
-      "Divulgador de Ecologia": [
-        "Você gosta de comunicar conceitos ecológicos de maneira envolvente?",
-        "Tem facilidade para engajar públicos em eventos e ações ambientais?",
-        "Valoriza o uso de mídias para promover práticas sustentáveis?",
-        "Se interessa por apresentar palestras e conteúdos sobre biodiversidade?",
-        "Se sente motivado ao ver o crescimento do interesse em ecologia?"
+      "Gerente de Projetos Ambientais": [
+        "Você gosta de engajar equipes em ações ecológicas?",
+        "Tem facilidade para apresentar resultados para patrocinadores?",
+        "Valoriza a comunicação com órgãos públicos e privados?",
+        "Se interessa por liderar campanhas de sustentabilidade?",
+        "Se sente motivado ao impactar positivamente o meio ambiente?"
       ],
-      "Coordenador de Projetos Ambientais": [
-        "Você gosta de liderar equipes em projetos para preservação ambiental?",
-        "Tem facilidade para engajar colaboradores na implementação de ações ecológicas?",
-        "Valoriza o acompanhamento e divulgação dos resultados ambientais?",
-        "Se interessa por apresentar relatórios e soluções para órgãos públicos e privados?",
-        "Se sente motivado ao ver a comunidade participando dos projetos ambientais?"
+      "Especialista em Gestão Ambiental": [
+        "Você gosta de convencer sobre estratégias de gestão ambiental?",
+        "Tem facilidade para apresentar treinamentos e relatórios?",
+        "Valoriza a comunicação clara entre equipes multidisciplinares?",
+        "Se interessa por engajar profissionais em projetos ecológicos?",
+        "Se sente motivado ao influenciar políticas e práticas ambientais?"
       ],
-      "Orientador em Meio Ambiente": [
-        "Você gosta de orientar pessoas e grupos sobre práticas ambientais?",
-        "Tem facilidade para engajar comunidades em atividades ecológicas?",
-        "Valoriza o acompanhamento dos resultados das ações de educação ambiental?",
-        "Se interessa por apresentar soluções para problemas ambientais locais?",
-        "Se sente motivado ao ver o impacto positivo das suas orientações?"
+      "Gestor de Recursos Naturais": [
+        "Você gosta de apresentar projetos de uso sustentável de recursos?",
+        "Tem facilidade para engajar comunidades e órgãos ambientais?",
+        "Valoriza a influência positiva em decisões ecológicas?",
+        "Se interessa por liderar campanhas de recuperação ambiental?",
+        "Se sente motivado ao impactar positivamente o equilíbrio da natureza?"
       ]
     },
     L: {
-      "Enfermeiro": [
-        "Você gosta de orientar pacientes e familiares sobre cuidados de saúde?",
-        "Tem facilidade para engajar equipes de enfermagem na busca por excelência?",
-        "Valoriza o acompanhamento próximo do bem-estar dos pacientes?",
-        "Se interessa por apresentar soluções para melhorar o atendimento hospitalar?",
-        "Se sente motivado ao ver a recuperação dos pacientes sob seus cuidados?"
+      "Medicina": [
+        "Você gosta de orientar equipes de saúde para melhores práticas?",
+        "Tem facilidade para apresentar resultados de tratamentos?",
+        "Valoriza a comunicação clara com pacientes e familiares?",
+        "Se interessa por liderar campanhas de prevenção?",
+        "Se sente motivado ao influenciar decisões para o bem-estar da comunidade?"
       ],
-      "Assistente Social": [
-        "Você gosta de aconselhar e orientar pessoas em situação de vulnerabilidade?",
-        "Tem facilidade para engajar comunidades em projetos sociais?",
-        "Valoriza o relacionamento próximo com famílias e grupos atendidos?",
-        "Se interessa por apresentar soluções para problemas sociais?",
-        "Se sente motivado ao ver mudanças positivas na vida das pessoas atendidas?"
+      "Fisioterapia": [
+        "Você gosta de engajar pacientes e equipes em programas de reabilitação?",
+        "Tem facilidade para apresentar resultados terapêuticos?",
+        "Valoriza a influência positiva em práticas de saúde física?",
+        "Se interessa por liderar campanhas de qualidade de vida?",
+        "Se sente motivado ao impactar positivamente a área da saúde?"
       ],
-      "Psicólogo Organizacional": [
-        "Você gosta de orientar colaboradores sobre questões emocionais e de comportamento?",
-        "Tem facilidade para engajar equipes em programas de saúde mental?",
-        "Valoriza o acompanhamento do desenvolvimento psicológico dos profissionais?",
-        "Se interessa por apresentar palestras e treinamentos sobre qualidade de vida no trabalho?",
-        "Se sente motivado ao ver o impacto positivo das suas intervenções na empresa?"
+      "Odontologia": [
+        "Você gosta de orientar equipes em clínicas odontológicas?",
+        "Tem facilidade para apresentar pesquisas e resultados de tratamentos?",
+        "Valoriza a comunicação clara com pacientes e profissionais?",
+        "Se interessa por liderar campanhas de saúde bucal?",
+        "Se sente motivado ao influenciar práticas odontológicas?"
       ],
-      "Consultor de Saúde Ocupacional": [
-        "Você gosta de orientar empresas sobre práticas de saúde e segurança no trabalho?",
-        "Tem facilidade para persuadir gestores a adotar políticas de prevenção?",
-        "Valoriza o relacionamento próximo com equipes de RH e colaboradores?",
-        "Se interessa por apresentar projetos de promoção de saúde ocupacional?",
-        "Se sente motivado ao ver a melhoria do ambiente de trabalho nas empresas que atende?"
+      "Psicologia": [
+        "Você gosta de engajar grupos em projetos de saúde emocional?",
+        "Tem facilidade para apresentar resultados de pesquisas em congressos?",
+        "Valoriza a influência positiva em ambientes de trabalho?",
+        "Se interessa por liderar campanhas de prevenção ao adoecimento mental?",
+        "Se sente motivado ao impactar positivamente a vida das pessoas?"
       ],
-      "Instrutor de Bem-Estar": [
-        "Você gosta de ensinar práticas saudáveis para grupos diversos?",
-        "Tem facilidade para engajar participantes em atividades de bem-estar?",
-        "Valoriza o relacionamento próximo com alunos em oficinas ou treinamentos?",
-        "Se interessa por apresentar soluções para melhorar a qualidade de vida?",
-        "Se sente motivado ao ver os participantes adotando hábitos mais saudáveis?"
+      "Gestor de Assistência Social": [
+        "Você gosta de apresentar projetos sociais para comunidades?",
+        "Tem facilidade para engajar equipes e voluntários?",
+        "Valoriza a comunicação clara com órgãos públicos e privados?",
+        "Se interessa por liderar campanhas de apoio social?",
+        "Se sente motivado ao influenciar decisões para inclusão e bem-estar?"
       ],
-      "Coordenador de Saúde Comunitária": [
-        "Você gosta de liderar equipes em projetos de saúde para comunidades?",
-        "Tem facilidade para engajar voluntários e moradores em ações de promoção à saúde?",
-        "Valoriza o acompanhamento dos resultados das ações comunitárias?",
-        "Se interessa por apresentar relatórios e propostas para órgãos públicos?",
-        "Se sente motivado ao ver a melhoria da saúde da comunidade após suas ações?"
+      "Gerente de Saúde Pública": [
+        "Você gosta de liderar campanhas de saúde para a população?",
+        "Tem facilidade para engajar equipes multidisciplinares?",
+        "Valoriza a comunicação com órgãos públicos e sociedade?",
+        "Se interessa por apresentar resultados de projetos de saúde?",
+        "Se sente motivado ao impactar positivamente a saúde coletiva?"
       ],
-      "Gestor de Serviços Sociais": [
-        "Você gosta de liderar equipes em projetos de assistência social?",
-        "Tem facilidade para engajar colaboradores na busca por soluções para problemas sociais?",
-        "Valoriza o relacionamento com órgãos parceiros e instituições públicas?",
-        "Se interessa por apresentar projetos e campanhas de inclusão social?",
-        "Se sente motivado ao ver o impacto das ações sociais que gerencia?"
+      "Supervisor de Serviços Médicos": [
+        "Você gosta de engajar equipes médicas para melhores resultados?",
+        "Tem facilidade para apresentar relatórios e indicadores?",
+        "Valoriza a comunicação clara com pacientes e gestores?",
+        "Se interessa por liderar treinamentos e capacitações?",
+        "Se sente motivado ao influenciar práticas de excelência em saúde?"
       ],
-      "Educador para Saúde": [
-        "Você gosta de ensinar práticas de saúde e prevenção para diferentes públicos?",
-        "Tem facilidade para engajar alunos em atividades de educação para saúde?",
-        "Valoriza a troca de experiências sobre hábitos saudáveis?",
-        "Se interessa por apresentar palestras e oficinas de prevenção?",
-        "Se sente motivado ao ver pessoas adotando práticas de saúde após suas orientações?"
+      "Administrador Hospitalar": [
+        "Você gosta de apresentar propostas de gestão para equipes hospitalares?",
+        "Tem facilidade para engajar profissionais em melhorias administrativas?",
+        "Valoriza a comunicação eficiente entre setores?",
+        "Se interessa por liderar reuniões e negociações hospitalares?",
+        "Se sente motivado ao impactar positivamente a gestão hospitalar?"
+      ]
+    },
+    T: {
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de apresentar soluções digitais para equipes e diretoria?",
+        "Tem facilidade para convencer sobre investimentos em tecnologia?",
+        "Valoriza a influência em processos de transformação digital?",
+        "Se interessa por liderar treinamentos em inovação tecnológica?",
+        "Se sente motivado ao impactar positivamente a cultura digital da empresa?"
+      ],
+      "Ciência da Computação": [
+        "Você gosta de apresentar projetos de software para outros profissionais?",
+        "Tem facilidade para ensinar conceitos de programação e inovação?",
+        "Valoriza a comunicação em eventos e conferências de tecnologia?",
+        "Se interessa por engajar equipes em projetos de alta complexidade?",
+        "Se sente motivado ao influenciar tendências digitais?"
+      ],
+      "Sistemas de Informação": [
+        "Você gosta de apresentar soluções sistêmicas para diferentes públicos?",
+        "Tem facilidade para convencer sobre mudanças em processos informacionais?",
+        "Valoriza a comunicação efetiva na implantação de sistemas?",
+        "Se interessa por liderar treinamentos em softwares empresariais?",
+        "Se sente motivado ao impactar positivamente a gestão de dados?"
+      ],
+      "Redes de Computadores": [
+        "Você gosta de engajar equipes na implantação de redes e infraestrutura?",
+        "Tem facilidade para apresentar soluções de segurança digital?",
+        "Valoriza treinamentos sobre protocolos e novas tecnologias de redes?",
+        "Se interessa por liderar projetos de expansão tecnológica?",
+        "Se sente motivado ao influenciar decisões sobre conectividade?"
+      ],
+      "Engenharia de Software": [
+        "Você gosta de apresentar arquiteturas e soluções para equipes de desenvolvimento?",
+        "Tem facilidade para convencer sobre melhores práticas e metodologias?",
+        "Valoriza a comunicação em projetos colaborativos?",
+        "Se interessa por liderar treinamentos em desenvolvimento ágil?",
+        "Se sente motivado ao impactar positivamente a qualidade dos softwares?"
+      ],
+      "Engenharia da Computação": [
+        "Você gosta de orientar equipes em projetos de hardware e software?",
+        "Tem facilidade para explicar soluções embarcadas e integradas?",
+        "Valoriza a comunicação multidisciplinar em projetos inovadores?",
+        "Se interessa por liderar eventos de tecnologia e inovação?",
+        "Se sente motivado ao influenciar tendências em computação?"
+      ],
+      "Segurança da Informação": [
+        "Você gosta de apresentar soluções de proteção digital para equipes?",
+        "Tem facilidade para convencer sobre políticas e investimentos em segurança?",
+        "Valoriza treinamentos sobre boas práticas de segurança?",
+        "Se interessa por liderar projetos de compliance e proteção de dados?",
+        "Se sente motivado ao influenciar decisões estratégicas de segurança digital?"
+      ],
+      "Análise e Desenvolvimento de Sistemas": [
+        "Você gosta de apresentar projetos de sistemas para clientes e equipes?",
+        "Tem facilidade para convencer sobre funcionalidades e integrações?",
+        "Valoriza treinamentos sobre novas linguagens e plataformas?",
+        "Se interessa por liderar equipes em projetos colaborativos?",
+        "Se sente motivado ao impactar positivamente resultados digitais?"
+      ]
+    },
+    M: {
+      "Ciência de Dados": [
+        "Você gosta de apresentar análises de dados para equipes e gestores?",
+        "Tem facilidade para convencer sobre decisões baseadas em dados?",
+        "Valoriza treinamentos sobre ferramentas de análise e visualização?",
+        "Se interessa por liderar projetos de inteligência artificial?",
+        "Se sente motivado ao influenciar estratégias digitais?"
+      ],
+      "Administração de Banco de Dados": [
+        "Você gosta de apresentar soluções para gestão de dados em empresas?",
+        "Tem facilidade para orientar equipes sobre integridade e segurança das informações?",
+        "Valoriza treinamentos sobre bancos de dados e plataformas digitais?",
+        "Se interessa por liderar projetos de infraestrutura de dados?",
+        "Se sente motivado ao impactar positivamente processos críticos de negócio?"
+      ],
+      "Analista de Segurança da Informação": [
+        "Você gosta de apresentar análises sobre vulnerabilidades e riscos digitais?",
+        "Tem facilidade para convencer equipes sobre práticas de segurança?",
+        "Valoriza treinamentos sobre ferramentas de proteção e compliance?",
+        "Se interessa por liderar projetos de auditoria digital?",
+        "Se sente motivado ao influenciar decisões sobre segurança da informação?"
+      ],
+      "Arquiteto de Software": [
+        "Você gosta de apresentar soluções arquiteturais para equipes de desenvolvimento?",
+        "Tem facilidade para explicar padrões e integrações de sistemas?",
+        "Valoriza treinamentos sobre melhores práticas em software?",
+        "Se interessa por liderar projetos de inovação digital?",
+        "Se sente motivado ao impactar positivamente qualidade e performance dos sistemas?"
+      ],
+      "Analista de Redes": [
+        "Você gosta de apresentar soluções para infraestrutura de redes?",
+        "Tem facilidade para treinar equipes sobre protocolos e segurança?",
+        "Valoriza a comunicação durante implantação de novas tecnologias de rede?",
+        "Se interessa por liderar projetos de expansão de conectividade?",
+        "Se sente motivado ao influenciar decisões sobre redes empresariais?"
+      ],
+      "Desenvolvimento de Software (Mobile e Web)": [
+        "Você gosta de apresentar aplicativos e soluções digitais para equipes?",
+        "Tem facilidade para convencer sobre funcionalidades e tendências do mercado?",
+        "Valoriza treinamentos sobre frameworks e linguagens modernas?",
+        "Se interessa por liderar projetos de inovação digital?",
+        "Se sente motivado ao influenciar a experiência do usuário?"
+      ],
+      "Jogos Digitais": [
+        "Você gosta de apresentar projetos de games para investidores e equipes?",
+        "Tem facilidade para convencer sobre potencial de entretenimento digital?",
+        "Valoriza treinamentos sobre plataformas e engines de jogos?",
+        "Se interessa por liderar equipes multidisciplinares?",
+        "Se sente motivado ao influenciar o mercado de jogos digitais?"
+      ],
+      "Inteligência Artificial": [
+        "Você gosta de apresentar projetos de IA para equipes e diretoria?",
+        "Tem facilidade para convencer sobre aplicações inovadoras?",
+        "Valoriza treinamentos sobre machine learning e automação?",
+        "Se interessa por liderar projetos de tecnologia avançada?",
+        "Se sente motivado ao impactar positivamente estratégias digitais?"
       ]
     }
   }

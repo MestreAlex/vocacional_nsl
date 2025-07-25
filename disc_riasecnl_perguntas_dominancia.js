@@ -8,12 +8,12 @@ export const discRiasecnlPerguntasDominancia = {
         "Tem facilidade para negociar prazos, contratos e recursos com fornecedores?",
         "Se sente motivado ao resolver problemas práticos e desafios estruturais em projetos de construção?"
       ],
-      "Gestor Industrial": [
-        "Você se imagina liderando grandes equipes em ambientes industriais?",
-        "Gosta de definir metas e otimizar processos para aumentar a produtividade de uma fábrica?",
-        "Tem interesse em implementar sistemas de gestão e controle de produção?",
-        "Valoriza tomar decisões rápidas para solucionar conflitos e problemas industriais?",
-        "Se sente motivado ao analisar resultados e indicadores de desempenho em processos industriais?"
+      "Engenheiro Mecânico": [
+        "Você se interessa por projetar e analisar máquinas e equipamentos industriais?",
+        "Gosta de resolver falhas técnicas e propor melhorias em processos de produção?",
+        "Valoriza o acompanhamento de testes e funcionamento de sistemas mecânicos?",
+        "Tem afinidade com cálculos, física aplicada e tecnologia de materiais?",
+        "Se sente motivado ao trabalhar na manutenção preventiva de equipamentos?"
       ],
       "Supervisor de Obras": [
         "Você gosta de acompanhar diariamente o andamento de uma obra, garantindo prazos e qualidade?",
@@ -22,19 +22,12 @@ export const discRiasecnlPerguntasDominancia = {
         "Valoriza a organização e segurança dos ambientes de trabalho?",
         "Gosta de garantir que os projetos sejam executados conforme o planejado?"
       ],
-      "Gerente de Operações": [
-        "Você gosta de coordenar diferentes setores para garantir o funcionamento eficiente de uma empresa?",
-        "Se sente motivado ao solucionar problemas operacionais e otimizar recursos?",
-        "Tem facilidade para tomar decisões rápidas sob pressão?",
-        "Valoriza definir metas e acompanhar o desempenho de equipes?",
-        "Gosta de negociar prioridades e alinhar processos entre áreas distintas?"
-      ],
-      "Engenheiro Mecânico": [
-        "Você se interessa por projetar e analisar máquinas e equipamentos industriais?",
-        "Gosta de resolver falhas técnicas e propor melhorias em processos de produção?",
-        "Valoriza o acompanhamento de testes e funcionamento de sistemas mecânicos?",
-        "Tem afinidade com cálculos, física aplicada e tecnologia de materiais?",
-        "Se sente motivado ao trabalhar na manutenção preventiva de equipamentos?"
+      "Gestor Industrial": [
+        "Você se imagina liderando grandes equipes em ambientes industriais?",
+        "Gosta de definir metas e otimizar processos para aumentar a produtividade de uma fábrica?",
+        "Tem interesse em implementar sistemas de gestão e controle de produção?",
+        "Valoriza tomar decisões rápidas para solucionar conflitos e problemas industriais?",
+        "Se sente motivado ao analisar resultados e indicadores de desempenho em processos industriais?"
       ],
       "Supervisor de Manutenção": [
         "Você gosta de liderar equipes de manutenção em ambientes industriais?",
@@ -56,80 +49,108 @@ export const discRiasecnlPerguntasDominancia = {
         "Se sente motivado ao resolver imprevistos e adaptar planos na prática?",
         "Valoriza o cumprimento de prazos e padrões de qualidade?",
         "Gosta de negociar materiais, mão de obra e recursos para a obra?"
+      ],
+      "Agrônomo": [
+        "Você se interessa por planejar e acompanhar projetos agrícolas?",
+        "Gosta de pesquisar novas técnicas de cultivo e manejo de solo?",
+        "Tem afinidade com tecnologias para aumentar produtividade agrícola?",
+        "Valoriza a sustentabilidade e o equilíbrio ambiental nas atividades rurais?",
+        "Se sente motivado ao contribuir para o desenvolvimento do campo?"
       ]
     },
     I: {
-      "Engenheiro de Pesquisa": [
-        "Você se imagina desenvolvendo soluções inovadoras para problemas técnicos?",
-        "Gosta de testar hipóteses e experimentar novos materiais ou processos?",
-        "Tem afinidade com pesquisa de campo e análise de resultados?",
-        "Valoriza o trabalho em equipe multidisciplinar para criar novos produtos?",
-        "Se sente motivado ao publicar artigos ou apresentar resultados em eventos científicos?"
+      "Medicina": [
+        "Você se interessa por diagnosticar e tratar problemas de saúde?",
+        "Gosta de estudar constantemente para acompanhar avanços na área médica?",
+        "Tem facilidade para analisar sintomas e propor soluções?",
+        "Valoriza o contato com pacientes e o trabalho em equipe multidisciplinar?",
+        "Se sente motivado ao ajudar pessoas a recuperar a saúde?"
       ],
-      "Coordenador de Laboratório": [
-        "Você gosta de organizar rotinas e experimentos em laboratório?",
-        "Se sente confortável ao supervisionar equipes técnicas e garantir a precisão dos testes?",
-        "Valoriza o controle de qualidade e a manutenção de equipamentos?",
-        "Tem afinidade com análise de dados e elaboração de relatórios técnicos?",
-        "Gosta de implementar normas de segurança e boas práticas laboratoriais?"
+      "Farmácia": [
+        "Você gosta de trabalhar com medicamentos e buscar soluções para o bem-estar das pessoas?",
+        "Tem facilidade para entender processos químicos e biológicos?",
+        "Valoriza a pesquisa e o desenvolvimento de novos produtos?",
+        "Se interessa por atuar em laboratórios, farmácias ou indústria farmacêutica?",
+        "Se sente motivado ao contribuir para tratamentos inovadores?"
       ],
-      "Cientista Chefe": [
-        "Você se imagina liderando pesquisas de ponta e inovando em sua área?",
-        "Gosta de definir estratégias para o avanço científico de uma equipe?",
-        "Valoriza a busca por soluções originais e tecnológicas?",
-        "Tem facilidade para apresentar resultados complexos de forma clara?",
-        "Se sente motivado ao orientar outros pesquisadores e estudantes?"
+      "Odontologia": [
+        "Você se interessa por cuidar da saúde bucal das pessoas?",
+        "Gosta de realizar procedimentos clínicos e cirúrgicos?",
+        "Tem facilidade para lidar com instrumentos e técnicas odontológicas?",
+        "Valoriza o contato com pacientes e o acompanhamento de tratamentos?",
+        "Se sente motivado ao devolver autoestima e bem-estar aos pacientes?"
       ],
-      "Gerente de Inovação": [
-        "Você gosta de estimular a criatividade e inovação dentro de empresas?",
-        "Se sente confortável ao gerir projetos que envolvem novas tecnologias?",
-        "Valoriza a busca contínua por melhorias e diferenciais competitivos?",
-        "Tem afinidade com análise de tendências e oportunidades de mercado?",
-        "Gosta de liderar equipes em processos de mudança e transformação?"
+      "Ciência da Computação": [
+        "Você gosta de criar algoritmos e resolver problemas complexos de tecnologia?",
+        "Tem facilidade para aprender novas linguagens de programação?",
+        "Valoriza trabalhar com inteligência artificial, machine learning e inovação?",
+        "Se interessa por desenvolvimento de softwares e sistemas?",
+        "Se sente motivado ao participar de projetos que exigem raciocínio lógico?"
       ],
-      "Analista de Sistemas": [
-        "Você se interessa por desenvolver e otimizar softwares para empresas?",
-        "Gosta de analisar requisitos e propor soluções tecnológicas?",
-        "Tem facilidade para identificar problemas e implementar correções em sistemas?",
-        "Valoriza o trabalho com bancos de dados e integrações entre plataformas?",
-        "Se sente motivado ao acompanhar novidades em tecnologia da informação?"
+      "Sistemas de Informação": [
+        "Você gosta de analisar e melhorar processos de gestão de dados?",
+        "Tem facilidade para identificar e solucionar problemas em sistemas informacionais?",
+        "Valoriza o desenvolvimento de soluções tecnológicas para empresas?",
+        "Se interessa por integração de plataformas e bancos de dados?",
+        "Se sente motivado ao otimizar o fluxo de informações em organizações?"
       ],
-      "Consultor Técnico": [
-        "Você gosta de ajudar empresas na escolha de tecnologias e soluções técnicas?",
-        "Se sente confortável ao explicar conceitos complexos de forma simples?",
-        "Valoriza o contato direto com clientes e equipes técnicas?",
-        "Tem afinidade com análise e diagnóstico de problemas empresariais?",
-        "Gosta de propor treinamentos e capacitações em novas ferramentas?"
+      "Economia": [
+        "Você se interessa por estudar cenários econômicos e propor soluções?",
+        "Gosta de trabalhar com análise de dados e estatísticas?",
+        "Tem facilidade para entender tendências de mercado e finanças?",
+        "Valoriza o impacto social de decisões econômicas?",
+        "Se sente motivado ao ajudar empresas e pessoas a tomarem decisões financeiras?"
       ],
-      "Pesquisador Sênior": [
-        "Você se imagina realizando pesquisas aprofundadas em sua área de atuação?",
-        "Gosta de liderar projetos científicos e orientar estudantes?",
-        "Tem facilidade para redigir artigos e participar de congressos?",
-        "Valoriza o desenvolvimento de soluções inovadoras para a sociedade?",
-        "Se sente motivado ao colaborar com outros profissionais em projetos multidisciplinares?"
+      "Psicologia": [
+        "Você se interessa por entender o comportamento humano?",
+        "Gosta de pesquisar causas e consequências de fenômenos psicológicos?",
+        "Tem facilidade para ouvir e analisar relatos de pessoas?",
+        "Valoriza o desenvolvimento de testes, avaliações e tratamentos?",
+        "Se sente motivado ao contribuir para o equilíbrio emocional dos outros?"
       ],
-      "Gerente de Desenvolvimento Científico": [
-        "Você gosta de planejar e coordenar pesquisas em ambientes empresariais ou acadêmicos?",
-        "Se sente confortável ao gerir equipes de pesquisa e desenvolvimento?",
-        "Valoriza a busca por resultados concretos e aplicáveis?",
-        "Tem afinidade com captação de recursos e gestão de projetos?",
-        "Gosta de apresentar resultados para diretoria ou investidores?"
+      "Redes de Computadores": [
+        "Você gosta de configurar, monitorar e solucionar problemas de redes?",
+        "Tem facilidade para aprender sobre protocolos, infraestrutura e segurança digital?",
+        "Valoriza o funcionamento eficiente e seguro das comunicações?",
+        "Se interessa por criar soluções para ambientes corporativos?",
+        "Se sente motivado ao implementar melhorias e expandir redes de computadores?"
       ]
     },
     A: {
-      "Arquiteto": [
-        "Você se imagina projetando ambientes internos e externos, considerando estética e funcionalidade?",
-        "Gosta de desenhar plantas e criar soluções arquitetônicas inovadoras?",
-        "Valoriza acompanhar obras e garantir a execução fiel do projeto?",
-        "Tem afinidade com softwares de arquitetura e design?",
-        "Se sente motivado ao transformar ideias em espaços reais e criativos?"
+      "Design": [
+        "Você gosta de criar soluções visuais para produtos, marcas ou ambientes?",
+        "Tem facilidade para desenhar, ilustrar ou usar softwares gráficos?",
+        "Valoriza a inovação e criatividade no desenvolvimento de projetos?",
+        "Se interessa por design gráfico, industrial ou digital?",
+        "Se sente motivado ao ver suas ideias ganhando vida em projetos reais?"
       ],
-      "Designer de Produto": [
-        "Você gosta de criar soluções funcionais e esteticamente atraentes para produtos?",
-        "Se interessa por prototipar e testar produtos antes de sua produção?",
-        "Valoriza o design focado na experiência do usuário?",
-        "Tem afinidade com materiais, ergonomia e tendências de mercado?",
-        "Gosta de inovar e propor melhorias em produtos existentes?"
+      "Arquitetura e Urbanismo": [
+        "Você gosta de planejar espaços urbanos e criar projetos arquitetônicos?",
+        "Tem facilidade para desenhar e usar softwares de arquitetura?",
+        "Valoriza a estética, funcionalidade e sustentabilidade nos projetos?",
+        "Se interessa por acompanhar obras e gerenciar equipes?",
+        "Se sente motivado ao transformar cidades e ambientes?"
+      ],
+      "Jogos Digitais": [
+        "Você gosta de criar e desenvolver jogos eletrônicos?",
+        "Tem facilidade para trabalhar com design, programação e produção digital?",
+        "Valoriza a inovação e a criatividade no desenvolvimento de games?",
+        "Se interessa por tendências e tecnologias do universo gamer?",
+        "Se sente motivado ao ver pessoas se divertindo com seus jogos?"
+      ],
+      "Publicidade e Propaganda": [
+        "Você gosta de criar campanhas criativas para divulgar ideias ou produtos?",
+        "Tem facilidade para trabalhar em equipe e desenvolver peças publicitárias?",
+        "Valoriza a comunicação visual e estratégica?",
+        "Se interessa por novas tendências de marketing e mídias sociais?",
+        "Se sente motivado ao ver resultados positivos de suas campanhas?"
+      ],
+      "Letras": [
+        "Você se interessa por escrita, literatura e comunicação?",
+        "Gosta de criar textos, revisar ou traduzir conteúdos?",
+        "Tem facilidade para ensinar ou compartilhar conhecimento?",
+        "Valoriza o impacto cultural da linguagem?",
+        "Se sente motivado ao contribuir para o desenvolvimento intelectual das pessoas?"
       ],
       "Diretor de Arte": [
         "Você se imagina coordenando projetos visuais em campanhas publicitárias ou culturais?",
@@ -137,13 +158,6 @@ export const discRiasecnlPerguntasDominancia = {
         "Tem facilidade para avaliar e aprovar peças visuais?",
         "Valoriza o impacto estético na comunicação com o público?",
         "Se sente motivado ao criar identidade visual para marcas ou eventos?"
-      ],
-      "Gestor de Projetos Culturais": [
-        "Você se interessa por idealizar e organizar eventos e projetos culturais?",
-        "Gosta de captar recursos e negociar com patrocinadores?",
-        "Tem afinidade com produção artística e gestão de equipes culturais?",
-        "Valoriza a promoção da cultura e o acesso a diferentes públicos?",
-        "Se sente motivado ao superar desafios logísticos em eventos culturais?"
       ],
       "Produtor Audiovisual": [
         "Você gosta de planejar e produzir vídeos, filmes ou documentários?",
@@ -158,29 +172,22 @@ export const discRiasecnlPerguntasDominancia = {
         "Tem afinidade com processos produtivos e prototipagem?",
         "Valoriza o impacto do design na experiência do usuário?",
         "Se sente motivado ao inovar na criação de objetos e equipamentos?"
-      ],
-      "Coordenador de Design": [
-        "Você gosta de liderar equipes de design em projetos multidisciplinares?",
-        "Tem facilidade para acompanhar o desenvolvimento de peças gráficas ou produtos?",
-        "Valoriza a padronização visual e o alinhamento estratégico?",
-        "Se interessa por processos criativos colaborativos?",
-        "Se sente motivado ao garantir qualidade e inovação nos resultados do time?"
-      ],
-      "Curador de Arte": [
-        "Você se imagina organizando exposições e selecionando obras para galerias ou museus?",
-        "Gosta de pesquisar artistas e propor conceitos curatoriais?",
-        "Tem afinidade com história da arte e tendências culturais?",
-        "Valoriza o diálogo entre obras e público visitante?",
-        "Se sente motivado ao promover artistas e movimentos culturais?"
       ]
     },
     S: {
-      "Líder de Equipe de Treinamento": [
-        "Você gosta de coordenar treinamentos para o desenvolvimento de equipes?",
-        "Tem facilidade para preparar conteúdos e apresentar em público?",
-        "Valoriza a motivação dos participantes e o alcance de resultados?",
-        "Se interessa por acompanhar a evolução dos colaboradores?",
-        "Se sente motivado ao ver o crescimento profissional de outros?"
+      "Relações Públicas": [
+        "Você gosta de promover o relacionamento entre empresas e público?",
+        "Tem facilidade para organizar eventos e campanhas institucionais?",
+        "Valoriza a comunicação clara e estratégica?",
+        "Se interessa por lidar com crises e fortalecer marcas?",
+        "Se sente motivado ao ampliar a reputação e alcance de organizações?"
+      ],
+      "Fisioterapia": [
+        "Você se interessa por ajudar pessoas na reabilitação física?",
+        "Gosta de trabalhar com exercícios terapêuticos e tratamentos funcionais?",
+        "Tem facilidade para lidar com pacientes em diferentes situações?",
+        "Valoriza o acompanhamento individual e os resultados positivos?",
+        "Se sente motivado ao promover qualidade de vida e saúde?"
       ],
       "Gestor de RH": [
         "Você se imagina planejando ações para atrair, reter e desenvolver talentos?",
@@ -188,20 +195,6 @@ export const discRiasecnlPerguntasDominancia = {
         "Tem afinidade com entrevistas, seleção e acompanhamento de colaboradores?",
         "Valoriza a gestão estratégica de pessoas e equipes?",
         "Se sente motivado ao implementar políticas de desenvolvimento humano?"
-      ],
-      "Coach Corporativo": [
-        "Você gosta de orientar pessoas para atingirem metas profissionais?",
-        "Tem facilidade para identificar pontos de melhoria em grupos e indivíduos?",
-        "Valoriza o acompanhamento individual e o feedback construtivo?",
-        "Se interessa por promover mudanças positivas no comportamento das equipes?",
-        "Se sente motivado ao ver resultados concretos do seu trabalho de coaching?"
-      ],
-      "Supervisor Educacional": [
-        "Você se imagina organizando e supervisionando processos pedagógicos?",
-        "Gosta de acompanhar o desenvolvimento dos alunos e professores?",
-        "Tem afinidade com elaboração de planos e estratégias educativas?",
-        "Valoriza a inovação e qualidade no ensino?",
-        "Se sente motivado ao contribuir para o crescimento institucional?"
       ],
       "Instrutor de Treinamento Empresarial": [
         "Você gosta de preparar e ministrar treinamentos para profissionais?",
@@ -217,12 +210,12 @@ export const discRiasecnlPerguntasDominancia = {
         "Se interessa por temas de comportamento humano e liderança?",
         "Se sente motivado ao contribuir para a transformação de equipes e empresas?"
       ],
-      "Coordenador de Capacitação": [
-        "Você se imagina organizando programas de capacitação para diferentes áreas?",
-        "Gosta de planejar cronogramas e selecionar instrutores?",
-        "Tem facilidade para avaliar resultados dos treinamentos?",
-        "Valoriza a inovação em métodos de ensino e aprendizagem?",
-        "Se sente motivado ao ver colaboradores crescendo profissionalmente?"
+      "Supervisor Educacional": [
+        "Você se imagina organizando e supervisionando processos pedagógicos?",
+        "Gosta de acompanhar o desenvolvimento dos alunos e professores?",
+        "Tem afinidade com elaboração de planos e estratégias educativas?",
+        "Valoriza a inovação e qualidade no ensino?",
+        "Se sente motivado ao contribuir para o crescimento institucional?"
       ],
       "Gestor de Formação Profissional": [
         "Você gosta de desenvolver estratégias para formação e atualização de equipes?",
@@ -230,15 +223,29 @@ export const discRiasecnlPerguntasDominancia = {
         "Valoriza o acompanhamento da evolução dos participantes?",
         "Se interessa por parcerias com instituições de ensino?",
         "Se sente motivado ao preparar pessoas para desafios profissionais?"
+      ],
+      "Medicina": [
+        "Você se interessa por cuidar da saúde de pessoas e comunidades?",
+        "Gosta de trabalhar em equipe multidisciplinar?",
+        "Tem facilidade para lidar com situações de emergência?",
+        "Valoriza o acompanhamento dos pacientes e o impacto positivo no cotidiano?",
+        "Se sente motivado ao promover bem-estar e qualidade de vida?"
       ]
     },
     E: {
-      "Empresário": [
-        "Você se imagina criando e gerenciando o próprio negócio?",
-        "Gosta de tomar decisões estratégicas para o crescimento da empresa?",
-        "Tem afinidade com análise de mercado e identificação de oportunidades?",
-        "Valoriza o risco calculado e a inovação em novos projetos?",
-        "Se sente motivado ao superar desafios e alcançar resultados empresariais?"
+      "Gestão da Qualidade": [
+        "Você gosta de analisar processos para garantir padrões de qualidade?",
+        "Tem facilidade para implementar melhorias e solucionar problemas?",
+        "Valoriza auditorias, certificações e o uso de indicadores?",
+        "Se interessa por assegurar a excelência em produtos e serviços?",
+        "Se sente motivado ao ver resultados positivos da aplicação de boas práticas?"
+      ],
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de liderar projetos e equipes de tecnologia?",
+        "Tem facilidade para implementar soluções inovadoras em TI?",
+        "Valoriza o uso estratégico de sistemas de informação nas empresas?",
+        "Se interessa por gerenciar infraestrutura, segurança e suporte?",
+        "Se sente motivado ao alinhar tecnologia e objetivos de negócio?"
       ],
       "Administrador de Empresas": [
         "Você gosta de organizar setores e processos para o bom funcionamento da empresa?",
@@ -275,13 +282,6 @@ export const discRiasecnlPerguntasDominancia = {
         "Se interessa por lidar com desafios e imprevistos durante a execução dos projetos?",
         "Se sente motivado ao ver o sucesso dos projetos sob sua liderança?"
       ],
-      "Franqueado": [
-        "Você se imagina gerenciando uma unidade de franquia e aplicando padrões estabelecidos?",
-        "Gosta de seguir procedimentos e garantir a qualidade dos serviços?",
-        "Tem afinidade com gestão de pessoas e atendimento ao cliente?",
-        "Valoriza o relacionamento com a franqueadora e outros franqueados?",
-        "Se sente motivado ao expandir o negócio e otimizar resultados da sua unidade?"
-      ],
       "Empreendedor": [
         "Você gosta de identificar oportunidades e criar novos negócios do zero?",
         "Tem facilidade para inovar e adaptar-se a diferentes cenários?",
@@ -291,12 +291,12 @@ export const discRiasecnlPerguntasDominancia = {
       ]
     },
     C: {
-      "Gerente Administrativo": [
-        "Você gosta de organizar rotinas administrativas e supervisionar equipes de escritório?",
-        "Tem facilidade para implementar procedimentos e garantir o cumprimento de normas?",
-        "Valoriza o controle de documentos, contratos e processos internos?",
-        "Se interessa por otimizar recursos e reduzir custos operacionais?",
-        "Se sente motivado ao garantir eficiência e qualidade nos resultados administrativos?"
+      "Contabilidade": [
+        "Você gosta de analisar e organizar informações financeiras?",
+        "Tem facilidade para trabalhar com números e relatórios contábeis?",
+        "Valoriza o controle e a precisão nos registros?",
+        "Se interessa por auditoria, planejamento tributário e consultoria?",
+        "Se sente motivado ao contribuir para a saúde financeira de empresas?"
       ],
       "Analista de Processos": [
         "Você gosta de mapear e analisar processos empresariais para propor melhorias?",
@@ -305,12 +305,12 @@ export const discRiasecnlPerguntasDominancia = {
         "Se interessa por identificar gargalos e implementar soluções eficientes?",
         "Se sente motivado ao ver resultados práticos das mudanças implementadas?"
       ],
-      "Supervisor de Compliance": [
-        "Você gosta de garantir que a empresa siga todas as normas e regulamentações?",
-        "Tem facilidade para fiscalizar procedimentos e analisar riscos?",
-        "Valoriza a ética e integridade nas operações empresariais?",
-        "Se interessa por investigar possíveis irregularidades e propor correções?",
-        "Se sente motivado ao manter a empresa em conformidade legal e ética?"
+      "Gerente Administrativo": [
+        "Você gosta de organizar rotinas administrativas e supervisionar equipes de escritório?",
+        "Tem facilidade para implementar procedimentos e garantir o cumprimento de normas?",
+        "Valoriza o controle de documentos, contratos e processos internos?",
+        "Se interessa por otimizar recursos e reduzir custos operacionais?",
+        "Se sente motivado ao garantir eficiência e qualidade nos resultados administrativos?"
       ],
       "Coordenador de Qualidade": [
         "Você gosta de implementar e acompanhar padrões de qualidade em produtos e serviços?",
@@ -333,22 +333,29 @@ export const discRiasecnlPerguntasDominancia = {
         "Se interessa por propor soluções para aumentar eficiência operacional?",
         "Se sente motivado ao ver equipes trabalhando de forma integrada e produtiva?"
       ],
-      "Auditor Interno": [
-        "Você gosta de verificar a conformidade de processos internos e identificar riscos?",
-        "Tem facilidade para analisar informações e propor melhorias?",
-        "Valoriza o sigilo e ética na realização de auditorias?",
-        "Se interessa por colaborar com diferentes áreas na busca por melhores práticas?",
-        "Se sente motivado ao garantir que a empresa funcione de forma correta e eficiente?"
-      ],
       "Gestor de Normas e Procedimentos": [
         "Você gosta de criar e revisar normas para garantir a organização empresarial?",
         "Tem afinidade com documentação e controle de processos?",
         "Valoriza o alinhamento entre equipes e setores?",
         "Se interessa por implementar treinamentos para padronização de rotinas?",
         "Se sente motivado ao garantir que as atividades sigam padrões estabelecidos?"
+      ],
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de organizar e padronizar processos de TI?",
+        "Tem facilidade para implementar normas e métodos em infraestrutura tecnológica?",
+        "Valoriza a segurança, compliance e o funcionamento dos sistemas?",
+        "Se interessa por controle e documentação de ativos digitais?",
+        "Se sente motivado ao garantir que tudo esteja funcionando corretamente na área de tecnologia?"
       ]
     },
     N: {
+      "Agronomia": [
+        "Você se interessa por planejar e acompanhar projetos agrícolas?",
+        "Gosta de pesquisar novas técnicas de cultivo e manejo de solo?",
+        "Tem afinidade com tecnologias para aumentar produtividade agrícola?",
+        "Valoriza a sustentabilidade e o equilíbrio ambiental nas atividades rurais?",
+        "Se sente motivado ao contribuir para o desenvolvimento do campo?"
+      ],
       "Gestor Ambiental": [
         "Você gosta de planejar projetos voltados à sustentabilidade e preservação ambiental?",
         "Tem facilidade para liderar equipes em ações de educação ambiental?",
@@ -357,11 +364,18 @@ export const discRiasecnlPerguntasDominancia = {
         "Se sente motivado ao promover mudanças positivas para o meio ambiente?"
       ],
       "Engenheiro Agrônomo": [
-        "Você se imagina planejando e acompanhando projetos agrícolas e rurais?",
-        "Gosta de pesquisar novas técnicas de cultivo e manejo de solo?",
-        "Tem afinidade com tecnologias para aumentar produtividade agrícola?",
-        "Valoriza a sustentabilidade e o equilíbrio ambiental nas atividades rurais?",
-        "Se sente motivado ao contribuir para o desenvolvimento do campo?"
+        "Você gosta de planejar e acompanhar projetos rurais?",
+        "Tem interesse em tecnologia para o campo?",
+        "Valoriza práticas sustentáveis e produtivas?",
+        "Se interessa por liderar equipes agrícolas?",
+        "Se sente motivado com inovação e desenvolvimento rural?"
+      ],
+      "Veterinário": [
+        "Você se interessa por cuidar da saúde de animais?",
+        "Gosta de trabalhar com diagnóstico, prevenção e tratamento?",
+        "Tem facilidade para lidar com diferentes espécies?",
+        "Valoriza o bem-estar e qualidade de vida animal?",
+        "Se sente motivado ao contribuir para o equilíbrio ambiental?"
       ],
       "Supervisor Florestal": [
         "Você gosta de coordenar equipes em áreas de manejo florestal?",
@@ -377,13 +391,6 @@ export const discRiasecnlPerguntasDominancia = {
         "Se interessa por parcerias com órgãos públicos e privados?",
         "Se sente motivado ao ver a implementação de soluções ecológicas?"
       ],
-      "Coordenador de Sustentabilidade": [
-        "Você gosta de liderar ações para tornar empresas ou comunidades mais sustentáveis?",
-        "Tem facilidade para identificar oportunidades de melhoria ambiental?",
-        "Valoriza a integração de práticas ecológicas no dia a dia empresarial?",
-        "Se interessa por elaborar relatórios e apresentar resultados de sustentabilidade?",
-        "Se sente motivado ao ver mudanças concretas em processos e atitudes?"
-      ],
       "Especialista em Gestão Ambiental": [
         "Você gosta de analisar e propor estratégias para a gestão eficiente dos recursos naturais?",
         "Tem afinidade com legislação e normas ambientais?",
@@ -397,50 +404,36 @@ export const discRiasecnlPerguntasDominancia = {
         "Valoriza o equilíbrio entre produção e preservação?",
         "Se interessa por monitorar indicadores de biodiversidade?",
         "Se sente motivado ao promover a recuperação de ambientes degradados?"
-      ],
-      "Supervisor de Meio Ambiente": [
-        "Você gosta de fiscalizar e orientar equipes em práticas sustentáveis?",
-        "Tem afinidade com auditorias ambientais e controle de resíduos?",
-        "Valoriza o cumprimento de normas e legislação ambiental?",
-        "Se interessa por promover treinamentos sobre meio ambiente?",
-        "Se sente motivado ao garantir que empresas atuem de forma ecologicamente responsável?"
       ]
     },
     L: {
-      "Administrador Hospitalar": [
-        "Você gosta de gerenciar recursos e equipes em ambientes hospitalares?",
-        "Tem facilidade para implementar procedimentos e garantir qualidade nos serviços de saúde?",
-        "Valoriza o planejamento estratégico para melhoria do atendimento?",
-        "Se interessa por otimizar processos administrativos e financeiros em hospitais?",
-        "Se sente motivado ao contribuir para o bem-estar dos pacientes e profissionais?"
+      "Medicina": [
+        "Você se interessa por cuidar da saúde de pessoas e comunidades?",
+        "Gosta de trabalhar em equipe multidisciplinar?",
+        "Tem facilidade para lidar com situações de emergência?",
+        "Valoriza o acompanhamento dos pacientes e o impacto positivo no cotidiano?",
+        "Se sente motivado ao promover bem-estar e qualidade de vida?"
       ],
-      "Gestor de Clínica": [
-        "Você gosta de organizar rotinas e equipes em clínicas médicas?",
-        "Tem afinidade com controle de agendamento, prontuários e atendimento ao paciente?",
-        "Valoriza a otimização de recursos e processos administrativos?",
-        "Se interessa por implementar novas tecnologias na gestão de clínicas?",
-        "Se sente motivado ao garantir eficiência e qualidade nos serviços de saúde?"
+      "Fisioterapia": [
+        "Você se interessa por ajudar pessoas na reabilitação física?",
+        "Gosta de trabalhar com exercícios terapêuticos e tratamentos funcionais?",
+        "Tem facilidade para lidar com pacientes em diferentes situações?",
+        "Valoriza o acompanhamento individual e os resultados positivos?",
+        "Se sente motivado ao promover qualidade de vida e saúde?"
       ],
-      "Supervisor de Enfermagem": [
-        "Você gosta de liderar equipes de enfermagem em hospitais ou clínicas?",
-        "Tem facilidade para organizar escalas e supervisionar procedimentos?",
-        "Valoriza o cuidado com os pacientes e a qualidade do atendimento?",
-        "Se interessa por treinar novos profissionais e acompanhar resultados?",
-        "Se sente motivado ao resolver desafios no ambiente hospitalar?"
+      "Odontologia": [
+        "Você se interessa por cuidar da saúde bucal das pessoas?",
+        "Gosta de realizar procedimentos clínicos e cirúrgicos?",
+        "Tem facilidade para lidar com instrumentos e técnicas odontológicas?",
+        "Valoriza o contato com pacientes e o acompanhamento de tratamentos?",
+        "Se sente motivado ao devolver autoestima e bem-estar aos pacientes?"
       ],
-      "Gestor de Instituição Social": [
-        "Você gosta de administrar recursos e projetos em instituições sociais?",
-        "Tem afinidade com planejamento de ações para apoio à comunidade?",
-        "Valoriza a captação de recursos e a gestão de equipes multidisciplinares?",
-        "Se interessa por parcerias com órgãos públicos e privados?",
-        "Se sente motivado ao promover impacto social positivo?"
-      ],
-      "Coordenador de Serviços de Saúde": [
-        "Você gosta de organizar e supervisionar equipes em serviços de saúde?",
-        "Tem facilidade para garantir a qualidade e eficiência no atendimento?",
-        "Valoriza o planejamento e controle de recursos médicos?",
-        "Se interessa por implementar protocolos e normas técnicas?",
-        "Se sente motivado ao ver melhorias no atendimento aos pacientes?"
+      "Psicologia": [
+        "Você se interessa por entender o comportamento humano?",
+        "Gosta de pesquisar causas e consequências de fenômenos psicológicos?",
+        "Tem facilidade para ouvir e analisar relatos de pessoas?",
+        "Valoriza o desenvolvimento de testes, avaliações e tratamentos?",
+        "Se sente motivado ao contribuir para o equilíbrio emocional dos outros?"
       ],
       "Gestor de Assistência Social": [
         "Você gosta de gerenciar programas de assistência social e comunitária?",
@@ -462,9 +455,130 @@ export const discRiasecnlPerguntasDominancia = {
         "Valoriza o acompanhamento de resultados e qualidade no atendimento?",
         "Se interessa por treinar profissionais e implementar melhorias?",
         "Se sente motivado ao garantir padrão de excelência nos serviços médicos?"
+      ],
+      "Administrador Hospitalar": [
+        "Você gosta de gerenciar recursos e equipes em ambientes hospitalares?",
+        "Tem facilidade para implementar procedimentos e garantir qualidade nos serviços de saúde?",
+        "Valoriza o planejamento estratégico para melhoria do atendimento?",
+        "Se interessa por otimizar processos administrativos e financeiros em hospitais?",
+        "Se sente motivado ao contribuir para o bem-estar dos pacientes e profissionais?"
+      ]
+    },
+    T: {
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de liderar projetos e equipes de tecnologia?",
+        "Tem facilidade para implementar soluções inovadoras em TI?",
+        "Valoriza o uso estratégico de sistemas de informação nas empresas?",
+        "Se interessa por gerenciar infraestrutura, segurança e suporte?",
+        "Se sente motivado ao alinhar tecnologia e objetivos de negócio?"
+      ],
+      "Ciência da Computação": [
+        "Você gosta de criar algoritmos e resolver problemas complexos de tecnologia?",
+        "Tem facilidade para aprender novas linguagens de programação?",
+        "Valoriza trabalhar com inteligência artificial, machine learning e inovação?",
+        "Se interessa por desenvolvimento de softwares e sistemas?",
+        "Se sente motivado ao participar de projetos que exigem raciocínio lógico?"
+      ],
+      "Sistemas de Informação": [
+        "Você gosta de analisar e melhorar processos de gestão de dados?",
+        "Tem facilidade para identificar e solucionar problemas em sistemas informacionais?",
+        "Valoriza o desenvolvimento de soluções tecnológicas para empresas?",
+        "Se interessa por integração de plataformas e bancos de dados?",
+        "Se sente motivado ao otimizar o fluxo de informações em organizações?"
+      ],
+      "Redes de Computadores": [
+        "Você gosta de configurar, monitorar e solucionar problemas de redes?",
+        "Tem facilidade para aprender sobre protocolos, infraestrutura e segurança digital?",
+        "Valoriza o funcionamento eficiente e seguro das comunicações?",
+        "Se interessa por criar soluções para ambientes corporativos?",
+        "Se sente motivado ao implementar melhorias e expandir redes de computadores?"
+      ],
+      "Engenharia de Software": [
+        "Você gosta de planejar, criar e testar sistemas de software?",
+        "Tem facilidade para trabalhar em equipes multidisciplinares?",
+        "Valoriza métodos de desenvolvimento ágil e práticas de qualidade?",
+        "Se interessa por automação de testes e documentação técnica?",
+        "Se sente motivado ao entregar soluções digitais inovadoras?"
+      ],
+      "Engenharia da Computação": [
+        "Você gosta de atuar tanto com hardware quanto com software?",
+        "Tem facilidade para integrar sistemas embarcados e arquiteturas computacionais?",
+        "Valoriza o desenvolvimento de novos dispositivos eletrônicos?",
+        "Se interessa por projetos de automação, robótica ou IoT?",
+        "Se sente motivado ao criar soluções tecnológicas completas?"
+      ],
+      "Segurança da Informação": [
+        "Você gosta de proteger dados e sistemas contra ameaças virtuais?",
+        "Tem facilidade para identificar vulnerabilidades e implementar medidas preventivas?",
+        "Valoriza o constante aprendizado sobre novas técnicas de ataque e defesa?",
+        "Se interessa por criar políticas e treinamentos de segurança?",
+        "Se sente motivado ao garantir privacidade e integridade das informações?"
+      ],
+      "Análise e Desenvolvimento de Sistemas": [
+        "Você gosta de levantar requisitos, programar e testar sistemas?",
+        "Tem facilidade para entender as necessidades dos clientes?",
+        "Valoriza metodologias ágeis e trabalho colaborativo?",
+        "Se interessa por diversas linguagens e plataformas de desenvolvimento?",
+        "Se sente motivado ao entregar softwares funcionais e personalizados?"
+      ]
+    },
+    M: {
+      "Ciência de Dados": [
+        "Você gosta de analisar grandes volumes de dados para encontrar padrões e soluções?",
+        "Tem facilidade para trabalhar com estatística, programação e inteligência artificial?",
+        "Valoriza a tomada de decisão baseada em dados?",
+        "Se interessa por criar painéis e modelos preditivos?",
+        "Se sente motivado ao transformar informações em estratégias eficazes?"
+      ],
+      "Administração de Banco de Dados": [
+        "Você gosta de gerenciar, organizar e manter bancos de dados?",
+        "Tem facilidade para garantir a segurança e integridade das informações?",
+        "Valoriza o desempenho e a disponibilidade dos sistemas de dados?",
+        "Se interessa por backup, recuperação e otimização de bancos de dados?",
+        "Se sente motivado ao apoiar processos críticos de negócio?"
+      ],
+      "Analista de Segurança da Informação": [
+        "Você gosta de proteger sistemas, redes e dados de ameaças digitais?",
+        "Tem facilidade para monitorar, auditar e responder a incidentes?",
+        "Valoriza processos de conformidade e boas práticas de segurança?",
+        "Se interessa por ferramentas, normas e políticas da área?",
+        "Se sente motivado ao manter ambientes digitais seguros?"
+      ],
+      "Arquiteto de Software": [
+        "Você gosta de definir a estrutura e organização de sistemas de software?",
+        "Tem facilidade para analisar requisitos e propor soluções escaláveis?",
+        "Valoriza padrões de arquitetura e documentação técnica?",
+        "Se interessa por integração entre sistemas e tecnologias?",
+        "Se sente motivado ao garantir qualidade e performance nos projetos?"
+      ],
+      "Analista de Redes": [
+        "Você gosta de administrar e solucionar problemas em redes corporativas?",
+        "Tem facilidade para configurar equipamentos e monitorar tráfego?",
+        "Valoriza a segurança, desempenho e disponibilidade das redes?",
+        "Se interessa por novas tecnologias de comunicação?",
+        "Se sente motivado ao garantir conectividade eficiente para empresas?"
+      ],
+      "Desenvolvimento de Software (Mobile e Web)": [
+        "Você gosta de criar aplicativos para celulares, tablets e web?",
+        "Tem facilidade para usar frameworks, APIs e linguagens modernas?",
+        "Valoriza a experiência do usuário e a inovação?",
+        "Se interessa por tendências em desenvolvimento mobile/web?",
+        "Se sente motivado ao entregar soluções digitais acessíveis?"
+      ],
+      "Jogos Digitais": [
+        "Você gosta de desenvolver jogos interativos e envolventes?",
+        "Tem facilidade para trabalhar com programação, arte e design?",
+        "Valoriza a experiência dos jogadores e feedback do público?",
+        "Se interessa por novas plataformas e tendências do setor?",
+        "Se sente motivado ao criar entretenimento digital de impacto?"
+      ],
+      "Inteligência Artificial": [
+        "Você gosta de criar sistemas que aprendem, se adaptam e resolvem problemas?",
+        "Tem facilidade para trabalhar com machine learning, deep learning e automação?",
+        "Valoriza projetos inovadores para diferentes áreas?",
+        "Se interessa por desafios complexos e tecnologia de ponta?",
+        "Se sente motivado ao transformar ideias em soluções inteligentes?"
       ]
     }
-  },
-  // Repita o mesmo padrão para Influencia, Estabilidade, Conformidade, preenchendo as perguntas específicas de cada profissão.
-  // Para facilitar o processo, recomendo expandir cada grupo/profissão como acima. Se desejar, posso continuar com todos os grupos.
+  }
 };

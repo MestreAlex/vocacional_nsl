@@ -1,467 +1,583 @@
 export const discRiasecnlPerguntasConformidade = {
   Conformidade: {
     R: {
-      "Projetista": [
-        "Você gosta de elaborar projetos detalhados seguindo normas técnicas rigorosas?",
-        "Tem facilidade para analisar documentos e especificações antes de iniciar um trabalho?",
-        "Valoriza o cumprimento preciso de etapas e padrões em projetos?",
-        "Se interessa por revisar desenhos e garantir conformidade com regulamentos?",
-        "Se sente motivado ao entregar projetos que atendem todos os requisitos legais e técnicos?"
+      "Engenheiro Civil": [
+        "Você gosta de seguir normas técnicas e regulamentos em obras?",
+        "Tem facilidade para garantir conformidade em processos de construção?",
+        "Valoriza o cumprimento rigoroso de padrões e procedimentos?",
+        "Se sente motivado ao certificar a qualidade estrutural dos projetos?",
+        "Gosta de documentar e revisar etapas para garantir conformidade?"
       ],
-      "Perito Técnico": [
-        "Você gosta de investigar situações utilizando métodos e normas reconhecidos?",
-        "Tem facilidade para redigir laudos e relatórios seguindo padrões oficiais?",
-        "Valoriza a imparcialidade e precisão na análise de evidências técnicas?",
-        "Se interessa por atualizar-se constantemente sobre legislação e procedimentos?",
-        "Se sente motivado ao garantir que suas conclusões estejam embasadas em normas e regulamentos?"
+      "Engenheiro Mecânico": [
+        "Você gosta de aplicar normas e padrões em projetos mecânicos?",
+        "Tem facilidade para garantir conformidade em máquinas e equipamentos?",
+        "Valoriza a precisão e o detalhamento nos processos?",
+        "Se sente motivado ao revisar especificações técnicas?",
+        "Gosta de inspecionar e documentar processos industriais?"
+      ],
+      "Projetista": [
+        "Você gosta de detalhar projetos seguindo normas e padrões técnicos?",
+        "Tem facilidade para revisar desenhos e especificações?",
+        "Valoriza a conformidade em todos os detalhes dos projetos?",
+        "Se sente motivado ao garantir precisão e qualidade dos documentos técnicos?",
+        "Gosta de atualizar e organizar arquivos de projeto?"
       ],
       "Supervisor de Qualidade": [
-        "Você gosta de acompanhar procedimentos para garantir padrões de qualidade?",
-        "Tem facilidade para verificar o cumprimento de normas por diferentes equipes?",
-        "Valoriza a identificação e correção de desvios nos processos produtivos?",
-        "Se interessa por implantar novas metodologias de controle de qualidade?",
-        "Se sente motivado ao manter os padrões exigidos por certificações e auditorias?"
+        "Você gosta de garantir que produtos e processos estejam em conformidade?",
+        "Tem facilidade para liderar auditorias internas?",
+        "Valoriza o uso de checklists e indicadores de conformidade?",
+        "Se sente motivado ao identificar e corrigir desvios?",
+        "Gosta de documentar resultados e criar relatórios de inspeção?"
       ],
-      "Desenhista Técnico": [
-        "Você gosta de elaborar desenhos detalhados seguindo normas específicas?",
-        "Tem facilidade para revisar e corrigir projetos conforme padrões técnicos?",
-        "Valoriza a precisão e organização nos documentos produzidos?",
-        "Se interessa por adaptar desenhos conforme exigências de órgãos reguladores?",
-        "Se sente motivado ao ver seus trabalhos aprovados por órgãos de fiscalização?"
-      ],
-      "Técnico em Segurança do Trabalho": [
-        "Você gosta de aplicar normas de segurança em ambientes de trabalho?",
-        "Tem facilidade para fiscalizar procedimentos e identificar riscos?",
-        "Valoriza o registro detalhado de inspeções e incidentes?",
-        "Se interessa por treinar equipes sobre legislação e prevenção de acidentes?",
-        "Se sente motivado ao garantir que todos sigam as regras de segurança estabelecidas?"
-      ],
-      "Auxiliar de Projetos": [
-        "Você gosta de seguir instruções detalhadas na elaboração de projetos técnicos?",
-        "Tem facilidade para organizar documentação e registros conforme padrões normativos?",
-        "Valoriza ambientes de trabalho onde as regras são claras e respeitadas?",
-        "Se interessa por revisar etapas para garantir conformidade técnica?",
-        "Se sente motivado ao apoiar a equipe na entrega de projetos dentro das normas?"
-      ],
-      "Analista de Engenharia": [
-        "Você gosta de analisar processos e produtos em busca de adequação às normas?",
-        "Tem facilidade para interpretar regulamentos técnicos e aplicar no dia a dia?",
-        "Valoriza o acompanhamento de auditorias internas e externas?",
-        "Se interessa por elaborar relatórios detalhados sobre conformidade?",
-        "Se sente motivado ao garantir que a empresa esteja em conformidade com padrões técnicos?"
+      "Supervisor de Obras": [
+        "Você gosta de fiscalizar obras para garantir normas e regulamentos?",
+        "Tem facilidade para identificar irregularidades e propor correções?",
+        "Valoriza o cumprimento de padrões de qualidade?",
+        "Se sente motivado ao garantir conformidade em todas as etapas da construção?",
+        "Gosta de registrar inspeções e revisões?"
       ],
       "Fiscal Técnico": [
-        "Você gosta de inspecionar obras ou instalações para garantir o cumprimento das normas?",
-        "Tem facilidade para registrar e relatar irregularidades de acordo com regulamentos?",
-        "Valoriza o rigor no acompanhamento de processos e documentos?",
-        "Se interessa por orientar equipes sobre exigências legais e técnicas?",
-        "Se sente motivado ao garantir que todas as atividades estejam dentro das regras estabelecidas?"
+        "Você gosta de inspecionar projetos para garantir conformidade técnica?",
+        "Tem facilidade para aplicar normas e regulamentações?",
+        "Valoriza o rigor no cumprimento das exigências legais?",
+        "Se sente motivado ao documentar fiscalizações e resultados?",
+        "Gosta de orientar equipes sobre padrões técnicos?"
+      ],
+      "Desenhista Técnico": [
+        "Você gosta de criar desenhos seguindo normas e padrões industriais?",
+        "Tem facilidade para revisar detalhes e garantir precisão?",
+        "Valoriza o uso de bibliotecas técnicas e arquivos normativos?",
+        "Se sente motivado ao manter conformidade nos projetos desenhados?",
+        "Gosta de atualizar e documentar desenhos e revisões?"
+      ],
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de garantir conformidade de sistemas e processos digitais?",
+        "Tem facilidade para implementar e revisar normas de TI?",
+        "Valoriza a documentação e controle de ativos digitais?",
+        "Se sente motivado ao monitorar auditorias de tecnologia?",
+        "Gosta de revisar políticas e procedimentos tecnológicos?"
       ]
     },
     I: {
-      "Estatístico": [
-        "Você gosta de realizar análises seguindo padrões e métodos estatísticos reconhecidos?",
-        "Tem facilidade para validar dados e garantir precisão nos resultados?",
-        "Valoriza o uso de normas internacionais para apresentação de pesquisas?",
-        "Se interessa por atualizar-se sobre novas técnicas estatísticas e suas regulamentações?",
-        "Se sente motivado ao garantir que seus relatórios estejam em conformidade com padrões científicos?"
+      "Medicina": [
+        "Você gosta de seguir protocolos e normas em diagnósticos e tratamentos?",
+        "Tem facilidade para garantir conformidade nos registros clínicos?",
+        "Valoriza o cumprimento das exigências legais e éticas na saúde?",
+        "Se sente motivado ao revisar procedimentos médicos?",
+        "Gosta de documentar e monitorar ações clínicas?"
       ],
-      "Analista de Qualidade": [
-        "Você gosta de verificar processos e produtos para garantir conformidade com normas?",
-        "Tem facilidade para aplicar procedimentos padronizados em auditorias?",
-        "Valoriza a organização e precisão na coleta de dados?",
-        "Se interessa por propor melhorias baseadas em requisitos normativos?",
-        "Se sente motivado ao manter índices de qualidade dentro dos parâmetros exigidos?"
+      "Farmácia": [
+        "Você gosta de garantir conformidade na produção e manipulação de medicamentos?",
+        "Tem facilidade para seguir e aplicar normas sanitárias?",
+        "Valoriza a precisão nos registros de laboratório?",
+        "Se sente motivado ao revisar procedimentos farmacêuticos?",
+        "Gosta de documentar e organizar processos de controle?"
       ],
-      "Pesquisador de Mercado": [
-        "Você gosta de estruturar pesquisas conforme legislação vigente e padrões éticos?",
-        "Tem facilidade para criar questionários e relatórios seguindo normas técnicas?",
-        "Valoriza o respeito à privacidade e à legislação de dados?",
-        "Se interessa por validar métodos e amostras conforme recomendações oficiais?",
-        "Se sente motivado ao garantir que seus estudos sejam reconhecidos por órgãos reguladores?"
+      "Odontologia": [
+        "Você gosta de seguir normas e protocolos em procedimentos odontológicos?",
+        "Tem facilidade para documentar e revisar tratamentos?",
+        "Valoriza o cumprimento das exigências legais e sanitárias?",
+        "Se sente motivado ao garantir conformidade nos registros clínicos?",
+        "Gosta de revisar e atualizar prontuários?"
       ],
-      "Técnico em Laboratório": [
-        "Você gosta de realizar testes seguindo protocolos e normas técnicas rígidas?",
-        "Tem facilidade para registrar resultados e manter documentação organizada?",
-        "Valoriza o uso de equipamentos calibrados conforme exigências normativas?",
-        "Se interessa por revisar procedimentos para garantir precisão e conformidade?",
-        "Se sente motivado ao garantir que os processos laboratoriais sigam padrões oficiais?"
+      "Economia": [
+        "Você gosta de garantir conformidade nos relatórios e análises financeiras?",
+        "Tem facilidade para seguir normas e regulamentos econômicos?",
+        "Valoriza a precisão nos registros e documentos?",
+        "Se sente motivado ao revisar cálculos e simulações?",
+        "Gosta de documentar e organizar informações financeiras?"
       ],
-      "Analista de Documentação": [
-        "Você gosta de organizar e validar documentos conforme normas e legislações?",
-        "Tem facilidade para identificar inconsistências e propor correções?",
-        "Valoriza a segurança e integridade das informações documentais?",
-        "Se interessa por atualizar e revisar arquivos seguindo padrões regulamentares?",
-        "Se sente motivado ao garantir que toda documentação esteja em conformidade legal?"
+      "Ciência da Computação": [
+        "Você gosta de garantir conformidade em softwares e sistemas?",
+        "Tem facilidade para documentar processos técnicos?",
+        "Valoriza o uso de padrões em desenvolvimento e manutenção?",
+        "Se sente motivado ao revisar códigos para garantir segurança e qualidade?",
+        "Gosta de manter documentação técnica atualizada?"
       ],
-      "Controlador de Dados": [
-        "Você gosta de manter bases de dados seguras e em conformidade com regras de privacidade?",
-        "Tem facilidade para aplicar procedimentos para garantir a integridade dos dados?",
-        "Valoriza o uso de padrões internacionais de segurança da informação?",
-        "Se interessa por revisar acessos e permissões conforme exigências normativas?",
-        "Se sente motivado ao garantir que todas as operações sigam os padrões de conformidade?"
+      "Sistemas de Informação": [
+        "Você gosta de garantir conformidade em bancos de dados e sistemas informacionais?",
+        "Tem facilidade para seguir normas de segurança e controle?",
+        "Valoriza a documentação e registros de processos?",
+        "Se sente motivado ao monitorar auditorias de TI?",
+        "Gosta de revisar e atualizar políticas de acesso?"
       ],
-      "Auditor de Pesquisa": [
-        "Você gosta de revisar projetos e processos para garantir confiabilidade dos resultados?",
-        "Tem facilidade para identificar desvios e propor correções seguindo normas científicas?",
-        "Valoriza o registro detalhado de auditorias e reuniões de conformidade?",
-        "Se interessa por atualizar-se sobre padrões e certificações em pesquisa?",
-        "Se sente motivado ao contribuir para a credibilidade das pesquisas realizadas?"
+      "Redes de Computadores": [
+        "Você gosta de seguir protocolos e padrões em redes digitais?",
+        "Tem facilidade para documentar configurações e incidentes?",
+        "Valoriza a conformidade em processos de infraestrutura?",
+        "Se sente motivado ao revisar procedimentos de segurança?",
+        "Gosta de atualizar registros de redes e controles?"
       ],
-      "Assistente de Estatística": [
-        "Você gosta de apoiar análises estatísticas seguindo padrões técnicos?",
-        "Tem facilidade para revisar cálculos e resultados para garantir precisão?",
-        "Valoriza a organização de dados conforme exigências normativas?",
-        "Se interessa por aprender e aplicar métodos estatísticos reconhecidos?",
-        "Se sente motivado ao entregar trabalhos corretos e em conformidade com padrões da área?"
+      "Engenharia Civil": [
+        "Você gosta de garantir conformidade e precisão em obras e projetos?",
+        "Tem facilidade para documentar e revisar etapas de construção?",
+        "Valoriza o cumprimento rigoroso das normas técnicas?",
+        "Se sente motivado ao identificar e corrigir desvios?",
+        "Gosta de monitorar inspeções e resultados?"
       ]
     },
     A: {
-      "Diagramador": [
-        "Você gosta de montar layouts seguindo normas editoriais e padrões visuais?",
-        "Tem facilidade para revisar e corrigir detalhes gráficos conforme exigências?",
-        "Valoriza o respeito aos estilos e formatos estabelecidos?",
-        "Se interessa por garantir que cada página siga o padrão do projeto?",
-        "Se sente motivado ao ver seu trabalho aprovado sem necessidade de alterações?"
+      "Design": [
+        "Você gosta de garantir conformidade na identidade visual dos projetos?",
+        "Tem facilidade para seguir padrões e normas em peças gráficas?",
+        "Valoriza a revisão detalhada das entregas?",
+        "Se sente motivado ao manter consistência em todos os materiais produzidos?",
+        "Gosta de documentar versões e aprovações?"
       ],
-      "Designer Editorial": [
-        "Você gosta de criar projetos gráficos para publicações seguindo normas editoriais?",
-        "Tem facilidade para adaptar layouts conforme exigências técnicas?",
-        "Valoriza o uso de estilos e fontes padronizadas?",
-        "Se interessa por revisar materiais para garantir conformidade com o projeto?",
-        "Se sente motivado ao garantir que cada peça gráfica esteja conforme os padrões definidos?"
+      "Publicidade e Propaganda": [
+        "Você gosta de seguir normas e padrões em campanhas publicitárias?",
+        "Tem facilidade para revisar conteúdos antes da publicação?",
+        "Valoriza o cumprimento de regulamentos legais e éticos?",
+        "Se sente motivado ao garantir conformidade nas ações de comunicação?",
+        "Gosta de documentar e arquivar peças e resultados?"
+      ],
+      "Jogos Digitais": [
+        "Você gosta de garantir conformidade em lançamentos e atualizações de jogos?",
+        "Tem facilidade para seguir padrões de desenvolvimento e publicação?",
+        "Valoriza a documentação detalhada de processos?",
+        "Se sente motivado ao revisar e corrigir bugs?",
+        "Gosta de documentar versões e alterações dos jogos?"
+      ],
+      "Diretor de Arte": [
+        "Você gosta de garantir padrões e conformidade em projetos visuais?",
+        "Tem facilidade para revisar peças e aprovar materiais?",
+        "Valoriza a consistência na comunicação visual da marca?",
+        "Se sente motivado ao manter organização de arquivos e versões?",
+        "Gosta de documentar revisões e aprovações?"
+      ],
+      "Designer Industrial": [
+        "Você gosta de seguir normas e padrões técnicos em produtos industriais?",
+        "Tem facilidade para revisar detalhes e especificações?",
+        "Valoriza a conformidade em todos os processos produtivos?",
+        "Se sente motivado ao garantir precisão nos projetos?",
+        "Gosta de documentar revisões e atualizações?"
+      ],
+      "Diagramador": [
+        "Você gosta de seguir padrões editoriais e normas de diagramação?",
+        "Tem facilidade para revisar detalhes de layout?",
+        "Valoriza a conformidade em publicações?",
+        "Se sente motivado ao garantir organização dos arquivos?",
+        "Gosta de documentar versões e aprovações?"
       ],
       "Editor de Textos": [
-        "Você gosta de revisar textos seguindo normas gramaticais e editoriais?",
-        "Tem facilidade para identificar erros e padronizar conteúdos?",
-        "Valoriza o cumprimento de estilos de escrita definidos pela publicação?",
-        "Se interessa por adaptar textos para diferentes formatos conforme exigências?",
-        "Se sente motivado ao garantir que os textos estejam prontos para publicação sem correções?"
+        "Você gosta de garantir conformidade gramatical e editorial nos textos?",
+        "Tem facilidade para revisar e corrigir conteúdos?",
+        "Valoriza o uso de normas na produção textual?",
+        "Se sente motivado ao organizar arquivos e versões?",
+        "Gosta de documentar aprovações e revisões?"
       ],
-      "Revisor": [
-        "Você gosta de conferir textos em busca de erros e inconsistências?",
-        "Tem facilidade para aplicar normas de linguagem e estilo em documentos?",
-        "Valoriza o uso de manuais e guias para padronização de revisão?",
-        "Se interessa por garantir que a versão final esteja perfeita e em conformidade?",
-        "Se sente motivado ao entregar revisões aprovadas sem necessidade de ajustes?"
-      ],
-      "Restaurador de Documentos": [
-        "Você gosta de restaurar documentos históricos seguindo procedimentos técnicos?",
-        "Tem facilidade para identificar danos e propor técnicas adequadas?",
-        "Valoriza o uso de materiais e métodos reconhecidos pelo setor?",
-        "Se interessa por pesquisar normas e padrões de restauração documental?",
-        "Se sente motivado ao garantir que os documentos recuperados atendam aos critérios oficiais de preservação?"
-      ],
-      "Editor Técnico": [
-        "Você gosta de editar textos técnicos seguindo normas de publicação?",
-        "Tem facilidade para adaptar conteúdos conforme exigências regulamentares?",
-        "Valoriza o uso de linguagem precisa e padronizada?",
-        "Se interessa por revisar conteúdos para garantir conformidade com padrões técnicos?",
-        "Se sente motivado ao entregar materiais aprovados por órgãos reguladores?"
-      ],
-      "Assistente Editorial": [
-        "Você gosta de auxiliar na revisão e preparação de materiais editoriais conforme normas?",
-        "Tem facilidade para organizar documentos e seguir procedimentos de publicação?",
-        "Valoriza o uso de padrões gráficos e textuais estabelecidos?",
-        "Se interessa por garantir que todos os arquivos estejam prontos para publicação?",
-        "Se sente motivado ao contribuir para a conformidade dos materiais editoriais?"
-      ],
-      "Produtor de Conteúdo": [
-        "Você gosta de criar conteúdos seguindo diretrizes de estilo e normas de publicação?",
-        "Tem facilidade para adaptar sua escrita conforme exigências do projeto?",
-        "Valoriza a padronização e clareza dos materiais produzidos?",
-        "Se interessa por revisar conteúdos para garantir conformidade editorial?",
-        "Se sente motivado ao entregar trabalhos aprovados sem necessidade de alterações?"
+      "Arquitetura e Urbanismo": [
+        "Você gosta de garantir conformidade em projetos urbanos e arquitetônicos?",
+        "Tem facilidade para revisar normas e legislações?",
+        "Valoriza a documentação e controle dos processos?",
+        "Se sente motivado ao corrigir desvios e garantir padrões?",
+        "Gosta de organizar e monitorar arquivos técnicos?"
       ]
     },
     S: {
-      "Bibliotecário": [
-        "Você gosta de organizar acervos seguindo normas de classificação?",
-        "Tem facilidade para registrar e preservar documentos conforme exigências legais?",
-        "Valoriza o uso de padrões internacionais para catalogação?",
-        "Se interessa por revisar procedimentos de empréstimo e devolução?",
-        "Se sente motivado ao garantir que o acervo esteja sempre atualizado e em conformidade?"
+      "Relações Públicas": [
+        "Você gosta de seguir normas e padrões em comunicação institucional?",
+        "Tem facilidade para organizar registros de eventos e campanhas?",
+        "Valoriza o cumprimento de regulamentos em ações públicas?",
+        "Se sente motivado ao garantir conformidade nas relações organizacionais?",
+        "Gosta de documentar resultados e procedimentos?"
       ],
-      "Orientador Educacional": [
-        "Você gosta de acompanhar o desenvolvimento dos alunos seguindo normas escolares?",
-        "Tem facilidade para registrar informações e preparar relatórios conforme exigências?",
-        "Valoriza o cumprimento de regulamentos internos?",
-        "Se interessa por revisar procedimentos acadêmicos para garantir conformidade?",
-        "Se sente motivado ao garantir que todos os processos estejam alinhados com as regras da instituição?"
+      "Fisioterapia": [
+        "Você gosta de seguir protocolos e padrões em tratamentos?",
+        "Tem facilidade para registrar e organizar informações dos pacientes?",
+        "Valoriza o cumprimento das normas de saúde?",
+        "Se sente motivado ao garantir conformidade nos atendimentos?",
+        "Gosta de revisar e atualizar prontuários?"
       ],
-      "Instrutor de Formação Técnica": [
-        "Você gosta de ministrar aulas seguindo programas e materiais normativos?",
-        "Tem facilidade para preparar conteúdos conforme exigências técnicas?",
-        "Valoriza o uso de métodos padronizados para ensino?",
-        "Se interessa por revisar avaliações e procedimentos para garantir conformidade?",
-        "Se sente motivado ao ver os alunos aplicando corretamente as técnicas ensinadas?"
+      "Gestor de RH": [
+        "Você gosta de garantir conformidade em processos de seleção e treinamento?",
+        "Tem facilidade para documentar ações de RH?",
+        "Valoriza o cumprimento das normas trabalhistas?",
+        "Se sente motivado ao revisar processos internos?",
+        "Gosta de organizar arquivos e registros?"
       ],
-      "Assistente de Coordenação Pedagógica": [
-        "Você gosta de organizar atividades pedagógicas conforme normas escolares?",
-        "Tem facilidade para registrar informações e organizar documentos conforme exigências?",
-        "Valoriza o acompanhamento de cronogramas e regulamentos internos?",
-        "Se interessa por revisar rotinas para garantir conformidade com as políticas escolares?",
-        "Se sente motivado ao garantir que todas as atividades estejam de acordo com as normas?"
+      "Instrutor de Treinamento Empresarial": [
+        "Você gosta de seguir roteiros e padrões nos treinamentos?",
+        "Tem facilidade para documentar avaliações e resultados?",
+        "Valoriza o cumprimento dos objetivos dos programas de capacitação?",
+        "Se sente motivado ao revisar e organizar materiais de treinamento?",
+        "Gosta de registrar feedbacks e evoluções?"
       ],
-      "Supervisor de Centro Educacional": [
-        "Você gosta de acompanhar rotinas escolares e garantir cumprimento de regulamentos?",
-        "Tem facilidade para organizar equipes e procedimentos conforme normas?",
-        "Valoriza o respeito às regras e políticas institucionais?",
-        "Se interessa por revisar atividades para garantir conformidade?",
-        "Se sente motivado ao garantir que o centro educacional funcione dentro dos padrões exigidos?"
+      "Consultor de Desenvolvimento Humano": [
+        "Você gosta de garantir conformidade em projetos de desenvolvimento profissional?",
+        "Tem facilidade para seguir metodologias e padrões?",
+        "Valoriza a documentação dos processos de capacitação?",
+        "Se sente motivado ao organizar registros e relatórios?",
+        "Gosta de revisar resultados e avaliações?"
       ],
-      "Coordenador de Biblioteca": [
-        "Você gosta de organizar e atualizar acervos seguindo normas técnicas?",
-        "Tem facilidade para registrar movimentações e preservar documentos?",
-        "Valoriza o uso de padrões para catalogação e empréstimo?",
-        "Se interessa por revisar procedimentos para garantir conformidade?",
-        "Se sente motivado ao manter a biblioteca sempre organizada e em conformidade?"
+      "Supervisor Educacional": [
+        "Você gosta de garantir conformidade em processos pedagógicos?",
+        "Tem facilidade para documentar e organizar materiais escolares?",
+        "Valoriza o cumprimento das normas educacionais?",
+        "Se sente motivado ao revisar rotinas e planejamentos?",
+        "Gosta de monitorar registros escolares?"
       ],
-      "Monitor de Informação": [
-        "Você gosta de acompanhar fluxos de informação seguindo normas de registro?",
-        "Tem facilidade para organizar dados e documentos conforme exigências?",
-        "Valoriza o uso de padrões para controle e divulgação de informações?",
-        "Se interessa por revisar procedimentos para garantir conformidade?",
-        "Se sente motivado ao garantir que todas as informações estejam corretas e em conformidade?"
+      "Gestor de Formação Profissional": [
+        "Você gosta de seguir padrões e normas em programas de formação?",
+        "Tem facilidade para organizar documentos e registros?",
+        "Valoriza a conformidade das certificações e avaliações?",
+        "Se sente motivado ao revisar resultados e processos?",
+        "Gosta de documentar evoluções dos participantes?"
       ],
-      "Instrutor de Documentação": [
-        "Você gosta de ensinar técnicas de organização documental seguindo normas?",
-        "Tem facilidade para preparar materiais didáticos conforme exigências técnicas?",
-        "Valoriza o uso de procedimentos padronizados em aulas?",
-        "Se interessa por revisar conteúdos e métodos para garantir conformidade?",
-        "Se sente motivado ao ver os alunos aplicando corretamente as técnicas de documentação?"
+      "Medicina": [
+        "Você gosta de seguir protocolos médicos e normas regulatórias?",
+        "Tem facilidade para documentar e revisar procedimentos clínicos?",
+        "Valoriza o cumprimento das exigências legais na área da saúde?",
+        "Se sente motivado ao garantir conformidade nos registros?",
+        "Gosta de monitorar ações e resultados clínicos?"
       ]
     },
     E: {
-      "Analista de Processos": [
-        "Você gosta de mapear e revisar processos empresariais conforme normas internas?",
-        "Tem facilidade para identificar desvios e propor correções seguindo padrões técnicos?",
-        "Valoriza o uso de ferramentas padronizadas para controle de processos?",
-        "Se interessa por atualizar fluxos conforme exigências legais e regulatórias?",
-        "Se sente motivado ao garantir que todos os processos estejam em conformidade?"
+      "Gestão da Qualidade": [
+        "Você gosta de garantir conformidade em todos os processos produtivos?",
+        "Tem facilidade para documentar auditorias e certificações?",
+        "Valoriza o cumprimento de normas de qualidade?",
+        "Se sente motivado ao revisar padrões e indicadores?",
+        "Gosta de organizar registros e relatórios de qualidade?"
       ],
-      "Auditor Interno": [
-        "Você gosta de revisar operações empresariais seguindo normas e regulamentos?",
-        "Tem facilidade para identificar irregularidades e propor ajustes?",
-        "Valoriza o registro detalhado de auditorias e reuniões de conformidade?",
-        "Se interessa por atualizar-se sobre padrões e certificações empresariais?",
-        "Se sente motivado ao garantir que a empresa funcione dentro das regras exigidas?"
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de implementar normas e padrões em processos de TI?",
+        "Tem facilidade para documentar procedimentos e políticas digitais?",
+        "Valoriza o controle e conformidade dos ativos tecnológicos?",
+        "Se sente motivado ao garantir auditorias e revisões técnicas?",
+        "Gosta de revisar documentação de sistemas e infraestrutura?"
       ],
-      "Gestor de Contratos": [
-        "Você gosta de analisar contratos e garantir que estejam em conformidade legal?",
-        "Tem facilidade para revisar cláusulas e identificar riscos jurídicos?",
-        "Valoriza o uso de padrões e modelos reconhecidos?",
-        "Se interessa por acompanhar prazos e obrigações contratuais?",
-        "Se sente motivado ao garantir segurança e conformidade nos contratos gerenciados?"
+      "Administrador de Empresas": [
+        "Você gosta de garantir conformidade em processos administrativos?",
+        "Tem facilidade para organizar registros e documentos empresariais?",
+        "Valoriza o cumprimento das normas legais e internas?",
+        "Se sente motivado ao revisar protocolos e procedimentos?",
+        "Gosta de documentar resultados e ações administrativas?"
       ],
-      "Supervisor Administrativo": [
-        "Você gosta de acompanhar rotinas administrativas seguindo normas internas?",
-        "Tem facilidade para organizar procedimentos e equipes conforme regulamentos?",
-        "Valoriza o cumprimento rigoroso de prazos e padrões estabelecidos?",
-        "Se interessa por revisar documentos e processos para garantir conformidade?",
-        "Se sente motivado ao garantir que o setor administrativo funcione dentro das regras?"
+      "Consultor de Negócios": [
+        "Você gosta de seguir padrões e normas em projetos empresariais?",
+        "Tem facilidade para documentar relatórios e resultados?",
+        "Valoriza a conformidade nos processos de consultoria?",
+        "Se sente motivado ao garantir precisão nas análises?",
+        "Gosta de organizar arquivos e registros dos projetos?"
       ],
-      "Analista de Licitações": [
-        "Você gosta de preparar e analisar processos de licitação conforme legislação vigente?",
-        "Tem facilidade para organizar documentos e cumprir exigências legais?",
-        "Valoriza o acompanhamento dos prazos e etapas do processo?",
-        "Se interessa por revisar propostas para garantir conformidade?",
-        "Se sente motivado ao garantir que todas as licitações sejam realizadas corretamente?"
+      "Gerente de Vendas": [
+        "Você gosta de seguir padrões e normas em processos comerciais?",
+        "Tem facilidade para organizar registros de vendas e atendimento?",
+        "Valoriza o cumprimento das metas e controles internos?",
+        "Se sente motivado ao revisar resultados e relatórios?",
+        "Gosta de documentar e monitorar indicadores de vendas?"
       ],
-      "Coordenador de Compras": [
-        "Você gosta de gerenciar compras seguindo padrões e normas empresariais?",
-        "Tem facilidade para negociar com fornecedores e revisar contratos?",
-        "Valoriza o uso de procedimentos padronizados para aquisição de bens e serviços?",
-        "Se interessa por registrar e acompanhar pedidos conforme exigências internas?",
-        "Se sente motivado ao garantir conformidade em todas as etapas do setor de compras?"
+      "Diretor Comercial": [
+        "Você gosta de garantir conformidade nas estratégias comerciais?",
+        "Tem facilidade para documentar planejamentos e resultados?",
+        "Valoriza o cumprimento das normas empresariais?",
+        "Se sente motivado ao revisar ações e processos internos?",
+        "Gosta de organizar arquivos e registros comerciais?"
       ],
-      "Gestor de Documentação": [
-        "Você gosta de organizar e validar documentos conforme normas e regulamentos?",
-        "Tem facilidade para manter registros atualizados e acessíveis?",
-        "Valoriza a segurança e integridade das informações documentais?",
-        "Se interessa por revisar arquivos para garantir conformidade legal?",
-        "Se sente motivado ao garantir que toda documentação esteja em conformidade?"
+      "Gestor de Projetos": [
+        "Você gosta de seguir normas e padrões em projetos empresariais?",
+        "Tem facilidade para documentar etapas e resultados?",
+        "Valoriza o cumprimento dos cronogramas e requisitos?",
+        "Se sente motivado ao revisar processos e entregas?",
+        "Gosta de organizar arquivos e relatórios dos projetos?"
       ],
-      "Supervisor de Processos": [
-        "Você gosta de acompanhar operações empresariais seguindo padrões e normas técnicas?",
-        "Tem facilidade para identificar falhas e propor correções em processos?",
-        "Valoriza o uso de procedimentos padronizados para controle de processos?",
-        "Se interessa por revisar atividades para garantir conformidade?",
-        "Se sente motivado ao garantir que todos os processos estejam em conformidade com as regras?"
+      "Empreendedor": [
+        "Você gosta de garantir conformidade nos processos do seu negócio?",
+        "Tem facilidade para documentar ações e resultados?",
+        "Valoriza o cumprimento das normas legais e regulatórias?",
+        "Se sente motivado ao revisar padrões internos?",
+        "Gosta de organizar registros e documentos empresariais?"
       ]
     },
     C: {
-      "Auditor Fiscal": [
-        "Você gosta de fiscalizar operações financeiras conforme legislação vigente?",
-        "Tem facilidade para identificar irregularidades e propor ajustes?",
-        "Valoriza o registro detalhado de auditorias e reuniões de conformidade?",
-        "Se interessa por atualizar-se sobre padrões e certificações fiscais?",
-        "Se sente motivado ao garantir que empresas estejam em conformidade com as regras fiscais?"
+      "Contabilidade": [
+        "Você gosta de garantir conformidade em registros contábeis?",
+        "Tem facilidade para documentar e revisar lançamentos financeiros?",
+        "Valoriza o cumprimento das normas fiscais e tributárias?",
+        "Se sente motivado ao revisar balancetes e relatórios?",
+        "Gosta de organizar arquivos e documentos contábeis?"
       ],
-      "Controlador de Custos": [
-        "Você gosta de acompanhar custos empresariais seguindo normas internas?",
-        "Tem facilidade para organizar registros financeiros e propor ajustes?",
-        "Valoriza o uso de padrões para análise e controle de custos?",
-        "Se interessa por atualizar relatórios conforme exigências internas e externas?",
-        "Se sente motivado ao garantir conformidade nos controles financeiros?"
+      "Analista de Processos": [
+        "Você gosta de seguir padrões e normas em processos internos?",
+        "Tem facilidade para documentar procedimentos e controles?",
+        "Valoriza a conformidade nas rotinas empresariais?",
+        "Se sente motivado ao revisar indicadores e resultados?",
+        "Gosta de organizar registros e relatórios dos processos?"
       ],
-      "Gestor de Compliance": [
-        "Você gosta de garantir que a empresa siga todas as normas e regulamentações?",
-        "Tem facilidade para fiscalizar procedimentos e analisar riscos?",
-        "Valoriza o registro detalhado de inspeções e incidentes?",
-        "Se interessa por treinar equipes sobre legislação e prevenção de irregularidades?",
-        "Se sente motivado ao garantir que todos sigam as regras de compliance estabelecidas?"
+      "Gerente Administrativo": [
+        "Você gosta de garantir conformidade em rotinas administrativas?",
+        "Tem facilidade para organizar e revisar documentos empresariais?",
+        "Valoriza o cumprimento das normas internas e externas?",
+        "Se sente motivado ao revisar protocolos e procedimentos?",
+        "Gosta de documentar resultados administrativos?"
       ],
-      "Contador": [
-        "Você gosta de realizar tarefas contábeis seguindo normas e procedimentos rigorosos?",
-        "Tem facilidade para organizar documentos e registros financeiros?",
-        "Valoriza ambientes de trabalho previsíveis e rotinas bem definidas?",
-        "Se interessa por garantir precisão e regularidade nos lançamentos contábeis?",
-        "Se sente motivado ao manter as contas da empresa em ordem e dentro da legislação?"
+      "Coordenador de Qualidade": [
+        "Você gosta de seguir normas e padrões em processos de qualidade?",
+        "Tem facilidade para documentar auditorias e certificações?",
+        "Valoriza a conformidade nas entregas e resultados?",
+        "Se sente motivado ao revisar padrões e indicadores?",
+        "Gosta de organizar registros e relatórios de qualidade?"
       ],
-      "Analista de Documentação": [
-        "Você gosta de organizar e validar documentos conforme normas e legislações?",
-        "Tem facilidade para identificar inconsistências e propor correções?",
-        "Valoriza a segurança e integridade das informações documentais?",
-        "Se interessa por atualizar e revisar arquivos seguindo padrões regulamentares?",
-        "Se sente motivado ao garantir que toda documentação esteja em conformidade legal?"
+      "Auditor": [
+        "Você gosta de seguir normas e padrões em auditorias internas?",
+        "Tem facilidade para documentar resultados e recomendações?",
+        "Valoriza o cumprimento das exigências legais e fiscais?",
+        "Se sente motivado ao revisar processos e controles?",
+        "Gosta de organizar arquivos e relatórios de auditoria?"
       ],
-      "Supervisor Administrativo": [
-        "Você gosta de acompanhar rotinas administrativas seguindo normas internas?",
-        "Tem facilidade para organizar procedimentos e equipes conforme regulamentos?",
-        "Valoriza o cumprimento rigoroso de prazos e padrões estabelecidos?",
-        "Se interessa por revisar documentos e processos para garantir conformidade?",
-        "Se sente motivado ao garantir que o setor administrativo funcione dentro das regras?"
+      "Especialista em Processos": [
+        "Você gosta de garantir conformidade nos fluxos de trabalho empresariais?",
+        "Tem facilidade para documentar rotinas e procedimentos?",
+        "Valoriza o cumprimento das normas internas?",
+        "Se sente motivado ao revisar indicadores e resultados?",
+        "Gosta de organizar registros dos processos?"
       ],
-      "Auditor de Processos": [
-        "Você gosta de revisar operações empresariais seguindo normas e regulamentos?",
-        "Tem facilidade para identificar irregularidades e propor ajustes?",
-        "Valoriza o registro detalhado de auditorias e reuniões de conformidade?",
-        "Se interessa por atualizar-se sobre padrões e certificações empresariais?",
-        "Se sente motivado ao garantir que a empresa funcione dentro das regras exigidas?"
+      "Gestor de Normas e Procedimentos": [
+        "Você gosta de criar e revisar normas para garantir conformidade?",
+        "Tem facilidade para documentar procedimentos internos?",
+        "Valoriza o cumprimento das regras empresariais?",
+        "Se sente motivado ao revisar padrões e processos?",
+        "Gosta de organizar arquivos e registros normativos?"
       ],
-      "Assistente de Controle": [
-        "Você gosta de acompanhar controles financeiros e administrativos seguindo normas?",
-        "Tem facilidade para registrar dados e organizar documentos conforme exigências?",
-        "Valoriza o uso de padrões para controle de processos internos?",
-        "Se interessa por revisões regulares para garantir conformidade?",
-        "Se sente motivado ao garantir que todos os controles estejam corretos e em conformidade?"
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de implementar normas e padrões em processos digitais?",
+        "Tem facilidade para documentar políticas e procedimentos de TI?",
+        "Valoriza o controle e conformidade dos ativos tecnológicos?",
+        "Se sente motivado ao garantir auditorias e revisões técnicas?",
+        "Gosta de revisar documentação de sistemas e infraestrutura?"
       ]
     },
     N: {
-      "Biólogo": [
-        "Você gosta de realizar pesquisas de campo e laboratório seguindo normas ambientais?",
-        "Tem facilidade para registrar dados e manter documentação técnica em conformidade?",
-        "Valoriza o uso de protocolos reconhecidos para coleta e análise de informações?",
-        "Se interessa por revisar procedimentos para garantir precisão científica?",
-        "Se sente motivado ao garantir que suas atividades estejam em conformidade com padrões oficiais?"
+      "Agronomia": [
+        "Você gosta de garantir conformidade em processos agrícolas?",
+        "Tem facilidade para documentar atividades rurais?",
+        "Valoriza o cumprimento das normas ambientais?",
+        "Se sente motivado ao revisar processos e resultados?",
+        "Gosta de organizar registros e indicadores do campo?"
       ],
-      "Analista Ambiental": [
-        "Você gosta de analisar impactos ambientais conforme legislação vigente?",
-        "Tem facilidade para elaborar relatórios seguindo exigências normativas?",
-        "Valoriza o acompanhamento de indicadores ambientais com precisão?",
-        "Se interessa por propor ajustes para garantir conformidade ambiental?",
-        "Se sente motivado ao garantir que empresas e projetos estejam dentro dos padrões ecológicos?"
+      "Gestor Ambiental": [
+        "Você gosta de seguir normas e padrões em projetos ambientais?",
+        "Tem facilidade para documentar ações ecológicas?",
+        "Valoriza o cumprimento das exigências legais ambientais?",
+        "Se sente motivado ao revisar resultados e relatórios?",
+        "Gosta de organizar arquivos e registros de projetos?"
       ],
-      "Técnico Ambiental": [
-        "Você gosta de seguir protocolos técnicos em atividades de monitoramento ambiental?",
-        "Tem facilidade para registrar dados e manter organização conforme exigências legais?",
-        "Valoriza o uso de equipamentos e procedimentos certificados?",
-        "Se interessa por revisar etapas para garantir precisão e conformidade?",
-        "Se sente motivado ao garantir que todas as operações ambientais sigam as regras?"
+      "Engenheiro Agrônomo": [
+        "Você gosta de garantir conformidade em projetos rurais?",
+        "Tem facilidade para documentar etapas e resultados?",
+        "Valoriza o cumprimento das normas técnicas agrícolas?",
+        "Se sente motivado ao revisar processos rurais?",
+        "Gosta de organizar registros e relatórios de projetos?"
       ],
-      "Monitor de Recursos Naturais": [
-        "Você gosta de acompanhar atividades de campo seguindo normas para preservação ambiental?",
-        "Tem facilidade para registrar dados e relatar informações conforme exigências?",
-        "Valoriza o uso de padrões para controle e monitoramento de recursos naturais?",
-        "Se interessa por atualizar procedimentos conforme legislação vigente?",
-        "Se sente motivado ao garantir que todas as atividades estejam em conformidade ambiental?"
+      "Veterinário": [
+        "Você gosta de seguir normas e padrões em atendimentos veterinários?",
+        "Tem facilidade para documentar procedimentos e tratamentos?",
+        "Valoriza o cumprimento das exigências legais na área animal?",
+        "Se sente motivado ao revisar protocolos e resultados?",
+        "Gosta de organizar arquivos clínicos?"
       ],
-      "Gestor de Projetos de Sustentabilidade": [
-        "Você gosta de planejar e gerenciar projetos sustentáveis seguindo normas ambientais?",
-        "Tem facilidade para organizar equipes e cronogramas conforme exigências legais?",
-        "Valoriza o registro detalhado de indicadores e resultados?",
-        "Se interessa por revisar planos para garantir conformidade com padrões ecológicos?",
-        "Se sente motivado ao garantir que todos os projetos estejam dentro das normas de sustentabilidade?"
+      "Supervisor Florestal": [
+        "Você gosta de garantir conformidade em ações de manejo florestal?",
+        "Tem facilidade para documentar atividades ambientais?",
+        "Valoriza o cumprimento das normas legais?",
+        "Se sente motivado ao revisar processos e resultados?",
+        "Gosta de organizar registros e indicadores ambientais?"
       ],
-      "Auxiliar de Meio Ambiente": [
-        "Você gosta de apoiar equipes em tarefas ambientais seguindo normas e protocolos?",
-        "Tem facilidade para organizar documentos e registros de campo?",
-        "Valoriza ambientes de trabalho estáveis e previsíveis?",
-        "Se interessa por manter a organização e controle das informações ambientais?",
-        "Se sente motivado ao garantir que todas as demandas administrativas sejam atendidas pontualmente?"
+      "Gerente de Projetos Ambientais": [
+        "Você gosta de seguir normas e padrões em projetos ecológicos?",
+        "Tem facilidade para documentar etapas e resultados?",
+        "Valoriza o cumprimento das exigências legais ambientais?",
+        "Se sente motivado ao revisar relatórios e indicadores?",
+        "Gosta de organizar arquivos e registros dos projetos?"
       ],
-      "Supervisor Ambiental": [
-        "Você gosta de fiscalizar atividades ambientais garantindo cumprimento de normas?",
-        "Tem facilidade para identificar desvios e propor correções em projetos?",
-        "Valoriza o registro detalhado de inspeções e relatórios ambientais?",
-        "Se interessa por treinar equipes sobre legislação ambiental?",
-        "Se sente motivado ao garantir que todos sigam as regras ambientais estabelecidas?"
+      "Especialista em Gestão Ambiental": [
+        "Você gosta de garantir conformidade em estratégias de gestão ambiental?",
+        "Tem facilidade para documentar ações e indicadores?",
+        "Valoriza o cumprimento das normas ambientais?",
+        "Se sente motivado ao revisar processos e resultados?",
+        "Gosta de organizar arquivos e relatórios ambientais?"
       ],
-      "Controlador de Recursos Naturais": [
-        "Você gosta de organizar e monitorar o uso de recursos naturais conforme normas?",
-        "Tem facilidade para registrar dados e acompanhar indicadores ambientais?",
-        "Valoriza o uso de padrões para controle e fiscalização de recursos?",
-        "Se interessa por atualizar procedimentos conforme legislação vigente?",
-        "Se sente motivado ao garantir que todas as atividades estejam em conformidade ambiental?"
+      "Gestor de Recursos Naturais": [
+        "Você gosta de seguir normas e padrões no uso de recursos naturais?",
+        "Tem facilidade para documentar atividades ambientais?",
+        "Valoriza o cumprimento das exigências legais?",
+        "Se sente motivado ao revisar processos e resultados?",
+        "Gosta de organizar registros e relatórios ambientais?"
       ]
     },
     L: {
-      "Assistente Administrativo em Saúde": [
-        "Você gosta de organizar documentos e registros hospitalares conforme normas?",
-        "Tem facilidade para seguir procedimentos administrativos definidos pela instituição?",
-        "Valoriza ambientes de trabalho estáveis e previsíveis?",
-        "Se interessa por revisar cadastros e garantir conformidade com regulamentos de saúde?",
-        "Se sente motivado ao garantir que todos os processos administrativos estejam corretos?"
+      "Medicina": [
+        "Você gosta de seguir normas e protocolos em atendimentos médicos?",
+        "Tem facilidade para documentar procedimentos clínicos?",
+        "Valoriza o cumprimento das exigências legais na área da saúde?",
+        "Se sente motivado ao revisar registros e resultados?",
+        "Gosta de organizar arquivos e indicadores clínicos?"
       ],
-      "Técnico em Registros Médicos": [
-        "Você gosta de registrar e organizar informações médicas conforme exigências legais?",
-        "Tem facilidade para preparar documentos e prontuários segundo normas técnicas?",
-        "Valoriza o uso de padrões para garantir segurança e privacidade dos dados?",
-        "Se interessa por atualizar procedimentos conforme legislação vigente?",
-        "Se sente motivado ao garantir conformidade de todos os registros médicos?"
+      "Fisioterapia": [
+        "Você gosta de seguir padrões em tratamentos fisioterápicos?",
+        "Tem facilidade para documentar evoluções dos pacientes?",
+        "Valoriza o cumprimento das normas de saúde?",
+        "Se sente motivado ao revisar protocolos e resultados?",
+        "Gosta de organizar arquivos e registros clínicos?"
       ],
-      "Auxiliar de Clínica": [
-        "Você gosta de apoiar rotinas clínicas seguindo procedimentos definidos?",
-        "Tem facilidade para organizar materiais e documentos conforme exigências da clínica?",
-        "Valoriza ambientes de trabalho estáveis e previsíveis?",
-        "Se interessa por manter a organização e controle dos registros de atendimento?",
-        "Se sente motivado ao garantir que todas as demandas administrativas estejam atendidas?"
+      "Odontologia": [
+        "Você gosta de seguir normas e padrões em atendimentos odontológicos?",
+        "Tem facilidade para documentar procedimentos e tratamentos?",
+        "Valoriza o cumprimento das exigências legais na odontologia?",
+        "Se sente motivado ao revisar protocolos e resultados?",
+        "Gosta de organizar arquivos clínicos?"
       ],
-      "Gestor de Prontuários": [
-        "Você gosta de gerenciar arquivos e prontuários médicos conforme normas legais?",
-        "Tem facilidade para organizar registros e garantir sigilo das informações?",
-        "Valoriza o cumprimento rigoroso de padrões de arquivamento e acesso?",
-        "Se interessa por revisar processos para garantir segurança dos dados?",
-        "Se sente motivado ao manter todos os prontuários em conformidade?"
+      "Psicologia": [
+        "Você gosta de garantir conformidade em processos terapêuticos?",
+        "Tem facilidade para documentar sessões e evoluções?",
+        "Valoriza o cumprimento das normas éticas?",
+        "Se sente motivado ao revisar registros e resultados?",
+        "Gosta de organizar arquivos de atendimento?"
       ],
-      "Coordenador de Agendamento": [
-        "Você gosta de organizar agendas e horários de atendimento conforme procedimentos internos?",
-        "Tem facilidade para revisar e ajustar cronogramas seguindo normas da instituição?",
-        "Valoriza ambientes de trabalho organizados e previsíveis?",
-        "Se interessa por manter registros de agendamento sempre atualizados?",
-        "Se sente motivado ao garantir eficiência e conformidade nos serviços de agendamento?"
+      "Gestor de Assistência Social": [
+        "Você gosta de seguir normas e padrões em projetos sociais?",
+        "Tem facilidade para documentar ações e resultados?",
+        "Valoriza o cumprimento das exigências legais?",
+        "Se sente motivado ao revisar processos e indicadores?",
+        "Gosta de organizar arquivos e registros sociais?"
       ],
-      "Supervisor de Documentação Médica": [
-        "Você gosta de fiscalizar e organizar documentos médicos conforme exigências legais?",
-        "Tem facilidade para identificar inconsistências e propor correções?",
-        "Valoriza o uso de padrões para garantir segurança e integridade dos dados?",
-        "Se interessa por revisar arquivos e registros regularmente?",
-        "Se sente motivado ao garantir conformidade em toda documentação médica?"
+      "Gerente de Saúde Pública": [
+        "Você gosta de seguir normas e padrões em projetos públicos de saúde?",
+        "Tem facilidade para documentar ações e indicadores?",
+        "Valoriza o cumprimento das exigências legais?",
+        "Se sente motivado ao revisar processos e resultados?",
+        "Gosta de organizar registros e relatórios de saúde pública?"
       ],
-      "Assistente de Saúde": [
-        "Você gosta de apoiar profissionais de saúde em tarefas administrativas e clínicas?",
-        "Tem facilidade para organizar documentos e horários dos pacientes?",
-        "Valoriza ambientes organizados e previsíveis para o atendimento?",
-        "Se interessa por seguir rotinas e procedimentos de forma eficiente?",
-        "Se sente motivado ao garantir o bom funcionamento dos serviços de saúde?"
+      "Supervisor de Serviços Médicos": [
+        "Você gosta de garantir conformidade em serviços médicos?",
+        "Tem facilidade para documentar procedimentos e indicadores?",
+        "Valoriza o cumprimento das normas e protocolos médicos?",
+        "Se sente motivado ao revisar processos e resultados?",
+        "Gosta de organizar arquivos clínicos?"
       ],
-      "Controlador de Prontuários": [
-        "Você gosta de organizar e monitorar o uso de prontuários médicos conforme normas?",
-        "Tem facilidade para registrar dados e acompanhar indicadores de acesso?",
-        "Valoriza o uso de padrões para controle e segurança dos documentos?",
-        "Se interessa por revisar procedimentos conforme legislação vigente?",
-        "Se sente motivado ao garantir que todos os prontuários estejam em conformidade?"
+      "Administrador Hospitalar": [
+        "Você gosta de seguir normas e padrões em gestão hospitalar?",
+        "Tem facilidade para documentar rotinas e indicadores?",
+        "Valoriza o cumprimento das exigências legais e regulatórias?",
+        "Se sente motivado ao revisar processos e resultados?",
+        "Gosta de organizar arquivos e relatórios administrativos?"
+      ]
+    },
+    T: {
+      "Gestão da Tecnologia da Informação": [
+        "Você gosta de seguir normas e padrões em processos de TI?",
+        "Tem facilidade para documentar políticas e procedimentos digitais?",
+        "Valoriza o controle e conformidade dos ativos tecnológicos?",
+        "Se sente motivado ao garantir auditorias e revisões técnicas?",
+        "Gosta de revisar documentação de sistemas e infraestrutura?"
+      ],
+      "Ciência da Computação": [
+        "Você gosta de documentar e revisar conformidade em softwares e sistemas?",
+        "Tem facilidade para aplicar padrões em desenvolvimento e manutenção?",
+        "Valoriza a conformidade em projetos digitais?",
+        "Se sente motivado ao garantir segurança e qualidade dos sistemas?",
+        "Gosta de manter documentação técnica atualizada?"
+      ],
+      "Sistemas de Informação": [
+        "Você gosta de garantir conformidade em bancos de dados e sistemas informacionais?",
+        "Tem facilidade para seguir normas de segurança e controle?",
+        "Valoriza a documentação e registros de processos?",
+        "Se sente motivado ao monitorar auditorias de TI?",
+        "Gosta de revisar e atualizar políticas de acesso?"
+      ],
+      "Redes de Computadores": [
+        "Você gosta de seguir protocolos e padrões em redes digitais?",
+        "Tem facilidade para documentar configurações e incidentes?",
+        "Valoriza a conformidade em processos de infraestrutura?",
+        "Se sente motivado ao revisar procedimentos de segurança?",
+        "Gosta de atualizar registros de redes e controles?"
+      ],
+      "Engenharia de Software": [
+        "Você gosta de seguir padrões e metodologias em desenvolvimento de software?",
+        "Tem facilidade para organizar documentação e testes?",
+        "Valoriza a conformidade dos sistemas entregues?",
+        "Se sente motivado ao garantir funcionamento constante das aplicações?",
+        "Gosta de revisar e atualizar processos de desenvolvimento?"
+      ],
+      "Engenharia da Computação": [
+        "Você gosta de manter padrões em projetos de hardware e software?",
+        "Tem facilidade para organizar documentação técnica?",
+        "Valoriza a conformidade dos sistemas embarcados?",
+        "Se sente motivado ao garantir funcionamento contínuo dos dispositivos?",
+        "Gosta de monitorar e revisar integrações tecnológicas?"
+      ],
+      "Segurança da Informação": [
+        "Você gosta de seguir normas e protocolos de segurança digital?",
+        "Tem facilidade para organizar procedimentos e controles?",
+        "Valoriza a conformidade dos ambientes digitais?",
+        "Se sente motivado ao garantir proteção constante dos sistemas?",
+        "Gosta de documentar e revisar políticas de segurança?"
+      ],
+      "Análise e Desenvolvimento de Sistemas": [
+        "Você gosta de seguir metodologias ágeis e rotinas em desenvolvimento?",
+        "Tem facilidade para organizar documentação e testes?",
+        "Valoriza a conformidade dos sistemas implementados?",
+        "Se sente motivado ao garantir funcionamento contínuo das aplicações?",
+        "Gosta de monitorar e revisar processos de desenvolvimento?"
+      ]
+    },
+    M: {
+      "Ciência de Dados": [
+        "Você gosta de garantir conformidade em processos de análise de dados?",
+        "Tem facilidade para documentar rotinas e resultados?",
+        "Valoriza o uso de padrões em processamento de informações?",
+        "Se sente motivado ao garantir qualidade nas análises?",
+        "Gosta de monitorar e revisar processos de dados?"
+      ],
+      "Administração de Banco de Dados": [
+        "Você gosta de seguir normas e padrões em bancos de dados?",
+        "Tem facilidade para documentar processos e controles?",
+        "Valoriza a conformidade dos sistemas informacionais?",
+        "Se sente motivado ao garantir funcionamento contínuo dos bancos de dados?",
+        "Gosta de revisar e atualizar documentação técnica?"
+      ],
+      "Analista de Segurança da Informação": [
+        "Você gosta de seguir protocolos e rotinas de proteção digital?",
+        "Tem facilidade para monitorar e documentar incidentes?",
+        "Valoriza a conformidade dos ambientes de TI?",
+        "Se sente motivado ao garantir proteção constante dos sistemas?",
+        "Gosta de revisar políticas e procedimentos de segurança?"
+      ],
+      "Arquiteto de Software": [
+        "Você gosta de garantir conformidade nos padrões arquiteturais de sistemas?",
+        "Tem facilidade para documentar integrações e revisões?",
+        "Valoriza a conformidade dos softwares entregues?",
+        "Se sente motivado ao garantir funcionamento constante das aplicações?",
+        "Gosta de monitorar e revisar processos de arquitetura?"
+      ],
+      "Analista de Redes": [
+        "Você gosta de seguir rotinas e padrões em administração de redes?",
+        "Tem facilidade para monitorar e corrigir problemas de conectividade?",
+        "Valoriza a conformidade dos ambientes digitais?",
+        "Se sente motivado ao garantir funcionamento contínuo das redes?",
+        "Gosta de documentar e revisar procedimentos técnicos?"
+      ],
+      "Desenvolvimento de Software (Mobile e Web)": [
+        "Você gosta de seguir padrões e normas em desenvolvimento de aplicativos?",
+        "Tem facilidade para documentar processos e atualizações?",
+        "Valoriza a conformidade dos sistemas entregues?",
+        "Se sente motivado ao garantir funcionamento constante dos aplicativos?",
+        "Gosta de monitorar e revisar processos de desenvolvimento?"
+      ],
+      "Jogos Digitais": [
+        "Você gosta de garantir conformidade em lançamentos e atualizações de jogos?",
+        "Tem facilidade para seguir padrões de desenvolvimento e publicação?",
+        "Valoriza a documentação detalhada de processos?",
+        "Se sente motivado ao revisar e corrigir bugs?",
+        "Gosta de documentar versões e alterações dos jogos?"
+      ],
+      "Inteligência Artificial": [
+        "Você gosta de seguir padrões e normas em projetos de IA?",
+        "Tem facilidade para organizar dados e treinamentos de modelos?",
+        "Valoriza a conformidade dos resultados dos sistemas inteligentes?",
+        "Se sente motivado ao garantir funcionamento constante das soluções?",
+        "Gosta de monitorar e revisar processos de IA?"
       ]
     }
   }
