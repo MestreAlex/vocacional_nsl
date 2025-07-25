@@ -104,7 +104,6 @@ function showDiscQuestion() {
       btn.className = "reta-btn" + (discAnswers[i] === val ? " reta-btn-selected" : "");
       btn.textContent = val;
       btn.onclick = () => {
-        // Toggle: clique novamente desmarca
         discAnswers[i] = (discAnswers[i] === val ? undefined : val);
         showDiscQuestion();
       };
@@ -246,14 +245,19 @@ function showRiasecnrQuestionSet() {
       btn.dataset.value = val;
       btn.dataset.idx = idx;
       btn.onclick = function () {
-        // Toggle: clique novamente desmarca
+        // Toggle & MIGRATION LOGIC: se já está marcado nesta pergunta, desmarca. Se já está em outra, migra.
         if (notasUsadas[idx] === val) {
           delete notaPorValor[val];
           notasUsadas[idx] = undefined;
           updateRetas();
           return;
         }
-        if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) return;
+        if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) {
+          // Migrar valor: desmarca na pergunta anterior e marca aqui
+          const idxAnterior = notaPorValor[val];
+          notasUsadas[idxAnterior] = undefined;
+          delete notaPorValor[val];
+        }
         if (notasUsadas[idx] !== undefined) {
           const antigoVal = notasUsadas[idx];
           delete notaPorValor[antigoVal];
@@ -464,14 +468,19 @@ function showFase3Rodada() {
       btn.dataset.value = val;
       btn.dataset.idx = idx;
       btn.onclick = function () {
-        // Toggle: clique novamente desmarca
+        // Toggle & MIGRATION LOGIC: se já está marcado nesta pergunta, desmarca. Se já está em outra, migra.
         if (notasUsadas[idx] === val) {
           delete notaPorValor[val];
           notasUsadas[idx] = undefined;
           updateRetas();
           return;
         }
-        if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) return;
+        if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) {
+          // Migrar valor: desmarca na pergunta anterior e marca aqui
+          const idxAnterior = notaPorValor[val];
+          notasUsadas[idxAnterior] = undefined;
+          delete notaPorValor[val];
+        }
         if (notasUsadas[idx] !== undefined) {
           const antigoVal = notasUsadas[idx];
           delete notaPorValor[antigoVal];
