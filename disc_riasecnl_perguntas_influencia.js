@@ -1,4 +1,4 @@
-export const discRiasecnlPerguntasInfluência = {
+export const discRiasecnlPerguntasInfluencia = {
   Influencia: {
     R: {
       "Engenheiro Civil": [
