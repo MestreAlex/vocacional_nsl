@@ -166,31 +166,29 @@ function finishPhase1() {
   hideAll();
   document.getElementById("phase1Result").style.display = "block";
 
-  let pontuacaoHtml = `
+  // Pontuação dos Perfis DISC centralizada e em linha, com mesma formatação de botões das respostas da Fase 2
+  let discScoreLine = `
+    <div class="area-result" style="margin:22px auto;text-align:center;">
+      <h4 style="text-align:center;color:#29a1d8;margin-bottom:10px;">Pontuação dos Perfis DISC</h4>
+      <div style="display:flex;justify-content:center;gap:18px;">
+        <div class="reta-pontuacao" style="display:flex;flex-direction:row;gap:2px;">
+          <button class="reta-btn" disabled><b>D</b>: ${scores.Dominancia}</button>
+          <button class="reta-btn" disabled><b>I</b>: ${scores.Influencia}</button>
+          <button class="reta-btn" disabled><b>S</b>: ${scores.Estabilidade}</button>
+          <button class="reta-btn" disabled><b>C</b>: ${scores.Conformidade}</button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.getElementById("discResultText").innerHTML = `
     <div class="profile-summary" style="text-align:center;">
       <h3 style="text-align:center;">Seu Perfil DISC: ${discTypes[discResult]?.nome || discResult}</h3>
       <p style="text-align:center;">${discTypes[discResult]?.descricao || ""}</p>
-      <div class="area-result" style="margin:22px auto;text-align:center;">
-        <h4 style="text-align:center;color:#29a1d8;margin-bottom:14px;">Pontuação dos Perfis DISC</h4>
-        <table style="margin:0 auto;width:80%;font-size:1.14em;text-align:center;">
-          <tr>
-            <th style="padding:8px 12px;">Dominância (D)</th>
-            <th style="padding:8px 12px;">Influência (I)</th>
-            <th style="padding:8px 12px;">Estabilidade (S)</th>
-            <th style="padding:8px 12px;">Conformidade (C)</th>
-          </tr>
-          <tr>
-            <td style="padding:8px 12px;">${scores.Dominancia}</td>
-            <td style="padding:8px 12px;">${scores.Influencia}</td>
-            <td style="padding:8px 12px;">${scores.Estabilidade}</td>
-            <td style="padding:8px 12px;">${scores.Conformidade}</td>
-          </tr>
-        </table>
-      </div>
+      ${discScoreLine}
       <button id="continueToPhase2" class="start-button" style="margin-top:20px;">Continuar para a Fase 2</button>
     </div>
   `;
-  document.getElementById("discResultText").innerHTML = pontuacaoHtml;
   document.getElementById("continueToPhase2").onclick = startPhase2;
 }
 
