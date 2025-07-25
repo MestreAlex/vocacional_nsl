@@ -332,13 +332,15 @@ function showRiasecnrQuestionSet() {
 }
 
 function finishPhase2() {
-  const scores = { R: 0, I: 0, A: 0, S: 0, E: 0, C: 0, N: 0, L: 0 };
+  // Acrescenta os perfis T e M ao objeto de pontuação
+  const scores = { R: 0, I: 0, A: 0, S: 0, E: 0, C: 0, N: 0, L: 0, T: 0, M: 0 };
   riasecnrAnswers.forEach(set => {
     Object.keys(set).forEach(perfil => {
       scores[perfil] += set[perfil];
     });
   });
   riasecnrScores = scores;
+  // Atualiza o cálculo do perfil de maior pontuação considerando também T e M
   let maxPerfil = "R";
   let maxScore = scores["R"];
   Object.entries(scores).forEach(([perfil, pont]) => {
@@ -363,6 +365,8 @@ function finishPhase2() {
         <li><b>Convencional (C):</b> ${scores.C}</li>
         <li><b>Naturalista/Ambiental (N):</b> ${scores.N}</li>
         <li><b>Relacional/Cuidador (L):</b> ${scores.L}</li>
+        <li><b>Tecnológico/Digital (T):</b> ${scores.T}</li>
+        <li><b>Computacional/Informática (M):</b> ${scores.M}</li>
       </ul>
       <p style="text-align:center;"><b>Seu perfil de maior pontuação:</b> <span style="color:#29a1d8">${riasecTypes[riasecnrResult]?.nome || riasecnrResult}</span></p>
       <button id="continueToPhase3" class="start-button" style="margin-top:20px;">Continuar para a Fase 3</button>
