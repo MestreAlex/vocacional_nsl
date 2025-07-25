@@ -60,15 +60,15 @@ function showDiscQuestion() {
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
 
-  // Legenda no topo das perguntas da FASE 1
+  // Legenda no topo das perguntas da FASE 1 (cada número em uma linha)
   document.getElementById("questionText").innerHTML = `
     <div style="text-align:left; margin-bottom:12px; font-size:0.93em;">
-      <b>Legenda:</b>
-      <span style="margin-left:7px;">1 = discordo totalmente</span>
-      <span style="margin-left:7px;">2 = discordo</span>
-      <span style="margin-left:7px;">3 = neutro</span>
-      <span style="margin-left:7px;">4 = concordo</span>
-      <span style="margin-left:7px;">5 = concordo totalmente</span>
+      <b>Legenda:</b><br>
+      1 = discordo totalmente<br>
+      2 = discordo<br>
+      3 = neutro<br>
+      4 = concordo<br>
+      5 = concordo totalmente
     </div>
     <div style="font-weight:bold; margin-bottom:8px;">Responda às questões abaixo:</div>
   `;
@@ -240,12 +240,12 @@ function showRiasecnrQuestionSet() {
     pergunta.style.textAlign = "center";
     wrapper.appendChild(pergunta);
 
-    // Botões de 1 a 10 (sem zero)
+    // Botões de 1 a 10 (sem zero) - espaço menor entre eles
     const reta = document.createElement("div");
     reta.className = "reta-pontuacao";
     reta.style.display = "flex";
     reta.style.justifyContent = "center";
-    reta.style.gap = "5px";
+    reta.style.gap = "2px"; // reduzido o espaço entre os números
     reta.style.margin = "10px 0 5px 0";
     retas[idx] = reta;
 
@@ -407,6 +407,7 @@ function showFase3Rodada() {
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
 
+  // Retirada a legenda das fases 2 e 3
   document.getElementById("questionText").innerHTML =
     `<div style="text-align:center;">
       <div style="font-size:1.2em;font-weight:bold;margin-bottom:6px;">
@@ -449,12 +450,12 @@ function showFase3Rodada() {
     pergunta.style.width = "100%";
     wrapper.appendChild(pergunta);
 
-    // Botões de 1 a 10 (sem zero)
+    // Botões de 1 a 10 (sem zero) - espaço menor entre eles
     const reta = document.createElement("div");
     reta.className = "reta-pontuacao";
     reta.style.display = "flex";
     reta.style.justifyContent = "center";
-    reta.style.gap = "5px";
+    reta.style.gap = "2px"; // reduzido o espaço entre os números
     reta.style.margin = "0 0 8px 0";
     reta.style.width = "100%";
     retas[idx] = reta;
