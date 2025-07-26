@@ -11,18 +11,72 @@ import { riasecTypes } from "./riasec.js";
 import { discTypes } from "./disc.js";
 import { getFase3Rodadas, calcularPontuacaoProfissoes, getTopProfissoes } from "./fase3_utils.js";
 
-// ============ EMBARALHAMENTO SEM REPETIÇÃO DE POSIÇÃO =============
-
-function shuffleAvoidSamePosition(arr, prevArr) {
-  if (!prevArr) {
-    // Primeira rodada pode ser embaralhada normalmente
-    return arr.slice().sort(() => Math.random() - 0.5);
+// ============ SALVAMENTO DE PROGRESSO =============
+const STORAGE_KEY = "progressoQuizRiasecDisc";
+function saveProgress() {
+  const data = {
+    currentPhase,
+    currentQuestion,
+    discAnswers,
+    riasecnrAnswers,
+    discResult,
+    discScores,
+    riasecnrScores,
+    riasecnrResult,
+    riasecnrNotasUsadas,
+    riasecnrNotaPorValor,
+    riasecnrPrevOrder,
+    riasecnrRodadaOrder,
+    fase3Rodadas,
+    fase3Respostas,
+    fase3RodadaAtual,
+    fase3PreviousOrder,
+    fase3RodadaOrder,
+    fase3NotasUsadas,
+    fase3NotaPorValor
+  };
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+function loadProgress() {
+  const data = localStorage.getItem(STORAGE_KEY);
+  if (data) {
+    try {
+      const parsed = JSON.parse(data);
+      currentPhase = parsed.currentPhase ?? 1;
+      currentQuestion = parsed.currentQuestion ?? 0;
+      discAnswers = parsed.discAnswers ?? [];
+      riasecnrAnswers = parsed.riasecnrAnswers ?? [];
+      discResult = parsed.discResult ?? null;
+      discScores = parsed.discScores ?? null;
+      riasecnrScores = parsed.riasecnrScores ?? null;
+      riasecnrResult = parsed.riasecnrResult ?? null;
+      riasecnrNotasUsadas = parsed.riasecnrNotasUsadas ?? {};
+      riasecnrNotaPorValor = parsed.riasecnrNotaPorValor ?? {};
+      riasecnrPrevOrder = parsed.riasecnrPrevOrder ?? null;
+      riasecnrRodadaOrder = parsed.riasecnrRodadaOrder ?? {};
+      fase3Rodadas = parsed.fase3Rodadas ?? [];
+      fase3Respostas = parsed.fase3Respostas ?? [];
+      fase3RodadaAtual = parsed.fase3RodadaAtual ?? 0;
+      fase3PreviousOrder = parsed.fase3PreviousOrder ?? null;
+      fase3RodadaOrder = parsed.fase3RodadaOrder ?? {};
+      fase3NotasUsadas = parsed.fase3NotasUsadas ?? {};
+      fase3NotaPorValor = parsed.fase3NotaPorValor ?? {};
+      return true;
+    } catch {}
   }
+  return false;
+}
+function clearProgress() {
+  localStorage.removeItem(STORAGE_KEY);
+}
+
+// ============ EMBARALHAMENTO SEM REPETIÇÃO DE POSIÇÃO =============
+function shuffleAvoidSamePosition(arr, prevArr) {
+  if (!prevArr) return arr.slice().sort(() => Math.random() - 0.5);
   let shuffled, tries = 0, maxTries = 20;
   do {
     shuffled = arr.slice().sort(() => Math.random() - 0.5);
     tries++;
-    // Verifica se algum item ficou na mesma posição (por perfil ou profissão)
     var same = shuffled.some((q, idx) => prevArr[idx] && (
       (q.perfil && prevArr[idx].perfil && q.perfil === prevArr[idx].perfil) ||
       (q.profissao && prevArr[idx].profissao && q.profissao === prevArr[idx].profissao)
@@ -32,8 +86,6 @@ function shuffleAvoidSamePosition(arr, prevArr) {
 }
 
 // ======================= VARIÁVEIS DE CONTROLE ========================
-
-// Fase 1
 let currentPhase = 1;
 let currentQuestion = 0;
 let discAnswers = [];
@@ -43,14 +95,20 @@ let discScores = null;
 let riasecnrScores = null;
 let riasecnrResult = null;
 
-// Fase 2 controles (embaralhamento)
+// Fase 2 controles (embaralhamento e marcações)
 let riasecnrPrevOrder = null;
+let riasecnrRodadaOrder = {};
+let riasecnrNotasUsadas = {};
+let riasecnrNotaPorValor = {};
 
-// Fase 3 controles (embaralhamento)
+// Fase 3 controles (embaralhamento e marcações)
 let fase3Rodadas = [];
 let fase3Respostas = [];
 let fase3RodadaAtual = 0;
 let fase3PreviousOrder = null;
+let fase3RodadaOrder = {};
+let fase3NotasUsadas = {};
+let fase3NotaPorValor = {};
 
 // Utilidades de interface
 function hideAll() {
@@ -67,6 +125,30 @@ function showIntro() {
   document.getElementById("intro").style.display = "block";
   const h1 = document.querySelector("#intro h1");
   if (h1) h1.style.textAlign = "center";
+  // Mostra botão de recomeçar se já existia progresso
+  if (!document.getElementById("restart-button")) {
+    const btn = document.createElement("button");
+    btn.id = "restart-button";
+    btn.textContent = "Recomeçar do zero";
+    btn.className = "start-button";
+    btn.style.marginTop = "16px";
+    btn.onclick = () => {
+      clearProgress();
+      location.reload();
+    };
+    document.getElementById("intro").appendChild(btn);
+  }
+  // Mensagem de salvamento automático
+  if (!document.getElementById("autosave-msg")) {
+    const msg = document.createElement("div");
+    msg.id = "autosave-msg";
+    msg.style.textAlign = "center";
+    msg.style.fontSize = "0.92em";
+    msg.style.color = "#2d9c4c";
+    msg.style.marginTop = "8px";
+    msg.textContent = "Seu progresso é salvo automaticamente!";
+    document.getElementById("intro").appendChild(msg);
+  }
 }
 
 // Fase 1: DISC
@@ -74,6 +156,7 @@ function startPhase1() {
   currentPhase = 1;
   currentQuestion = 0;
   discAnswers = [];
+  saveProgress();
   hideAll();
   document.getElementById("questionContainer").style.display = "block";
   showDiscQuestion();
@@ -134,6 +217,7 @@ function showDiscQuestion() {
       btn.textContent = val;
       btn.onclick = () => {
         discAnswers[i] = (discAnswers[i] === val ? undefined : val);
+        saveProgress();
         showDiscQuestion();
       };
       if (discAnswers[i] === val) {
@@ -162,6 +246,7 @@ function showDiscQuestion() {
     prevBtn.className = "nav-button";
     prevBtn.onclick = () => {
       currentQuestion = Math.max(0, currentQuestion - questionsPerPage);
+      saveProgress();
       showDiscQuestion();
     };
     navContainer.appendChild(prevBtn);
@@ -177,6 +262,7 @@ function showDiscQuestion() {
       finishPhase1();
     } else {
       currentQuestion = endIdx;
+      saveProgress();
       showDiscQuestion();
     }
   };
@@ -192,6 +278,7 @@ function finishPhase1() {
   const { perfil, scores } = calculateDiscProfileWithScores(discAnswers);
   discResult = perfil;
   discScores = scores;
+  saveProgress();
   hideAll();
   document.getElementById("phase1Result").style.display = "block";
 
@@ -215,7 +302,10 @@ function finishPhase1() {
       <button id="continueToPhase2" class="start-button" style="margin-top:20px;">Continuar para a Fase 2</button>
     </div>
   `;
-  document.getElementById("continueToPhase2").onclick = startPhase2;
+  document.getElementById("continueToPhase2").onclick = () => {
+    saveProgress();
+    startPhase2();
+  };
 }
 
 // Fase 2: RIASECNR
@@ -223,23 +313,32 @@ function startPhase2() {
   currentPhase = 2;
   currentQuestion = 0;
   riasecnrAnswers = [];
-  riasecnrPrevOrder = null; // reset embaralhamento
+  riasecnrPrevOrder = null;
+  riasecnrRodadaOrder = {};
+  riasecnrNotasUsadas = {};
+  riasecnrNotaPorValor = {};
+  saveProgress();
   hideAll();
   document.getElementById("questionContainer").style.display = "block";
   showRiasecnrQuestionSet();
 }
 
 function showRiasecnrQuestionSet() {
-  let set = riasecnrQuestionSets[currentQuestion];
-  // EMBARALHAR EVITANDO MESMA POSIÇÃO
-  set = shuffleAvoidSamePosition(set, riasecnrPrevOrder);
-  riasecnrPrevOrder = set;
+  let rodada = currentQuestion;
+  if (!riasecnrRodadaOrder[rodada]) {
+    let set = riasecnrQuestionSets[rodada];
+    set = shuffleAvoidSamePosition(set, riasecnrPrevOrder);
+    riasecnrPrevOrder = set;
+    riasecnrRodadaOrder[rodada] = set;
+  }
+  let set = riasecnrRodadaOrder[rodada];
+  if (!riasecnrNotasUsadas[rodada]) riasecnrNotasUsadas[rodada] = {};
+  if (!riasecnrNotaPorValor[rodada]) riasecnrNotaPorValor[rodada] = {};
+  let notasUsadas = riasecnrNotasUsadas[rodada];
+  let notaPorValor = riasecnrNotaPorValor[rodada];
 
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
-
-  let notasUsadas = {};
-  let notaPorValor = {};
   let retas = [];
 
   set.forEach((q, idx) => {
@@ -279,14 +378,14 @@ function showRiasecnrQuestionSet() {
       btn.onclick = function () {
         if (notasUsadas[idx] === val) {
           delete notaPorValor[val];
-          notasUsadas[idx] = undefined;
+          delete notasUsadas[idx];
+          saveProgress();
           updateRetas();
           return;
         }
         if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) {
           const idxAnterior = notaPorValor[val];
-          notasUsadas[idxAnterior] = undefined;
-          delete notaPorValor[val];
+          delete notasUsadas[idxAnterior];
         }
         if (notasUsadas[idx] !== undefined) {
           const antigoVal = notasUsadas[idx];
@@ -294,6 +393,7 @@ function showRiasecnrQuestionSet() {
         }
         notasUsadas[idx] = val;
         notaPorValor[val] = idx;
+        saveProgress();
         updateRetas();
       };
       if (notasUsadas[idx] === val) {
@@ -330,11 +430,29 @@ function showRiasecnrQuestionSet() {
   }
   updateRetas();
 
-  const btn = document.createElement("button");
-  btn.textContent = (currentQuestion === riasecnrQuestionSets.length - 1) ? "Finalizar Fase 2" : "Próxima";
-  btn.className = "start-button";
-  btn.style.marginTop = "12px";
-  btn.onclick = () => {
+  // Navegação com ANTERIOR + Próxima/Finalizar
+  const navDiv = document.createElement("div");
+  navDiv.style.display = "flex";
+  navDiv.style.justifyContent = "center";
+  navDiv.style.gap = "24px";
+  navDiv.style.marginTop = "12px";
+
+  if (currentQuestion > 0) {
+    const prevBtn = document.createElement("button");
+    prevBtn.textContent = "Anterior";
+    prevBtn.className = "nav-button";
+    prevBtn.onclick = () => {
+      currentQuestion--;
+      saveProgress();
+      showRiasecnrQuestionSet();
+    };
+    navDiv.appendChild(prevBtn);
+  }
+
+  const nextBtn = document.createElement("button");
+  nextBtn.textContent = (currentQuestion === riasecnrQuestionSets.length - 1) ? "Finalizar Fase 2" : "Próxima";
+  nextBtn.className = "start-button";
+  nextBtn.onclick = () => {
     const setAnswers = {};
     let allSelected = true;
     set.forEach((q, idx) => {
@@ -346,16 +464,19 @@ function showRiasecnrQuestionSet() {
       alert("Selecione uma nota diferente para cada pergunta!");
       return;
     }
-    riasecnrAnswers.push(setAnswers);
-
-    if (currentQuestion < riasecnrQuestionSets.length - 1) {
-      currentQuestion++;
+    riasecnrAnswers[currentQuestion] = setAnswers;
+    saveProgress();
+    currentQuestion++;
+    if (currentQuestion < riasecnrQuestionSets.length) {
       showRiasecnrQuestionSet();
     } else {
       finishPhase2();
     }
   };
-  optionsContainer.appendChild(btn);
+  navDiv.appendChild(nextBtn);
+
+  optionsContainer.appendChild(navDiv);
+
   document.getElementById("progress").textContent = `Rodada ${currentQuestion + 1} de ${riasecnrQuestionSets.length}`;
   document.getElementById("progress").style.textAlign = "center";
 }
@@ -377,7 +498,7 @@ function finishPhase2() {
     }
   });
   riasecnrResult = maxPerfil;
-
+  saveProgress();
   hideAll();
   document.getElementById("phase2Result").style.display = "block";
   document.getElementById("riasecResultText").innerHTML = `
@@ -399,7 +520,10 @@ function finishPhase2() {
       <button id="continueToPhase3" class="start-button" style="margin-top:20px;">Continuar para a Fase 3</button>
     </div>
   `;
-  document.getElementById("continueToPhase3").onclick = startPhase3;
+  document.getElementById("continueToPhase3").onclick = () => {
+    saveProgress();
+    startPhase3();
+  };
 }
 
 // Função para obter perguntas da FASE 3 de acordo com o perfil DISC
@@ -421,22 +545,33 @@ function getPerguntasFase3PorPerfil(discPerfil) {
 // Fase 3: Profissões específicas
 function startPhase3() {
   currentPhase = 3;
-  fase3PreviousOrder = null; // reset embaralhamento
-
+  fase3PreviousOrder = null;
+  fase3RodadaOrder = {};
+  fase3NotasUsadas = {};
+  fase3NotaPorValor = {};
   const perguntasFase3 = getPerguntasFase3PorPerfil(discResult);
   fase3Rodadas = getFase3Rodadas(perguntasFase3, riasecnrResult);
   fase3Respostas = [];
   fase3RodadaAtual = 0;
+  saveProgress();
   hideAll();
   document.getElementById("questionContainer").style.display = "block";
   showFase3Rodada();
 }
 
 function showFase3Rodada() {
-  let perguntasRodada = fase3Rodadas[fase3RodadaAtual];
-  // EMBARALHAR EVITANDO MESMA POSIÇÃO
-  perguntasRodada = shuffleAvoidSamePosition(perguntasRodada, fase3PreviousOrder);
-  fase3PreviousOrder = perguntasRodada;
+  let rodada = fase3RodadaAtual;
+  if (!fase3RodadaOrder[rodada]) {
+    let perguntasRodada = fase3Rodadas[rodada];
+    perguntasRodada = shuffleAvoidSamePosition(perguntasRodada, fase3PreviousOrder);
+    fase3PreviousOrder = perguntasRodada;
+    fase3RodadaOrder[rodada] = perguntasRodada;
+  }
+  let perguntasRodada = fase3RodadaOrder[rodada];
+  if (!fase3NotasUsadas[rodada]) fase3NotasUsadas[rodada] = {};
+  if (!fase3NotaPorValor[rodada]) fase3NotaPorValor[rodada] = {};
+  let notasUsadas = fase3NotasUsadas[rodada];
+  let notaPorValor = fase3NotaPorValor[rodada];
 
   const optionsContainer = document.getElementById("optionsContainer");
   optionsContainer.innerHTML = "";
@@ -455,8 +590,6 @@ function showFase3Rodada() {
     </div>`;
   document.getElementById("questionText").style.textAlign = "center";
 
-  let notasUsadas = {};
-  let notaPorValor = {};
   let retas = [];
 
   perguntasRodada.forEach((q, idx) => {
@@ -502,14 +635,14 @@ function showFase3Rodada() {
       btn.onclick = function () {
         if (notasUsadas[idx] === val) {
           delete notaPorValor[val];
-          notasUsadas[idx] = undefined;
+          delete notasUsadas[idx];
+          saveProgress();
           updateRetas();
           return;
         }
         if (notaPorValor[val] !== undefined && notaPorValor[val] !== idx) {
           const idxAnterior = notaPorValor[val];
-          notasUsadas[idxAnterior] = undefined;
-          delete notaPorValor[val];
+          delete notasUsadas[idxAnterior];
         }
         if (notasUsadas[idx] !== undefined) {
           const antigoVal = notasUsadas[idx];
@@ -517,6 +650,7 @@ function showFase3Rodada() {
         }
         notasUsadas[idx] = val;
         notaPorValor[val] = idx;
+        saveProgress();
         updateRetas();
       };
       if (notasUsadas[idx] === val) {
@@ -553,17 +687,30 @@ function showFase3Rodada() {
   }
   updateRetas();
 
-  const navContainer = document.createElement("div");
-  navContainer.style.display = "flex";
-  navContainer.style.justifyContent = "center";
-  navContainer.style.gap = "24px";
-  navContainer.style.marginTop = "18px";
+  // Navegação com ANTERIOR + Próxima/Finalizar
+  const navDiv = document.createElement("div");
+  navDiv.style.display = "flex";
+  navDiv.style.justifyContent = "center";
+  navDiv.style.gap = "24px";
+  navDiv.style.marginTop = "18px";
 
-  const btn = document.createElement("button");
-  btn.textContent = (fase3RodadaAtual === fase3Rodadas.length - 1) ? "Finalizar Fase 3" : "Próxima rodada";
-  btn.className = "start-button";
-  btn.style.marginTop = "7px";
-  btn.onclick = () => {
+  if (fase3RodadaAtual > 0) {
+    const prevBtn = document.createElement("button");
+    prevBtn.textContent = "Anterior";
+    prevBtn.className = "nav-button";
+    prevBtn.onclick = () => {
+      fase3RodadaAtual--;
+      saveProgress();
+      showFase3Rodada();
+    };
+    navDiv.appendChild(prevBtn);
+  }
+
+  const nextBtn = document.createElement("button");
+  nextBtn.textContent = (fase3RodadaAtual === fase3Rodadas.length - 1) ? "Finalizar Fase 3" : "Próxima rodada";
+  nextBtn.className = "start-button";
+  nextBtn.style.marginTop = "7px";
+  nextBtn.onclick = () => {
     let allSelected = true;
     let respostasRodada = [];
     perguntasRodada.forEach((q, idx) => {
@@ -575,17 +722,19 @@ function showFase3Rodada() {
       alert("Selecione uma nota diferente para cada profissão!");
       return;
     }
-    fase3Respostas.push(respostasRodada);
+    fase3Respostas[fase3RodadaAtual] = respostasRodada;
+    saveProgress();
 
-    if (fase3RodadaAtual < fase3Rodadas.length - 1) {
-      fase3RodadaAtual++;
+    fase3RodadaAtual++;
+    if (fase3RodadaAtual < fase3Rodadas.length) {
       showFase3Rodada();
     } else {
       finishPhase3();
     }
   };
-  navContainer.appendChild(btn);
-  optionsContainer.appendChild(navContainer);
+  navDiv.appendChild(nextBtn);
+
+  optionsContainer.appendChild(navDiv);
 
   document.getElementById("progress").textContent = `Perguntas ${fase3RodadaAtual * 8 + 1} a ${(fase3RodadaAtual + 1) * 8} de 40`;
   document.getElementById("progress").style.textAlign = "center";
@@ -610,6 +759,7 @@ function finishPhase3() {
   });
   html += `</ul><p style="text-align:center;">Use este resultado como inspiração para sua escolha profissional.</p>`;
   document.getElementById("finalResultsText").innerHTML = html;
+  clearProgress(); // Limpa progresso ao finalizar tudo!
 }
 
 // Calcula o perfil DISC e também retorna pontuações
@@ -625,6 +775,24 @@ function calculateDiscProfileWithScores(answers) {
 }
 
 window.onload = () => {
-  showIntro();
-  document.getElementById("start-button").onclick = startPhase1;
+  if (loadProgress()) {
+    // Retomar do ponto salvo
+    hideAll();
+    if (currentPhase === 1) {
+      showDiscQuestion();
+      document.getElementById("questionContainer").style.display = "block";
+    } else if (currentPhase === 2) {
+      showRiasecnrQuestionSet();
+      document.getElementById("questionContainer").style.display = "block";
+    } else if (currentPhase === 3) {
+      showFase3Rodada();
+      document.getElementById("questionContainer").style.display = "block";
+    }
+  } else {
+    showIntro();
+  }
+  document.getElementById("start-button").onclick = () => {
+    clearProgress();
+    startPhase1();
+  };
 };
