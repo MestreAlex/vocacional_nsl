@@ -746,7 +746,48 @@ function finishPhase3() {
   const pontuacoes = calcularPontuacaoProfissoes(fase3Respostas);
   const top3 = getTopProfissoes(pontuacoes, 3);
   const profissaoObjs = discRiasecnlProfessions[discResult][riasecnrResult];
-  let html = `<h3 style="text-align:center;">Suas profissões de maior afinidade:</h3><ul style="text-align:center;">`;
+
+  // Listagem completa com pontuação de todas as profissões
+  let tabelaTodas = `
+    <h4 style="text-align:center;margin-top:18px;">Pontuação de Todas as Profissões</h4>
+    <table style="margin:0 auto;font-size:1em;border-collapse:collapse;">
+      <thead>
+        <tr style="background:#f0f4fa;">
+          <th style="padding:4px 10px;">Profissão</th>
+          <th style="padding:4px 10px;">Pontos</th>
+        </tr>
+      </thead>
+      <tbody>
+  `;
+  Object.entries(pontuacoes)
+    .sort(([,a],[,b]) => b-a)
+    .forEach(([prof, pts]) => {
+      tabelaTodas += `<tr>
+        <td style="padding:4px 10px;border-bottom:1px solid #e3e6ef;">${prof}</td>
+        <td style="padding:4px 10px;border-bottom:1px solid #e3e6ef;text-align:center;">${pts}</td>
+      </tr>`;
+    });
+  tabelaTodas += `</tbody></table>`;
+
+  // Perfil comportamental e detalhamento
+  let perfilDiscHtml = "";
+  if (discResult && discTypes[discResult]) {
+    perfilDiscHtml = `
+      <div class="disc-summary" style="margin-bottom:20px;padding:12px 8px;background:#f4fafd;border-radius:10px;">
+        <h4 style="color:#29a1d8;text-align:center;margin-bottom:5px;">Seu Perfil Comportamental DISC</h4>
+        <div style="text-align:center;font-size:1.08em;"><b>${discTypes[discResult].nome}</b></div>
+        <div style="text-align:center;font-size:0.98em;margin-top:5px;color:#444;">
+          ${discTypes[discResult].descricao}
+        </div>
+      </div>
+    `;
+  }
+
+  // Top 3 profissões com cursos indicados
+  let html = `
+    <h3 style="text-align:center;">Suas profissões de maior afinidade:</h3>
+    <ul style="text-align:center;">
+  `;
   top3.forEach(({ profissao, pontuacao }) => {
     const obj = profissaoObjs.find(p => (p.profissao || p) === profissao);
     const cursos = obj?.cursos || [];
@@ -757,8 +798,15 @@ function finishPhase3() {
       </div>
     </li>`;
   });
-  html += `</ul><p style="text-align:center;">Use este resultado como inspiração para sua escolha profissional.</p>`;
-  document.getElementById("finalResultsText").innerHTML = html;
+  html += `</ul>`;
+
+  // Junta tudo para a página final
+  document.getElementById("finalResultsText").innerHTML = `
+    ${perfilDiscHtml}
+    ${html}
+    ${tabelaTodas}
+    <p style="text-align:center;margin-top:18px;">Use este resultado como inspiração para sua escolha profissional.</p>
+  `;
   clearProgress(); // Limpa progresso ao finalizar tudo!
 }
 
